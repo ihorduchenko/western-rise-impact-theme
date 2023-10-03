@@ -1,0 +1,423 @@
+{
+  "current": {
+    "page_width": 1600,
+    "section_vertical_spacing": "medium",
+    "section_boxed_horizontal_spacing": "small",
+    "button_border_radius": 4,
+    "input_border_radius": 4,
+    "block_border_radius": 16,
+    "icon_stroke_width": 1.5,
+    "icon_style": "mono",
+    "button_style": "fill",
+    "button_hover_effect": "fade",
+    "background": "#ffffff",
+    "text_color": "#222222",
+    "success_color": "#278d57",
+    "error_color": "#b04026",
+    "header_background": "#ffffff",
+    "header_text_color": "#222222",
+    "footer_background": "#ffffff",
+    "footer_text_color": "#848587",
+    "dialog_background": "#fdfdfc",
+    "primary_button_background": "#2c2c2c",
+    "primary_button_text_color": "#ffffff",
+    "secondary_button_background": "#ffffff",
+    "secondary_button_text_color": "#2c2c2c",
+    "product_card_background": "#ffffff",
+    "product_card_text_color": "#848587",
+    "product_rating_color": "#222222",
+    "product_on_sale_accent": "#b04026",
+    "product_sold_out_badge_background": "#222222",
+    "product_primary_badge_background": "#b04026",
+    "heading_font": "dm_sans_n5",
+    "heading_font_size": "medium",
+    "heading_text_transform": "normal",
+    "heading_letter_spacing": -1.5,
+    "text_font": "dm_sans_n4",
+    "text_font_size_mobile": 16,
+    "text_font_size_desktop": 16,
+    "text_font_letter_spacing": 0,
+    "zoom_image_on_hover": false,
+    "color_swatch_config": "Flat Black:#2a2b2d\nBlue Grey:#4e5055\nDeep Indigo:#2e2f36\nSteel:#d6d6d6\nSand:#8d7e71\nLight Blue:#a0b2d4\nFog:#a4a2a8\nBlack:#2a2b2d\nNavy:#262934\nIndigo:#262934\nSmoke:#d2d2d2\nAsh:#cbcccc\nConcrete:#5f5e62\nWhite:#ffffff\nMidnight:#262934\nCloud:#efeeeb\nKhaki:#9a927f\nOlive:#646356\nShadow:#4a4b4d\nCharcoal:#2a2b2d\nDune:#eae5e1\nGrey:#8f9192\nCamo:#57573d\nPine:#4c5542\nStorm:#838d99\nCamel:#ddaa81\nAnchor:#434447\nOatmeal:#e9e1cf\nSage:#888d82\nBrick:#92705f\nPacific:#546477\nCanyon:#91672F\nForest:#646F55\nHeather Grey:#aeb2b5\nGraphite:#454646",
+    "show_vendor": false,
+    "show_secondary_image": true,
+    "show_quick_buy": true,
+    "show_product_rating": false,
+    "product_rating_mode": "rating",
+    "show_discount": true,
+    "discount_mode": "percentage",
+    "product_color_display": "swatch",
+    "product_image_aspect_ratio": "tall_crop",
+    "product_info_alignment": "start",
+    "cart_type": "drawer",
+    "cart_icon": "shopping_basket",
+    "cart_empty_button_link": "shopify:\/\/collections\/in-stock",
+    "cart_show_free_shipping_threshold": true,
+    "cart_free_shipping_threshold": 150,
+    "social_facebook": "https:\/\/facebook.com\/westernrise",
+    "social_pinterest": "",
+    "social_instagram": "https:\/\/instagram.com\/western_rise",
+    "social_youtube": "",
+    "social_tiktok": "",
+    "social_linkedin": "",
+    "favicon": "shopify:\/\/shop_images\/social_logo.jpg",
+    "klaviyo_list_id": "KtgNdh",
+    "custom_scripts_head": "<!-- Global site tag (gtag.js) - Google Ads: 836487429 -->\n<script async src=\"https:\/\/www.googletagmanager.com\/gtag\/js?id=AW-836487429\"><\/script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'AW-836487429');\n<\/script>\n\n<!--Start of Google Merchant Center Script-->  \n<meta name=\"google-site-verification\" content=\"5LOOYEKtCHr8kLrGMTHfoFgFGPFSk91N_NsqhDHhw1o\" \/>\n<!--End of Google Merchant Center Script-->\n<meta name=\"p:domain_verify\" content=\"136d74e847b0457efcadbcb58aa721b8\"\/>",
+    "custom_scripts_body_2": "<!-- LiveConnectTag for advertisers -->\n<script type=\"text\/javascript\" src=\"\/\/b-code.liadm.com\/a-02cj.min.js\" async=\"true\" charset=\"utf-8\"><\/script>\n<!-- LiveConnectTag for advertisers -->\n\n<!-- Begin: Northbeam pixel -->\n<script async type=\"text\/javascript\" src=\"\/\/j.northbeam.io\/ota-sp\/63c5ef83-637b-4f43-b6a4-2fccacd65c1b.js\"><\/script>\n<!-- End: Northbeam pixel -->\n\n<!-- KLAVIYO ONSITE -->\n<script async defer type=\"text\/javascript\" src=\"https:\/\/static.klaviyo.com\/onsite\/js\/klaviyo.js?company_id=iAvW3f\"><\/script>\n\n<script type=\"text\/javascript\">\n  var _learnq = _learnq || [];\n\n  _learnq.push(['account', 'iAvW3f']);\n\n  (function () {\n  var b = document.createElement('script'); b.type = 'text\/javascript'; b.async = true;\n  b.src = ('https:' == document.location.protocol ? 'https:\/\/' : 'http:\/\/') + 'a.klaviyo.com\/media\/js\/analytics\/analytics.js';\n  var a = document.getElementsByTagName('script')[0]; a.parentNode.insertBefore(b, a);\n  })();\n\n<\/script>\n<!-- END KLAVIYO ONSITE -->\n\n<!-- Retention popup - Supress contacts script -->\n<script>\n  window.addEventListener('message', (event) => {\n    if (event.data?.hasOwnProperty('CollectedEmailEvent') && event.data.CollectedEmailEvent.email) {        \n      geq.suppress();\n    }\n  });\n<\/script>\n<!-- END Retention popup - Supress contacts script -->\n\n<script src=\"https:\/\/cdn-widgetsrepository.yotpo.com\/v1\/loader\/HStiTttqjFRgP4wfhIgvWQ\" async><\/script>",
+    "rebuy_widget_code": "<div class=\"rebuy-upsells\">\n  <div data-rebuy-id=\"22097\"><\/div>\n  <script async src=\"https:\/\/rebuyengine.com\/js\/rebuy?shop=western-rise.myshopify.com\"><\/script>\n<\/div>",
+    "yotpo_widget_code": "<!--Checkout Module-->\n<!-- YOTPO LOYALTY CODE -->\n<div class=\"yotpo-widget-instance\" data-yotpo-instance-id=\"49782\"><\/div>\n<script async src=\"https:\/\/cdn-widgetsrepository.yotpo.com\/v1\/loader\/HStiTttqjFRgP4wfhIgvWQ\"><\/script>\n<!--Checkout Module-->",
+    "checkout_warranty_icon": "shopify:\/\/shop_images\/warranty-icon.svg",
+    "checkout_warranty_text": "30 day guarantee. If you don't like it, send it back!",
+    "checkout_testi_image": "shopify:\/\/shop_images\/Carlos-Grider.webp",
+    "checkout_testi_text": "“Minimalists, adventurous travelers, and urban explorers will love the combination of wrinkle resistance, abrasion resistance, stain proofing, water-resistance & quick-drying, odor resistance, and easy washing experience that made me fall in love with these pants for travel and daily life…”",
+    "checkout_testi_author": "Carlos Grider | A Brother Abroad",
+    "checkout_logo_image": "shopify:\/\/shop_images\/wr-logo-222222.png",
+    "checkout_sidebar_background_color": "#f1f0ed",
+    "checkout_accent_color": "#197bbd",
+    "checkout_button_color": "#2c2c2c",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "message": {
+            "type": "message",
+            "settings": {
+              "text": "Nur noch für kurze Zeit sparen...",
+              "url": ""
+            }
+          },
+          "1a0b6568-69c6-4e68-a500-fa8efabf201a": {
+            "type": "message",
+            "settings": {
+              "text": "Announce something here",
+              "url": ""
+            }
+          }
+        },
+        "block_order": [
+          "message",
+          "1a0b6568-69c6-4e68-a500-fa8efabf201a"
+        ],
+        "settings": {
+          "enable_sticky": false,
+          "text_size": "text-xs",
+          "navigation_mode": "arrows",
+          "scrolling_speed": 12,
+          "background": "#bba293",
+          "background_gradient": "",
+          "text_color": "#ffffff"
+        }
+      },
+      "header": {
+        "type": "header",
+        "blocks": {
+          "95ae5f50-4092-4410-9441-7229afdd4f35": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "Hautpflege",
+              "layout": "horizontal",
+              "submenu_style": "bold_heading",
+              "image_heading_1": "",
+              "image_link_1": "",
+              "image_text_color_1": "#ffffff",
+              "image_heading_2": "",
+              "image_link_2": "",
+              "image_text_color_2": "#ffffff",
+              "image_heading_3": "",
+              "image_link_3": "",
+              "image_text_color_3": "#ffffff",
+              "product": "",
+              "product_card_background": "",
+              "product_card_text_color": "",
+              "promo_content_layout": "grid",
+              "stretch_promo": false,
+              "drawer_link_image": "hide"
+            }
+          }
+        },
+        "block_order": [
+          "95ae5f50-4092-4410-9441-7229afdd4f35"
+        ],
+        "settings": {
+          "enable_sticky": true,
+          "hide_on_scroll": false,
+          "logo": "shopify:\/\/shop_images\/Plants_are_Purple_Logo_Black_smaller.png",
+          "logo_max_width": 265,
+          "logo_mobile_max_width": 145,
+          "menu": "main-menu",
+          "sidebar_menu": "",
+          "secondary_menu": "",
+          "menu_open_trigger": "hover",
+          "opening_from": "bottom",
+          "layout": "logo_left_navigation_center",
+          "show_social_media": true,
+          "show_locale_selector": false,
+          "show_country_selector": false,
+          "show_country_flag": false,
+          "show_country_name": false,
+          "transparent_header_text_color": "#ffffff",
+          "reduce_padding": true,
+          "background_opacity": 100,
+          "background_blur_radius": 20
+        }
+      },
+      "cart-drawer": {
+        "type": "cart-drawer",
+        "settings": {
+          "show_cart_note": false,
+          "show_shipping_text": true,
+          "show_view_cart_button": false,
+          "show_checkout_button": true,
+          "recommendations_title": "Oft zusammen gekauft...",
+          "products": [
+            "clear-up",
+            "midnight-magic",
+            "no-coffee-needed",
+            "aloe-jelly-cleanser-2-0",
+            "konigin-der-nacht-flower-whispers"
+          ],
+          "product_card_background": "#f7f4f0",
+          "product_card_text_color": "#303030"
+        }
+      },
+      "search-drawer": {
+        "type": "search-drawer",
+        "settings": {
+          "full_width": false,
+          "show_article_category": false,
+          "search_menu": "main-menu",
+          "search_menu_show_title": false
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "newsletter": {
+            "type": "newsletter",
+            "settings": {
+              "image": "{{shop.brand.logo}}",
+              "image_width": 150,
+              "heading_size": "h3",
+              "title": "Sign up for new stories and personal offers",
+              "content": ""
+            }
+          },
+          "links": {
+            "type": "links",
+            "settings": {
+              "menu": "about",
+              "show_menu_title": true
+            }
+          },
+          "71b285c5-82f3-4e77-be5d-63d4d7c61fe5": {
+            "type": "links",
+            "settings": {
+              "menu": "footer",
+              "show_menu_title": true
+            }
+          },
+          "198214a7-926c-4fe4-8457-4d38764a8ebb": {
+            "type": "text",
+            "settings": {
+              "title": "About our store",
+              "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "newsletter",
+          "links",
+          "71b285c5-82f3-4e77-be5d-63d4d7c61fe5",
+          "198214a7-926c-4fe4-8457-4d38764a8ebb"
+        ],
+        "settings": {
+          "show_social_media": true,
+          "show_payment_icons": true,
+          "show_country_selector": true,
+          "show_country_flag": true,
+          "show_country_name": true,
+          "show_locale_selector": true
+        }
+      },
+      "main-gift-card": {
+        "type": "main-gift-card",
+        "custom_css": [
+          ".gift-card {color: rgb(var(--text-dark));}"
+        ],
+        "settings": {
+          "show_qr_code": true,
+          "amount_background": "",
+          "amount_text_color": "#222222"
+        }
+      }
+    },
+    "content_for_index": [],
+    "blocks": {
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {}
+      },
+      "1909789295049107559": {
+        "type": "shopify:\/\/apps\/mbc-bundle-products\/blocks\/mbc-bundles-core-snippet\/57c94b78-e464-47f4-9403-7ffcfcddb33f",
+        "disabled": false,
+        "settings": {}
+      },
+      "16985609443196360602": {
+        "type": "shopify:\/\/apps\/wair-size-fit-recommendation\/blocks\/app-embed\/68b6dfc9-7d29-46dc-8820-cbcd3543e806",
+        "disabled": false,
+        "settings": {}
+      },
+      "733389323033596483": {
+        "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/theme-settings\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+        "disabled": false,
+        "settings": {
+          "show_preview_data": true
+        }
+      },
+      "15399298802885521802": {
+        "type": "shopify:\/\/apps\/table-of-contents\/blocks\/app-embed\/d06f5754-affb-4dc7-a2a9-18d74d225f70",
+        "disabled": false,
+        "settings": {}
+      },
+      "2296928500563504527": {
+        "type": "shopify:\/\/apps\/abra-auto-applied-discounts\/blocks\/abra\/daa1493a-23b5-48bb-8cb5-7ab1267b4642",
+        "disabled": true,
+        "settings": {
+          "popup_background_color": "#119d52",
+          "popup_border_color": "#119d52",
+          "popup_color": "#ffffff",
+          "popup_icon_color": "#ffffff",
+          "popup_border_radius": 4,
+          "popup_font_size": 14,
+          "popup_icon_size": 16,
+          "popup_padding_y": 16,
+          "popup_padding_x": 16,
+          "popup_placement": "bottom-center",
+          "popup_dismiss": "manual",
+          "popup_dismiss_delay": 5,
+          "announcement_bar_enabled": true,
+          "announcement_bar_background_color": "#119d52",
+          "announcement_bar_border_color": "#119d52",
+          "announcement_bar_color": "#ffffff",
+          "announcement_bar_icon_color": "#ffffff",
+          "announcement_bar_border_radius": 0,
+          "announcement_bar_font_size": 14,
+          "announcement_bar_icon_size": 16,
+          "announcement_bar_padding_y": 10,
+          "announcement_bar_padding_x": 10,
+          "sale_price_color": "#ff0000"
+        }
+      },
+      "2153490007123654574": {
+        "type": "shopify:\/\/apps\/consentmo-gdpr\/blocks\/gdpr_cookie_consent\/4fbe573f-a377-4fea-9801-3ee0858cae41",
+        "disabled": false,
+        "settings": {}
+      }
+    }
+  },
+  "presets": {
+    "Sound": {
+      "section_vertical_spacing": "medium",
+      "button_border_radius": 60,
+      "input_border_radius": 8,
+      "block_border_radius": 24,
+      "block_shadow_opacity": 10,
+      "block_shadow_vertical_offset": 18,
+      "background": "#f0f0f0",
+      "text_color": "#1a1a1a",
+      "header_background": "#f0f0f0",
+      "header_text_color": "#1a1a1a",
+      "footer_background": "#ffffff",
+      "footer_text_color": "#1a1a1a",
+      "primary_button_background": "#1a1a1a",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#f0c417",
+      "secondary_button_text_color": "#1a1a1a",
+      "product_card_text_color": "#1a1a1a",
+      "product_primary_badge_background": "#803cee",
+      "heading_font": "din_next_n7",
+      "heading_font_size": "large",
+      "heading_letter_spacing": -2,
+      "text_font": "din_next_n4",
+      "show_page_transition": true,
+      "cart_icon": "shopping_basket",
+      "heading_apparition": "split_fade",
+      "product_color_display": "swatch",
+      "product_info_alignment": "start",
+      "checkout_accent_color": "#f0c417",
+      "checkout_button_color": "#1a1a1a"
+    },
+    "Home": {
+      "section_vertical_spacing": "medium",
+      "section_boxed_horizontal_spacing": "large",
+      "button_hover_effect": "reverse",
+      "background": "#ffffff",
+      "text_color": "#272727",
+      "success_color": "#708a5c",
+      "warning_color": "#e37e16",
+      "error_color": "#aa2826",
+      "header_background": "#ffffff",
+      "header_text_color": "#272727",
+      "footer_background": "#f2f2f2",
+      "footer_text_color": "#272727",
+      "primary_button_background": "#272727",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#3c619e",
+      "secondary_button_text_color": "#ffffff",
+      "product_card_text_color": "#272727",
+      "product_on_sale_accent": "#e34f4f",
+      "product_sold_out_badge_background": "#bebdb9",
+      "product_primary_badge_background": "#3c619e",
+      "heading_font": "futura_n7",
+      "heading_font_size": "large",
+      "heading_text_transform": "normal",
+      "heading_letter_spacing": -1,
+      "text_font": "futura_n4",
+      "cart_icon": "shopping_basket",
+      "heading_apparition": "split_rotation",
+      "color_swatch_style": "rectangle",
+      "product_color_display": "swatch",
+      "cart_type": "drawer",
+      "checkout_body_background_color": "#f2f2f2",
+      "checkout_sidebar_background_color": "#ffffff",
+      "checkout_accent_color": "#3c619e",
+      "checkout_button_color": "#3c619e"
+    },
+    "Shape": {
+      "page_width": 1440,
+      "section_vertical_spacing": "small",
+      "section_boxed_horizontal_spacing": "medium",
+      "button_border_radius": 60,
+      "input_border_radius": 8,
+      "block_border_radius": 20,
+      "icon_stroke_width": 1.5,
+      "button_style": "fill",
+      "button_hover_effect": "reverse",
+      "text_color": "#2a555a",
+      "header_background": "#ffffff",
+      "header_text_color": "#2a555a",
+      "footer_background": "#f7f7f7",
+      "footer_text_color": "#2a555a",
+      "primary_button_background": "#2a555a",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#d9967e",
+      "product_card_text_color": "#2a555a",
+      "cart_icon": "tote_bag",
+      "heading_font": "itc_berkeley_old_style_n4",
+      "heading_font_size": "large",
+      "heading_text_transform": "normal",
+      "heading_letter_spacing": -1,
+      "text_font": "muli_n4",
+      "text_font_size_desktop": 15,
+      "product_color_display": "swatch",
+      "product_info_alignment": "center"
+    }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".header__secondary-nav .header__link-list {display: none;}",
+      ".button {text-transform: uppercase; letter-spacing: 0.08em;}"
+    ]
+  }
+}

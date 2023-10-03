@@ -1,0 +1,18 @@
+{%- case value -%}
+  {%- when 'Regular (32/34)' -%}
+    32-34"
+  {%- when 'Short (30)' -%}
+    30"
+  {%- when 'Small' -%}
+    S
+  {%- when 'Medium' -%}
+    M
+  {%- when 'Large' -%}
+    L
+  {%- when 'Short 29' -%}
+    29"
+  {%- when 'Long 31' -%}
+    31"
+  {%- else -%}
+    {{ value }}
+{%- endcase -%}

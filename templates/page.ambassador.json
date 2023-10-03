@@ -1,0 +1,167 @@
+{
+  "sections": {
+    "d17dc8e4-0356-4fb7-9915-c46f86aced01": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--15884740722871__d17dc8e4-0356-4fb7-9915-c46f86aced01-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "How will you be promoting?",
+            "heading_tag": "h1"
+          }
+        },
+        "template--15884740722871__d17dc8e4-0356-4fb7-9915-c46f86aced01-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>We use two different platforms that differ depending on how you plan to promote for Western Rise<\/p><p>SELECT THE ONE THAT BEST APPLIES TO YOU<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15884740722871__d17dc8e4-0356-4fb7-9915-c46f86aced01-heading-1",
+        "template--15884740722871__d17dc8e4-0356-4fb7-9915-c46f86aced01-richtext-1"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": false,
+        "image_size": "lg",
+        "image": "shopify:\/\/shop_images\/ambassador-hero-img-desk-cut.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/ambassador-hero-img-mob.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#222222",
+        "overlay_opacity": 10
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "60ch"
+      }
+    },
+    "da3da6b8-4352-463e-aa0c-3d14d11eb0a5": {
+      "type": "multi-column",
+      "blocks": {
+        "template--15884740722871__da3da6b8-4352-463e-aa0c-3d14d11eb0a5-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wr-logo.png",
+            "column_size": "2",
+            "title": "Western Rise Team",
+            "heading_tag": "h2",
+            "content": "<p><strong>WHAT IS IT?<br\/><\/strong>Ambassador Program<\/p><p><strong>HOW WILL YOU BE PROMOTING?<\/strong><br\/>Primarily through Social Media (Instagram, Facebook, TikTok) or Blogs<\/p><p><strong>WHO IS THIS BEST FOR?<br\/><\/strong>Influencers + Brand Advocates<\/p><p><strong>THE PERKS<\/strong><br\/>Discounts + Complimentary Products + A Chance to Earn Commission<\/p>",
+            "link_url": "shopify:\/\/pages\/western-rise-ambassador-team",
+            "link_text": "Apply",
+            "link_style": "button"
+          }
+        },
+        "template--15884740722871__da3da6b8-4352-463e-aa0c-3d14d11eb0a5-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Impact-logo-black.webp",
+            "column_size": "2",
+            "title": "Impact.com",
+            "heading_tag": "h2",
+            "content": "<p><strong>WHAT IS IT?<br\/><\/strong>Affiliate Marketing Platform<\/p><p><strong>HOW WILL YOU BE PROMOTING?<\/strong><br\/>Online Publications, Email Newsletters, Content Marketing, Display Advertising<\/p><p><strong>WHO IS THIS BEST FOR?<\/strong><br\/>Media Publications, Applications, Shopping Platforms<\/p><p><strong>PAYMENT METHODS<\/strong><br\/>Commission on Sales<br\/><\/p>",
+            "link_url": "http:\/\/app.impact.com\/campaign-campaign-info-v2\/Western-Rise.brand?io=w22dPJb%2BzgeWMyoVWk0FKzCUuRfxntt95Cz1UcARZ158JOyXX%2BHnxoCzy402p%2FhH",
+            "link_text": "Sign Up",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "template--15884740722871__da3da6b8-4352-463e-aa0c-3d14d11eb0a5-item-1",
+        "template--15884740722871__da3da6b8-4352-463e-aa0c-3d14d11eb0a5-item-2"
+      ],
+      "custom_css": [
+        ".multi-column__item > img {height: 64px; width: auto; margin-inline: auto;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_on_mobile": true,
+        "gap": "large",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "#f2f1ee",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "1581e906-93c5-405a-a889-4d3c672a58fe": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--15884740722871__1581e906-93c5-405a-a889-4d3c672a58fe-item-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/free-shipping.png",
+            "mobile_icon_width": 48,
+            "icon_width": 48,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Free shipping",
+            "content": ""
+          }
+        },
+        "template--15884740722871__1581e906-93c5-405a-a889-4d3c672a58fe-item-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/free-returns.png",
+            "mobile_icon_width": 48,
+            "icon_width": 48,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Free Returns",
+            "content": ""
+          }
+        },
+        "template--15884740722871__1581e906-93c5-405a-a889-4d3c672a58fe-item-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/lifetime-guarantee.png",
+            "mobile_icon_width": 48,
+            "icon_width": 48,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Lifetime Guarantee",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15884740722871__1581e906-93c5-405a-a889-4d3c672a58fe-item-1",
+        "template--15884740722871__1581e906-93c5-405a-a889-4d3c672a58fe-item-2",
+        "template--15884740722871__1581e906-93c5-405a-a889-4d3c672a58fe-item-3"
+      ],
+      "settings": {
+        "css_class": "",
+        "full_width": true,
+        "stack_on_mobile": true,
+        "title": "",
+        "heading_tag": "h3",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "#f2f1ee",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "d17dc8e4-0356-4fb7-9915-c46f86aced01",
+    "main",
+    "da3da6b8-4352-463e-aa0c-3d14d11eb0a5",
+    "1581e906-93c5-405a-a889-4d3c672a58fe"
+  ]
+}

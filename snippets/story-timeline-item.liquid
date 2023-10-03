@@ -1,0 +1,21 @@
+<div class="story-timeline--item v-stack gap-4">
+  <div class="prose">
+    {%- if subheading != blank -%}
+      <p class="fw-500 text-base">{{- subheading -}}</p>
+    {%- endif -%}
+
+    {%- if title != blank -%}
+      <p class="h2">{{- title -}}</p>
+    {%- endif -%}
+
+    {%- if content != blank -%}
+      {{- content -}}
+    {%- endif -%}
+  </div>
+  {%- if image != blank -%}
+    <div class="story-timeline--item-image">
+      {%- capture sizes -%}(max-width:700px) 100vw, min(700px, 50vw){%- endcapture -%}
+      {{- image | image_url: width: image.width | image_tag: loading: 'lazy', class: "rounded", sizes: sizes -}}
+    </div>
+  {%- endif -%}
+</div>

@@ -1,0 +1,58 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "navigation"
+      ],
+      "settings": {
+        "allow_transparent_header": false,
+        "layout": "image_left_text_right",
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": false,
+        "show_share_buttons": true,
+        "banner_background": "#f8f8f6",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px"
+      }
+    },
+    "611cdc75-3130-41c1-aa33-92095ad01d69": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": "{{ article.metafields.custom.related_products.value }}",
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Related products",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "611cdc75-3130-41c1-aa33-92095ad01d69"
+  ]
+}

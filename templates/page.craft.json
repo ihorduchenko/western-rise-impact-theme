@@ -1,0 +1,752 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "60ch"
+      }
+    },
+    "27985ba0-cb1b-4eb0-b5c1-f57a02bc3210": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--15892020756663__27985ba0-cb1b-4eb0-b5c1-f57a02bc3210-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Western Rise - A brand for the modern traveler",
+            "heading_tag": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "template--15892020756663__27985ba0-cb1b-4eb0-b5c1-f57a02bc3210-heading-1"
+      ],
+      "settings": {
+        "css_class": "craft-page-banner",
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/craft-page-banner.webp",
+        "mobile_image": "shopify:\/\/shop_images\/craft-page-banner-mob.webp",
+        "mobile_text_position": "place-self-start text-start",
+        "desktop_text_position": "sm:place-self-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "702b5463-5fb8-48df-a117-32a6c25cd39d": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--15892020756663__702b5463-5fb8-48df-a117-32a6c25cd39d-item-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/Lightweight.svg",
+            "mobile_icon_width": 60,
+            "icon_width": 80,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Lightweight",
+            "content": ""
+          }
+        },
+        "f963affa-3946-4e9b-ada7-05f8828ba2df": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/Versatile.svg",
+            "mobile_icon_width": 60,
+            "icon_width": 80,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Versatile",
+            "content": ""
+          }
+        },
+        "2d78850e-c9f9-470f-81ed-b85f8e2149a7": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/Durable.svg",
+            "mobile_icon_width": 60,
+            "icon_width": 80,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Durable",
+            "content": ""
+          }
+        },
+        "3d964294-cbce-4bce-8511-7734676a5ae0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/Easy-Maintenance.svg",
+            "mobile_icon_width": 60,
+            "icon_width": 80,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Easy Maintenance",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15892020756663__702b5463-5fb8-48df-a117-32a6c25cd39d-item-1",
+        "f963affa-3946-4e9b-ada7-05f8828ba2df",
+        "2d78850e-c9f9-470f-81ed-b85f8e2149a7",
+        "3d964294-cbce-4bce-8511-7734676a5ae0"
+      ],
+      "custom_css": [
+        ".text-with-icons__text-title {font-weight: 400;}"
+      ],
+      "settings": {
+        "css_class": "craft-page-icons",
+        "full_width": true,
+        "stack_on_mobile": true,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "9a32ec5f-eec3-45a1-b821-b1c18e21db39": {
+      "type": "multi-column",
+      "blocks": {
+        "template--15892020756663__9a32ec5f-eec3-45a1-b821-b1c18e21db39-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logo-elevation-pin-80x80.svg",
+            "column_size": "2",
+            "title": "Our Mission",
+            "heading_tag": "h1",
+            "content": "<h3>We make quality apparel for the modern one-bag traveler so they can carry less and experience more.<\/h3>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--15892020756663__9a32ec5f-eec3-45a1-b821-b1c18e21db39-item-2": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>Travel is more than a change in geography—it’s a catalyst for personal transformation. It’s the thrill of confronting the unfamiliar and the courage to navigate its challenges. It’s the humility of being a guest in another culture, and the awe of absorbing its beauty. It’s the highs and lows that shake your core beliefs, carving new facets into your identity. Each adventure marks you, offering lifelong lessons that you carry forward, and hopefully, leaving a positive imprint on the places and people you encounter along the way.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--15892020756663__9a32ec5f-eec3-45a1-b821-b1c18e21db39-item-1",
+        "template--15892020756663__9a32ec5f-eec3-45a1-b821-b1c18e21db39-item-2"
+      ],
+      "settings": {
+        "css_class": "craft-page-disclaimer",
+        "full_width": true,
+        "stack_on_mobile": true,
+        "enable_carousel": false,
+        "show_progress_bar": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "86ca4f03-fded-491f-bae8-7d4819cd664e": {
+      "type": "media-grid",
+      "blocks": {
+        "497274c8-40b9-43dc-bf81-3ae3e541ffae": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/craft-common-image-01.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 4,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "497274c8-40b9-43dc-bf81-3ae3e541ffae"
+      ],
+      "settings": {
+        "css_class": "craft-page-common-image",
+        "full_width": false,
+        "reduce_width": true,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "f89fec0b-f086-4afd-8f66-bf749a2054ff": {
+      "type": "rich-text",
+      "blocks": {
+        "b76a63d6-0dab-4af2-ac8a-aa4300cd6ea9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/craft-common-image-02.png",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "329e1228-1186-486d-a401-ab6dfc706671": {
+          "type": "divider",
+          "settings": {}
+        },
+        "918d8a7f-ee0c-4949-b19c-146727953c4d": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1>WE BELIEVE<br\/>TRAVEL<br\/>TRANSFORMS<br\/>LIVES<\/h1>"
+          }
+        },
+        "06dbc926-a367-4c87-9da3-47bfd1cfea7f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/craft-common-image-03.jpg",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "b76a63d6-0dab-4af2-ac8a-aa4300cd6ea9",
+        "329e1228-1186-486d-a401-ab6dfc706671",
+        "918d8a7f-ee0c-4949-b19c-146727953c4d",
+        "06dbc926-a367-4c87-9da3-47bfd1cfea7f"
+      ],
+      "settings": {
+        "css_class": "craft-page-slogan-images-02",
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "451ceafe-4462-4e63-aa33-dc3167cc2b7c": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "3e9e85b8-fa7b-4706-a48e-2e670ebfdd1a": {
+          "type": "heading",
+          "settings": {
+            "text": "Our Products",
+            "heading_tag": "h0"
+          }
+        },
+        "3896a61c-39c7-4fa8-85b7-b0c2feb7ae3d": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Western Rise products revolutionize how modern travelers experience the world,<br\/>focusing on four key elements: technical materials, advanced treatments, timeless<br\/>styles, and premium construction. Our gear is engineered with performance and versatility to elevate every moment of your journey, from bustling streets to mountain trails.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "3e9e85b8-fa7b-4706-a48e-2e670ebfdd1a",
+        "3896a61c-39c7-4fa8-85b7-b0c2feb7ae3d"
+      ],
+      "settings": {
+        "css_class": "craft-page-banner",
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/craft-page-banner-02.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/craft-page-banner-02-mob.webp",
+        "mobile_text_position": "place-self-start text-start",
+        "desktop_text_position": "sm:place-self-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "54296c04-89f3-444d-9ef8-1747ee575345": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "template--15892020756663__54296c04-89f3-444d-9ef8-1747ee575345-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/craft-page-fabrics-collage.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Our Work",
+            "content": "<p>We work to inspire and equip travelers for transformative journeys. We craft the most versatile and high-performance travel clothing in the world. Designed for diverse environments and rigorously tested globally, our apparel enhances every facet of the travel experience. And because the most memorable journeys are those we share, we curate a range of visual storytelling and unique experiences to connect like-minded explorers, near and far, and to compel people to embark on their own adventures.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "7964e4f4-739b-456c-a47a-1af483131133": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/craft-our-work-02.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Our Work",
+            "content": "<p>We work to inspire and equip travelers for transformative journeys. We craft the most versatile and high-performance travel clothing in the world. Designed for diverse environments and rigorously tested globally, our apparel enhances every facet of the travel experience. And because the most memorable journeys are those we share, we curate a range of visual storytelling and unique experiences to connect like-minded explorers, near and far, and to compel people to embark on their own adventures.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "3d3ef128-5b7b-48be-80e8-1d25d41f7b35": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/craft-our-work-03.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Our Work",
+            "content": "<p>We work to inspire and equip travelers for transformative journeys. We craft the most versatile and high-performance travel clothing in the world. Designed for diverse environments and rigorously tested globally, our apparel enhances every facet of the travel experience. And because the most memorable journeys are those we share, we curate a range of visual storytelling and unique experiences to connect like-minded explorers, near and far, and to compel people to embark on their own adventures.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "0f429000-2e4c-4b40-b7e2-4965659d956a": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/craft-our-work-04.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Our Work",
+            "content": "<p>We work to inspire and equip travelers for transformative journeys. We craft the most versatile and high-performance travel clothing in the world. Designed for diverse environments and rigorously tested globally, our apparel enhances every facet of the travel experience. And because the most memorable journeys are those we share, we curate a range of visual storytelling and unique experiences to connect like-minded explorers, near and far, and to compel people to embark on their own adventures.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15892020756663__54296c04-89f3-444d-9ef8-1747ee575345-item-1",
+        "7964e4f4-739b-456c-a47a-1af483131133",
+        "3d3ef128-5b7b-48be-80e8-1d25d41f7b35",
+        "0f429000-2e4c-4b40-b7e2-4965659d956a"
+      ],
+      "settings": {
+        "css_class": "craft-page-fabrics",
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "shifted",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "0eefbe21-c462-4fdc-9cc9-43aa00c609f5": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15892020756663__0eefbe21-c462-4fdc-9cc9-43aa00c609f5-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h3><strong>\"These are the pants that Tony Stark<br\/>would design and wear\"<\/strong><\/h3>"
+          }
+        },
+        "745a5ff6-631e-40f9-b925-61018235af24": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gear-patrol-logo.svg",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "795dfd57-5a03-4bd3-ba60-2a549b0c18d2": {
+          "type": "divider",
+          "settings": {}
+        },
+        "6e71e7fe-617c-4265-af2f-13137a3c34ae": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/craft-gallery-image-01.png",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "template--15892020756663__0eefbe21-c462-4fdc-9cc9-43aa00c609f5-richtext-1",
+        "745a5ff6-631e-40f9-b925-61018235af24",
+        "795dfd57-5a03-4bd3-ba60-2a549b0c18d2",
+        "6e71e7fe-617c-4265-af2f-13137a3c34ae"
+      ],
+      "settings": {
+        "css_class": "craft-page-quote-image",
+        "full_width": false,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "ce9e6c2c-cd0d-4a06-9b4d-52821d84f00a": {
+      "type": "rich-text",
+      "blocks": {
+        "41c03de8-a5a3-44ea-8d2f-3c416cbd9c63": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/craft-page-shifted-01.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "2f4e2a43-3907-43b2-9349-e51b220f0e9d": {
+          "type": "divider",
+          "settings": {}
+        },
+        "c2ae316f-91c4-4638-8503-2767d1df5af3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/craft-page-shifted-02.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "41c03de8-a5a3-44ea-8d2f-3c416cbd9c63",
+        "2f4e2a43-3907-43b2-9349-e51b220f0e9d",
+        "c2ae316f-91c4-4638-8503-2767d1df5af3"
+      ],
+      "settings": {
+        "css_class": "craft-page-collage-shifted",
+        "full_width": false,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "6a5e6e9c-aae0-49d9-b771-7d1e11172edd": {
+      "type": "media-grid",
+      "blocks": {
+        "template--15892020756663__6a5e6e9c-aae0-49d9-b771-7d1e11172edd-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/craft-common-image-02.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 4,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15892020756663__6a5e6e9c-aae0-49d9-b771-7d1e11172edd-image-1"
+      ],
+      "settings": {
+        "css_class": "craft-page-common-image",
+        "full_width": false,
+        "reduce_width": true,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "f86afa32-364a-4796-ab2a-3dca64429b7e": {
+      "type": "media-grid",
+      "blocks": {
+        "template--15892020756663__f86afa32-364a-4796-ab2a-3dca64429b7e-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/craft-page-collage-double-01.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15892020756663__f86afa32-364a-4796-ab2a-3dca64429b7e-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/craft-page-collage-double-02.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15892020756663__f86afa32-364a-4796-ab2a-3dca64429b7e-image-1",
+        "template--15892020756663__f86afa32-364a-4796-ab2a-3dca64429b7e-image-2"
+      ],
+      "settings": {
+        "css_class": "craft-page-collage-double",
+        "full_width": false,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "f1704c3f-7ad5-40b1-a00b-148269b95e18": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15892020756663__f1704c3f-7ad5-40b1-a00b-148269b95e18-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Our Values",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15892020756663__f1704c3f-7ad5-40b1-a00b-148269b95e18-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Everything we do at Western Rise is informed by our values. Whether we’re in Telluride or Tokyo, these values serve as the foundation for all our actions. These values don’t just define us—they propel us forward on our ceaseless quest to inspire and equip journeys that transform.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15892020756663__f1704c3f-7ad5-40b1-a00b-148269b95e18-heading-1",
+        "template--15892020756663__f1704c3f-7ad5-40b1-a00b-148269b95e18-richtext-1"
+      ],
+      "settings": {
+        "css_class": "craft-page-values-heading",
+        "full_width": false,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "d30a01d7-d9e4-41d4-b0b1-60281eaad051": {
+      "type": "rich-text",
+      "blocks": {
+        "001bd586-0e42-41cb-b9cd-c992b16a402d": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<h2 class=\"h1 fw-400 craft-values\">\n<span class=\"reversed-link\">EMBRACE THE JOURNEY<\/span>\n<br>\n<span class=\"reversed-link\">LEAD WITH VISION<\/span><br>\n<span class=\"reversed-link\">DEMAND EXCELLENCE<\/span>\n<br>\n<span class=\"reversed-link\">CURIOSITY KNOWS NO LIMITS\n<\/span>\n<\/h2>"
+          }
+        }
+      },
+      "block_order": [
+        "001bd586-0e42-41cb-b9cd-c992b16a402d"
+      ],
+      "custom_css": [
+        ".reversed-link {background: linear-gradient(to right, #6e775f, #6e775f) 0 min(100%, 1.35em) \/ 0 3px no-repeat;}",
+        ".reversed-link:hover {background-size: 100% 3px;}"
+      ],
+      "settings": {
+        "css_class": "craft-page-values-credo",
+        "full_width": false,
+        "content_width": "large",
+        "text_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "e2a887bb-eeb5-4a50-aa19-b2ea6342b310": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--15892020756663__e2a887bb-eeb5-4a50-aa19-b2ea6342b310-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Westernrise-2023-logo-changing.gif",
+            "media_width": 40,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "subheading_liquid": "",
+            "title": "Our Logo",
+            "content": "<p>Western Rise's logo, inspired by the elevation survey marker found at a mountain's highest point, encapsulates our brand's essence of reaching new heights in both travel and personal transformation. This symbol serves as a modern-day crest for adventurers, reminiscent of the markers that have guided explorers through generations.<\/p>",
+            "extra_content": "",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#222222",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15892020756663__e2a887bb-eeb5-4a50-aa19-b2ea6342b310-image-1"
+      ],
+      "custom_css": [
+        ".media-with-text--title {font-size: var(--text-h1);}"
+      ],
+      "settings": {
+        "css_class": "craft-page-logo",
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "9009f0d5-f343-4be1-ace6-f469e61edd55": {
+      "type": "logo-list",
+      "blocks": {
+        "template--15892020756663__9009f0d5-f343-4be1-ace6-f469e61edd55-logo-1": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/logo-climate-neutral.svg",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "template--15892020756663__9009f0d5-f343-4be1-ace6-f469e61edd55-logo-2": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/logo-bluesign.svg",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "template--15892020756663__9009f0d5-f343-4be1-ace6-f469e61edd55-logo-3": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/logo-WRAP.svg",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "a0a22873-71af-4cf5-b9d4-602ad062a831": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/logo-woolmark.svg",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "490f6093-d023-4a51-9aa8-641931ff48d5": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/logo-R_W_S.svg",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "0ebf964c-29ee-4300-a4ab-adb573d0e649": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/logo-USGBC.svg",
+            "logo_width": 300,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15892020756663__9009f0d5-f343-4be1-ace6-f469e61edd55-logo-1",
+        "template--15892020756663__9009f0d5-f343-4be1-ace6-f469e61edd55-logo-2",
+        "template--15892020756663__9009f0d5-f343-4be1-ace6-f469e61edd55-logo-3",
+        "a0a22873-71af-4cf5-b9d4-602ad062a831",
+        "490f6093-d023-4a51-9aa8-641931ff48d5",
+        "0ebf964c-29ee-4300-a4ab-adb573d0e649"
+      ],
+      "custom_css": [
+        ".logo-list--title {font-size: var(--text-h1);}"
+      ],
+      "settings": {
+        "css_class": "craft-page-impact",
+        "full_width": false,
+        "stack_mobile": false,
+        "title": "Our Impact",
+        "content": "<p>We believe that travel enriches lives and connects cultures, but we also recognize our responsibility to protect those places we love. Because of this, Western Rise is committed to a set of core social and environmental initiatives. Sustainable fabrics, carbon neutrality, and ethical manufacturing, and land conservation. By taking these steps, we aim to transform not just how you travel, but how travel impacts the world, striving for a future where our actions leave a wholly positive imprint on both people and planet.<\/p>",
+        "text_alignment": "center",
+        "items_per_row": 6,
+        "background": "#222222",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "#222222",
+        "logo_item_border": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "27985ba0-cb1b-4eb0-b5c1-f57a02bc3210",
+    "702b5463-5fb8-48df-a117-32a6c25cd39d",
+    "9a32ec5f-eec3-45a1-b821-b1c18e21db39",
+    "86ca4f03-fded-491f-bae8-7d4819cd664e",
+    "f89fec0b-f086-4afd-8f66-bf749a2054ff",
+    "451ceafe-4462-4e63-aa33-dc3167cc2b7c",
+    "54296c04-89f3-444d-9ef8-1747ee575345",
+    "0eefbe21-c462-4fdc-9cc9-43aa00c609f5",
+    "ce9e6c2c-cd0d-4a06-9b4d-52821d84f00a",
+    "6a5e6e9c-aae0-49d9-b771-7d1e11172edd",
+    "f86afa32-364a-4796-ab2a-3dca64429b7e",
+    "f1704c3f-7ad5-40b1-a00b-148269b95e18",
+    "d30a01d7-d9e4-41d4-b0b1-60281eaad051",
+    "e2a887bb-eeb5-4a50-aa19-b2ea6342b310",
+    "9009f0d5-f343-4be1-ace6-f469e61edd55"
+  ]
+}

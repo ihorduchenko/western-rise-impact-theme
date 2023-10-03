@@ -1,0 +1,19 @@
+{%- assign current_variant = product.selected_or_first_available_variant -%}
+{%- assign input_label = 'product.general.email_address' | t -%}
+{%- assign button_label = 'product.general.notify_when_available' | t -%}
+<backinstock-form class="product-info__bis">
+  <form class="product-info__bis-form BISForm"
+    {% if form_id %}form="{{ form_id }}"{% endif %}
+    data-variant-id="{{ current_variant.id }}"
+    data-product-id="{{ product.id }}">
+    <div class="product-info__bis-fields">
+      <div class="v-stack gap-3">
+        {%- render 'input', type: 'email', label: input_label, name: 'email', required: true -%}
+        {%- render 'button', type: 'submit', content: button_label, size: 'xl' -%}
+      </div>
+    </div>
+    <div class="product-info__bis-message text-center text-success">
+      {{ 'product.general.notify_message' | t }}
+    </div>
+  </form>
+</backinstock-form>

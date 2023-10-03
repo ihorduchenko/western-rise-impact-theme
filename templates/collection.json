@@ -1,0 +1,462 @@
+{
+  "sections": {
+    "f6e92d7b-cf52-489d-80b9-1adef837b2a7": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--15877158371511__f6e92d7b-cf52-489d-80b9-1adef837b2a7-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "{{ collection.image }}",
+            "media_width": 60,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "subheading_liquid": "{% render 'collection-breadcrumbs' %}",
+            "title": "{{ collection.title }}",
+            "content": "",
+            "extra_content": "<div class=\"collection-hero--description\">{{ collection.description }}\n<\/div>\n\n{% render 'collection-features-icons' %}",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f8f8f8",
+            "background_gradient": "",
+            "text_color": "#222222",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15877158371511__f6e92d7b-cf52-489d-80b9-1adef837b2a7-image-1"
+      ],
+      "settings": {
+        "css_class": "collection-hero",
+        "full_width": true,
+        "spacing": "small"
+      }
+    },
+    "51eb1867-52e6-4d43-b066-6c0e5295416a": {
+      "type": "multi-column",
+      "blocks": {
+        "template--15889453154487__51eb1867-52e6-4d43-b066-6c0e5295416a-item-1": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/020322-WR-ECOM-SPRING-1701.webp",
+            "column_size": "4",
+            "title": "Classic",
+            "heading_tag": "h3",
+            "content": "<p>Designed for the guys who need more room in the seat and quads, with a slightly tapered leg from <\/p>",
+            "link_url": "shopify:\/\/products\/evolution-pant",
+            "link_text": "Shop now",
+            "link_style": "block"
+          }
+        },
+        "8fd872de-fb9b-49c3-9cbe-7a5286dca0b5": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/020322-WR-ECOM-SPRING-2545_copy.jpg",
+            "column_size": "4",
+            "title": "Slim",
+            "heading_tag": "h3",
+            "content": "<p>Designed for guys who prefer a more fitted pant in the seat and quads, with a tapered leg.<\/p>",
+            "link_url": "shopify:\/\/products\/evolution-pant",
+            "link_text": "Shop now",
+            "link_style": "block"
+          }
+        },
+        "899c29fc-b5e7-49e3-a1ef-b49710bd9ec1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/020322-WR-ECOM-SPRING-1701_f49ee7af-8d09-4c0f-9934-d44a91fd0050.webp",
+            "column_size": "4",
+            "title": "Five Pocket Pant",
+            "heading_tag": "h3",
+            "content": "<p>A standard patch pocket style with elevated travel features and a tapered leg.<\/p>",
+            "link_url": "shopify:\/\/products\/evolution-pant",
+            "link_text": "Shop now",
+            "link_style": "block"
+          }
+        },
+        "8ec218b1-1f34-45c1-9210-f9f1cbc98c64": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/020322-WR-ECOM-SPRING-2287.jpg",
+            "column_size": "4",
+            "title": "Chino",
+            "heading_tag": "h3",
+            "content": "<p>A slightly dressier style with khaki-style front pockets and welt back pockets.<\/p>",
+            "link_url": "shopify:\/\/products\/evolution-chino",
+            "link_text": "Shop now",
+            "link_style": "block"
+          }
+        },
+        "077afbef-ffb9-4d2c-b720-b061c9b127d9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/090221-WR-ECOM-33892.webp",
+            "column_size": "4",
+            "title": "Jogger",
+            "heading_tag": "h3",
+            "content": "<p>A casual sporty look, with a pull-on waistband, a drawstring, and a tapered leg opening with no cuff so you can dress them up or down.<\/p>",
+            "link_url": "shopify:\/\/products\/spectrum-jogger",
+            "link_text": "Shop now",
+            "link_style": "block"
+          }
+        }
+      },
+      "block_order": [
+        "template--15889453154487__51eb1867-52e6-4d43-b066-6c0e5295416a-item-1",
+        "8fd872de-fb9b-49c3-9cbe-7a5286dca0b5",
+        "899c29fc-b5e7-49e3-a1ef-b49710bd9ec1",
+        "8ec218b1-1f34-45c1-9210-f9f1cbc98c64",
+        "077afbef-ffb9-4d2c-b720-b061c9b127d9"
+      ],
+      "settings": {
+        "css_class": "collection-pant-fit-comparison",
+        "full_width": false,
+        "stack_on_mobile": false,
+        "enable_carousel": true,
+        "show_progress_bar": true,
+        "gap": "small",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "45f5427a-3270-4e46-aab5-cd64c4e0f49e": {
+          "type": "promotion_image",
+          "settings": {
+            "position": 6,
+            "column_span": "1",
+            "image": "shopify:\/\/shop_images\/collection-promo-banner.jpg",
+            "title": "Bundle & Save",
+            "content": "<p>Save big when buying 3 or more tees<\/p>",
+            "link_url": "shopify:\/\/collections\/bundles",
+            "link_text": "SHOP",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15
+          }
+        }
+      },
+      "block_order": [
+        "45f5427a-3270-4e46-aab5-cd64c4e0f49e"
+      ],
+      "custom_css": [],
+      "settings": {
+        "products_per_page": 50,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "filter_layout": "sidebar",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": true,
+        "show_color_swatch": true,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": true,
+        "open_first_filter_group": true
+      }
+    },
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "custom_css": [
+        ".collection-header h1 {color: rgb(var(--text-dark));}"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "collection_title_size": "h2",
+        "image_size": "sm",
+        "image": "{{ collection.image }}",
+        "mobile_image": "{{ collection.image }}",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "db4e91fa-476d-4686-ab31-fbb482428047": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--15889453154487__db4e91fa-476d-4686-ab31-fbb482428047-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/why-westernrise-collection.jpg",
+            "media_width": 55,
+            "media_position": "end",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "subheading_liquid": "",
+            "title": "Why Western Rise",
+            "content": "<ul><li>Travel Light: Performance fabrics enable a one-bag travel lifestyle.<\/li><li>Versatile Style: Outfits easily transition from business to adventure.<\/li><li>Functional Comfort: Smart features for enhanced mobility and convenience.<\/li><li>Worry-Free Returns: Hassle-free return policy for peace of mind.<\/li><li>Sustainable Choice: Quality apparel that's environmentally responsible.<\/li><\/ul>",
+            "extra_content": "",
+            "link_text": "",
+            "link_url": "",
+            "background": "#222222",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15889453154487__db4e91fa-476d-4686-ab31-fbb482428047-image-1"
+      ],
+      "custom_css": [
+        ".media-with-text__content ul {list-style: inherit;}",
+        ".media-with-text__content ul li {padding-block-end: 0.6em; border-bottom: 1px solid currentColor;}"
+      ],
+      "settings": {
+        "css_class": "",
+        "full_width": true,
+        "spacing": "none"
+      }
+    },
+    "f0762195-51e2-4949-909f-5e71cc357da8": {
+      "type": "faq",
+      "blocks": {
+        "template--15889453154487__f0762195-51e2-4949-909f-5e71cc357da8-item-1": {
+          "type": "item",
+          "repeater": "{{ collection.metafields.custom.faqs.value }}",
+          "settings": {
+            "title": "{{ block.repeater.question.value }}",
+            "content": "{{ block.repeater.answer | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "template--15889453154487__f0762195-51e2-4949-909f-5e71cc357da8-item-1"
+      ],
+      "settings": {
+        "css_class": "",
+        "full_width": true,
+        "subheading": "",
+        "title": "Frequently Asked Questions",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#ffffff",
+        "accordion_text_color": ""
+      }
+    },
+    "e92e95be-5fe8-42b4-b128-6886635437c6": {
+      "type": "media-grid",
+      "blocks": {
+        "template--15889453154487__e92e95be-5fe8-42b4-b128-6886635437c6-image-1": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15889453154487__e92e95be-5fe8-42b4-b128-6886635437c6-image-2": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15889453154487__e92e95be-5fe8-42b4-b128-6886635437c6-image-3": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "42cf59c8-132b-4699-ad27-cac4d2fc1a7c": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "794d50b4-2389-4a23-85ce-8595006434d4": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15889453154487__e92e95be-5fe8-42b4-b128-6886635437c6-image-1",
+        "template--15889453154487__e92e95be-5fe8-42b4-b128-6886635437c6-image-2",
+        "template--15889453154487__e92e95be-5fe8-42b4-b128-6886635437c6-image-3",
+        "42cf59c8-132b-4699-ad27-cac4d2fc1a7c",
+        "794d50b4-2389-4a23-85ce-8595006434d4"
+      ],
+      "disabled": true,
+      "settings": {
+        "css_class": "",
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "7eb7be9b-7c27-415c-aad9-1594ebec913a": {
+      "type": "blog-posts",
+      "blocks": {
+        "0482c093-0de3-4ebe-a7b4-d3307a3f4f90": {
+          "type": "metafields_articles",
+          "settings": {
+            "metafield_keys": "custom.featured_blog_posts",
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "0482c093-0de3-4ebe-a7b4-d3307a3f4f90"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_excerpt": false,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "Featured blog posts",
+        "content": "",
+        "link_url": "shopify:\/\/blogs\/journal",
+        "link_text": "Read our Journal",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "00d943a3-b66f-454b-b224-b71577215940": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "{% render 'collection-hidden-variants-metafields' %}",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "f6e92d7b-cf52-489d-80b9-1adef837b2a7",
+    "51eb1867-52e6-4d43-b066-6c0e5295416a",
+    "main",
+    "banner",
+    "db4e91fa-476d-4686-ab31-fbb482428047",
+    "f0762195-51e2-4949-909f-5e71cc357da8",
+    "e92e95be-5fe8-42b4-b128-6886635437c6",
+    "7eb7be9b-7c27-415c-aad9-1594ebec913a",
+    "00d943a3-b66f-454b-b224-b71577215940"
+  ]
+}

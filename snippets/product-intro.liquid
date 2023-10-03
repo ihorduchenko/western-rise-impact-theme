@@ -1,0 +1,53 @@
+{%- capture product_form_id -%}product-form-{{ product.id }}-{{ section.id }}{%- endcapture -%}
+
+<div class="product-intro v-stack gap-2 md:hidden">
+  {%- for block in section.blocks -%}
+    {%- assign previous_block_index = forloop.index0 | minus: 1 -%}
+    {%- assign previous_block = section.blocks[previous_block_index] -%}
+    {%- assign next_block = section.blocks[forloop.index] -%}
+
+    {%- case block.type -%}
+      {%- when '@app' -%}
+        {%- render block -%}
+
+      {%- when 'vendor' -%}
+        {%- if product.vendor != blank -%}
+          <div class="product-info__vendor" {{ block.shopify_attributes }}>
+            {%- render 'vendor' with product.vendor -%}
+          </div>
+        {%- endif -%}
+
+      {%- when 'title' -%}
+        <div class="product-info__header h-stack wrap gap-2">
+          {%- if request.page_type == 'product' -%}
+            <h1 class="product-info__title flex-1 {{ block.settings.heading_tag }}" {{ block.shopify_attributes }}>{{ product.title }}</h1>
+          {%- else -%}
+            <h2 class="product-info__title flex-1 {{ block.settings.heading_tag }}" {{ block.shopify_attributes }}>
+              <a href="{{ product.url }}">{{ product.title }}</a>
+            </h2>
+          {%- endif -%}
+
+          {%- if block.settings.show_prices -%}
+            <div class="product-info__pricing">
+              {%- render 'price-list', variant: product.selected_or_first_available_variant, form_id: product_form_id, block: block, show_savings: true, text_mode: true -%}
+            </div>
+          {%- endif -%}
+
+          {%- if block.settings.star_rating_snippet != blank -%}
+            <div class="product-info__title-rating">
+              {{ block.settings.star_rating_snippet }}
+            </div>
+          {%- endif -%}
+        </div>
+
+      {%- when 'text' -%}
+        {%- if block.settings.text != blank -%}
+          <div class="product-info__text {{ block.settings.css_class }}" {{ block.shopify_attributes }}>
+            <div class="prose">
+              {{- block.settings.text -}}
+            </div>
+          </div>
+        {%- endif -%}
+    {%- endcase -%}
+  {%- endfor -%}
+</div>

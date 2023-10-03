@@ -1,0 +1,221 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "60ch"
+      }
+    },
+    "56da011d-de6e-4055-beef-80fa01c91866": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--15892020723895__56da011d-de6e-4055-beef-80fa01c91866-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "For Travelers. By Travelers.",
+            "heading_tag": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "template--15892020723895__56da011d-de6e-4055-beef-80fa01c91866-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/story-hero-banner.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/story-hero-banner-mob.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "154c7a31-ac83-4ee9-bb9d-a7a33a49eadc": {
+      "type": "story-timeline",
+      "blocks": {
+        "template--15892020723895__154c7a31-ac83-4ee9-bb9d-a7a33a49eadc-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/RShingledecker-Fall2020_20201020_01_467b5140-4c4a-4a3e-9320-35e6bc631d62.jpg",
+            "subheading": "",
+            "title": "Where the Paths Crossed",
+            "content": "<p>Will and Kelly Watters met in Vail, Colorado. They were both ski instructors, with Will doubling as a fly fishing guide. Their days were packed with action, but one inconvenience bugged them: lugging around a bag of activity-specific clothes.<\/p>"
+          }
+        },
+        "template--15892020723895__154c7a31-ac83-4ee9-bb9d-a7a33a49eadc-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/story-page-step-2.jpg",
+            "subheading": "",
+            "title": "Fabric of an Idea",
+            "content": "<p>Will's family in Georgia runs a successful multi-generation textile manufacturing business. This sparked an idea. Could they design versatile clothing using performance fibers that could transition across activities? Clothing that would adapt to their lives, not the other way around.<\/p>"
+          }
+        },
+        "template--15892020723895__154c7a31-ac83-4ee9-bb9d-a7a33a49eadc-item-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/story-page-step-3.jpg",
+            "subheading": "",
+            "title": "Travel, Not Just Trails",
+            "content": "<p>Their vision was bigger than just creating convenient outdoor wear. They saw their clothes in the hustle and bustle of Tokyo, in the vibrant markets of Marrakech, and in every place a modern traveler would want to explore. Clothes that wouldn’t just be worn, but lived in.<\/p>"
+          }
+        },
+        "4e7369d6-f75d-4ca8-a378-da35005be8ce": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/story-page-step-4.jpg",
+            "subheading": "",
+            "title": "A Brand Rises",
+            "content": "<p>They named their venture \"Western Rise\", inspired by their roots, the rise of the Rocky Mountains, and the indomitable spirit of explorers, adventurers, and entrepreneurs who made them their home.<\/p>"
+          }
+        },
+        "1595d085-8a82-4980-a0af-72481936a6fd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/story-page-step-5.jpg",
+            "subheading": "",
+            "title": "Stitching the Path Forward",
+            "content": "<p>Starting a clothing brand came with its fair share of challenges. Design, supply chain management, even moments of self-doubt, but their belief in their idea provided a steady compass.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15892020723895__154c7a31-ac83-4ee9-bb9d-a7a33a49eadc-item-1",
+        "template--15892020723895__154c7a31-ac83-4ee9-bb9d-a7a33a49eadc-item-2",
+        "template--15892020723895__154c7a31-ac83-4ee9-bb9d-a7a33a49eadc-item-3",
+        "4e7369d6-f75d-4ca8-a378-da35005be8ce",
+        "1595d085-8a82-4980-a0af-72481936a6fd"
+      ],
+      "settings": {
+        "full_width": true,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "619d1cbe-5090-4382-bcd5-24bffb60f2cc": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--15892020723895__619d1cbe-5090-4382-bcd5-24bffb60f2cc-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Global Threads",
+            "heading_tag": "h1"
+          }
+        },
+        "template--15892020723895__619d1cbe-5090-4382-bcd5-24bffb60f2cc-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Today, Western Rise clothes are worn by travelers worldwide. Their vision resonated with people who yearned for simplicity, versatility, and style on their journeys. A testament to the power of an idea born from a problem, fueled by determination, and realized through persistence.<\/p>"
+          }
+        },
+        "470d851b-50d3-4875-b8b0-6c4aefa6b74d": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "SHOP NOW",
+            "url": "shopify:\/\/collections\/in-stock",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "template--15892020723895__619d1cbe-5090-4382-bcd5-24bffb60f2cc-heading-1",
+        "template--15892020723895__619d1cbe-5090-4382-bcd5-24bffb60f2cc-richtext-1",
+        "470d851b-50d3-4875-b8b0-6c4aefa6b74d"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/story-logo-on-solid-color.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "2a10027a-8906-4fea-8801-771fa887a2af": {
+      "type": "press",
+      "blocks": {
+        "template--15892020723895__2a10027a-8906-4fea-8801-771fa887a2af-quote-3": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "Antony Bourdain",
+            "content": "",
+            "show_rating": false,
+            "rating": 4
+          }
+        }
+      },
+      "block_order": [
+        "template--15892020723895__2a10027a-8906-4fea-8801-771fa887a2af-quote-3"
+      ],
+      "custom_css": [
+        ".press-section--content {font-weight: 500;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "1bddba42-52ae-4120-b01c-be4e40a20234": {
+      "type": "featured-collection",
+      "custom_css": [
+        "section-header {grid-template-columns: unset; justify-content: center;}"
+      ],
+      "settings": {
+        "collection": "",
+        "products": [
+          "evolution-pant",
+          "limitless-merino-button-down-shirt",
+          "at-pant",
+          "x-cotton-tee"
+        ],
+        "full_width": false,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Shop Versatile Travel",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "56da011d-de6e-4055-beef-80fa01c91866",
+    "154c7a31-ac83-4ee9-bb9d-a7a33a49eadc",
+    "619d1cbe-5090-4382-bcd5-24bffb60f2cc",
+    "2a10027a-8906-4fea-8801-771fa887a2af",
+    "1bddba42-52ae-4120-b01c-be4e40a20234"
+  ]
+}

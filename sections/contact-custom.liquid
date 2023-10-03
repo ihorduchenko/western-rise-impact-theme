@@ -1,0 +1,385 @@
+{%- render 'section-spacing-collapsing' -%}
+
+{%- assign text_position = section.settings.text_position -%}
+
+<style>
+  #shopify-section-{{ section.id }} {
+    --section-stack-intro: {% if text_position == 'center' %}66.6667%{% elsif section.settings.contact_form_size == 'small' %}50%{% else %}41.6667%{% endif %};
+    --section-stack-main: {% if section.settings.contact_form_size == 'small' %}50%{% else %}58.3334%{% endif %};
+  }
+</style>
+
+<div {% render 'section-properties' %}>
+  {%- assign text_position = section.settings.text_position -%}
+
+  <div class="section-stack {% if text_position != 'center' %}section-stack--horizontal{% else %}section-stack--center{% endif %} {% if text_position == 'end' %}section-stack--reverse{% endif %}">
+    {%- capture content -%}
+      {%- if section.settings.subheading != blank -%}
+        <p class="bold">{{ section.settings.subheading | escape }}</p>
+      {%- endif -%}
+
+      {%- if section.settings.title != blank -%}
+        <h2 class="h2">
+          {%- render 'styled-text', content: section.settings.title, text_color: section.settings.heading_color, gradient: section.settings.heading_gradient -%}
+        </h2>
+      {%- endif -%}
+
+      {{- section.settings.content -}}
+    {%- endcapture -%}
+
+    {%- if content != blank -%}
+      <div class="section-stack__intro">
+        <div class="prose {% if text_position == 'center' %}text-center{% endif %}">
+          {{- content -}}
+        </div>
+      </div>
+    {%- endif -%}
+
+    <div class="section-stack__main">
+      <div {% render 'surface', class: 'contact-form rounded', background: section.settings.contact_background, text_color: section.settings.contact_text_color, background_fallback: 'bg-secondary' %}>
+
+        <form 
+          method="post" 
+          action="{{ section.settings.app_script_url | strip }}"
+          accept-charset="UTF-8" 
+          class="form contact-form contactForm">
+          <input 
+            name="Date and time"
+            type="hidden" 
+            class="currentDateTime" 
+            value='{{ "now" | date: "%Y-%m-%d %H:%M" }}'>
+          <div class="fieldset">
+            {%- for block in section.blocks -%}
+              {%- capture name -%}
+                {%- if block.settings.custom_name != blank -%}
+                  {{ block.settings.custom_name }}
+                {%- else -%}
+                  {{ block.settings.title }}
+                {%- endif -%}
+              {%- endcapture -%}
+              {%- assign input_type = block.settings.input_type -%}
+
+              {%- if block.type == 'text' -%}
+                {%- if block.settings.use_long_text -%}
+                  {%- render 'input', name: name, label: block.settings.title, required: block.settings.required, multiline: 4, block: block -%}
+                {%- else -%}
+                  {%- render 'input', type: input_type, name: name, label: block.settings.title, required: block.settings.required, block: block -%}
+                {%- endif -%}
+              {%- elsif block.type == 'dropdown' and block.settings.values != blank -%}
+                {%- assign values = block.settings.values | split: ',' -%}
+
+                {%- capture options -%}
+                  <option value="" disabled selected></option>
+                  {%- for value in values -%}
+                    <option value="{{ value | strip | escape }}">{{ value | strip | escape }}</option>
+                  {%- endfor -%}
+                {%- endcapture -%}
+
+                {%- render 'select', options: options, name: name, label: block.settings.title, required: block.settings.required, block: block -%}
+              {%- elsif block.type == 'checkbox' -%}
+                {%- render 'checkbox', name: name, label: block.settings.title, checked: block.settings.checked -%}
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+
+          <div class="{% if text_position == 'center' %}justify-self-center{% else%}justify-self-start{% endif %}">
+            {%- capture button_content -%}{{ 'contact.form.submit' | t }}{%- endcapture -%}
+            {%- render 'button', content: button_content, type: 'submit', size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color -%}
+          </div>
+
+          {%- if section.settings.success_message != blank -%}
+            {%- capture content -%}{{ section.settings.success_message }}{%- endcapture -%}
+            <div class="successMessage hidden">
+              {%- render 'banner', status: 'success', content: content -%}
+            </div>
+          {%- endif -%}
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+{%- if section.settings.app_script_url != blank and section.settings.emailjs_public_key != blank -%}
+  {% render 'contact-form-scripts',
+    section_id: section.id,
+    template_id: section.settings.emailjs_tmplt_id,
+    emailjs_public_key: section.settings.emailjs_public_key
+  %}
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Contact (custom)",
+  "class": "shopify-section--contact-custom",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Contact Us"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Do you have any question?"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content"
+    },
+    {
+      "type": "select",
+      "id": "text_position",
+      "label": "Text position",
+      "options": [
+        {
+          "value": "start",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "end",
+          "label": "Right"
+        }
+      ],
+      "default": "start"
+    },
+    {
+      "type": "select",
+      "id": "contact_form_size",
+      "label": "Contact form size",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "large"
+    },
+    {
+      "type": "header",
+      "content": "API helpers",
+      "info": "Email.JS, Google Sheets integrations"
+    },
+    {
+      "type": "text",
+      "id": "app_script_url",
+      "label": "App script URL",
+      "info": "Web app's URL-address from [Google Apps Scripts](https://script.google.com/)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Generate app's url using this [tutorial](https://github.com/levinunnink/html-form-to-google-sheet)"
+    },
+    {
+      "type": "text",
+      "id": "emailjs_public_key",
+      "label": "EmailJS public key",
+      "info": "Public key from [EmailJS dashboard](https://dashboard.emailjs.com/admin/account)"
+    },
+    {
+      "type": "text",
+      "id": "emailjs_tmplt_id",
+      "label": "EmailJS template ID",
+      "info": "Web app's URL-address from [EmailJS dashboard](https://dashboard.emailjs.com/admin/templates)"
+    },
+    {
+      "type": "textarea",
+      "id": "success_message",
+      "label": "Success message"
+    },
+    {
+      "type": "header",
+      "content": "Section colors",
+      "info": "Gradient replaces solid colors when set."
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color"
+    },
+    {
+      "type": "color_background",
+      "id": "heading_gradient",
+      "label": "Heading gradient"
+    },
+    {
+      "type": "header",
+      "content": "Contact block colors",
+      "info": "Gradient replaces solid colors when set."
+    },
+    {
+      "type": "color",
+      "id": "contact_background",
+      "label": "Background"
+    },
+    {
+      "type": "color",
+      "id": "contact_text_color",
+      "label": "Text"
+    },
+    {
+      "type": "color",
+      "id": "button_background",
+      "label": "Button background"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Text field",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Name",
+          "default": "Custom field"
+        },
+        {
+          "type": "checkbox",
+          "id": "use_long_text",
+          "label": "Use long text",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "required",
+          "label": "Required",
+          "default": false
+        },
+        {
+          "type": "select",
+          "id": "input_type",
+          "label": "Input type",
+          "options": [
+            {
+              "value": "text",
+              "label": "Text"
+            },
+            {
+              "value": "email",
+              "label": "Email"
+            },
+            {
+              "value": "tel",
+              "label": "Phone"
+            },
+            {
+              "value": "url",
+              "label": "URL"
+            },
+            {
+              "value": "date",
+              "label": "Date"
+            }
+          ],
+          "default": "text"
+        },
+        {
+          "type": "text",
+          "id": "custom_name",
+          "label": "Custom HTML name"
+        }
+      ]
+    },
+    {
+      "type": "dropdown",
+      "name": "Dropdown",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Name",
+          "default": "Custom field"
+        },
+        {
+          "type": "checkbox",
+          "id": "required",
+          "label": "Required",
+          "default": false
+        },
+        {
+          "type": "text",
+          "id": "values",
+          "label": "Values",
+          "info": "Separate each value by a comma.",
+          "default": "value 1, value 2, value 3"
+        },
+        {
+          "type": "text",
+          "id": "custom_name",
+          "label": "Custom HTML name"
+        }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "name": "Checkbox",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Name",
+          "default": "Custom field"
+        },
+        {
+          "type": "checkbox",
+          "id": "checked",
+          "label": "Checked?",
+          "default": false
+        },
+        {
+          "type": "text",
+          "id": "custom_name",
+          "label": "Custom HTML name"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Contact form custom",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

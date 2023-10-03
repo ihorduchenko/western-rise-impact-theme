@@ -1,0 +1,25 @@
+{%- assign current_fit = current_product.metafields.custom.fit.value -%}
+<fieldset class="variant-picker__option no-js:hidden option-fit">
+  <div class="variant-picker__option-info">
+    <div class="variant-picker__option-name text-sm font-monospaced h-stack gap-2">
+      <legend class="fw-600">{{ 'general.label.fit' | t }}:</legend>
+      <variant-option-value>{{ current_fit }}</variant-option-value>
+    </div>
+  </div>
+  <div {% unless block.settings.stack_blocks %}class="scroll-area bleed sm:unbleed"{% endunless %}>
+    <div data-option-selector1 class="variant-picker__option-values {% if block.settings.stack_blocks %}wrap{% else %}scroll-area bleed sm:unbleed{% endif %} {% if selector_type == 'color' and settings.color_swatch_style == 'rectangle' %}variant-picker__option-values--color gap-4{% else %}gap-2{% endif %}">
+      {%- for product_item in fit_master_products -%}
+        {%- assign selected = false -%}
+        {%- assign master_fit = product_item.metafields.custom.fit.value -%}
+        {%- assign href = product_item.url -%}
+        {%- if current_product.id == product_item.id -%}
+          {%- assign href = 'javascript:;' -%}
+        {%- endif -%}
+        {%- if master_fit == current_fit -%}
+          {%- assign selected = true -%}
+        {%- endif -%}
+        {%- render 'swatch' with 'block', size: size, href: href, selected: selected, value: master_fit -%}
+      {%- endfor -%}
+    </div>
+  </div>
+</fieldset>

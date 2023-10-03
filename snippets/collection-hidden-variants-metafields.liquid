@@ -1,0 +1,64 @@
+<div hidden="hidden" style="word-break: break-all;">
+  {%- if collection.metafields.custom.available_variants_part_1 != blank -%}
+    <div id="Variants-Part-1">
+      <strong class="fw-500">Variants Part-1 (no quotes)</strong><br>
+      {%- for variant in collection.metafields.custom.available_variants_part_1.value -%}
+        {{ variant.id }},
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+
+  {%- if collection.metafields.custom.available_variants_part_2 != blank -%}
+    <div id="Variants-Part-2">
+      <strong class="fw-500">Variants Part-2 (no quotes)</strong><br>
+      {%- for variant in collection.metafields.custom.available_variants_part_2.value -%}
+        {{ variant.id }},
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+
+  {%- if collection.metafields.custom.available_variants_part_3 != blank -%}
+    <div id="Variants-Part-3">
+      <strong class="fw-500">Variants Part-3 (no quotes)</strong><br>
+      {%- for variant in collection.metafields.custom.available_variants_part_3.value -%}
+        {{ variant.id }},
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+
+  {%- if collection.metafields.custom.available_variants_part_4 != blank -%}
+    <div id="Variants-Part-4">
+      <strong class="fw-500">Variants Part-4 (no quotes)</strong><br>
+      {%- for variant in collection.metafields.custom.available_variants_part_4.value -%}
+        {{ variant.id }},
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+
+  {%- if collection.metafields.custom.available_variants_part_5 != blank -%}
+    <div id="Variants-Part-5">
+      <strong class="fw-500">Variants Part-5 (no quotes)</strong><br>
+      {%- for variant in collection.metafields.custom.available_variants_part_5.value -%}
+        {{ variant.id }},
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+
+  {%- if collection.metafields.custom.available_variants_part_6 != blank -%}
+    <div id="Variants-Part-6">
+      <strong class="fw-500">Variants Part-6 (no quotes)</strong><br>
+      {%- for variant in collection.metafields.custom.available_variants_part_6.value -%}
+        {{ variant.id }},
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+
+  <div id="Variants-ALL">
+    <strong class="fw-500">Variants (ALL)</strong><br>
+    {% for product in collection.products %}
+      {% for variant in product.variants %}
+        {{ variant.id }},
+      {% endfor %}
+    {% endfor %}
+  </div>
+</div>

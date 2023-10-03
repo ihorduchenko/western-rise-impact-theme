@@ -1,0 +1,99 @@
+{
+  "sections": {
+    "f0dc3814-216b-4962-a555-5e1b254f7751": {
+      "type": "media-with-text",
+      "blocks": {
+        "8c7b6fe5-8f08-4f95-949c-fb5471d21ed4": {
+          "type": "image",
+          "settings": {
+            "image": "{{ page.metafields.custom.author.value.hero_image.value }}",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "{{ page.metafields.custom.author.value.name.value }}",
+            "content": "",
+            "extra_content": "<div class=\"h-stack gap-2 text-lg\">{{ page.metafields.custom.author.value.position }}<\/div>\n<div class=\"h-stack gap-2 text-sm\">\n{% render 'icon' with 'picto-pin' %}{{ page.metafields.custom.author.value.location }}<\/div>\n<div class=\"prose\"><p>{{ page.metafields.custom.author.value.short_bio | metafield_tag }}<\/p><\/div>\n<div class=\"h-stack gap-2 text-lg prose\">\n<a target=\"_blank\" class=\"link-faded\" href=\"{{ page.metafields.custom.author.value.instagram }}\">{% render 'icon' with 'instagram' %}<\/a>\n<a target=\"_blank\" class=\"link-faded\" href=\"{{ page.metafields.custom.author.value.facebook }}\">{% render 'icon' with 'facebook' %}<\/a>\n<\/div>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f1f0ed",
+            "background_gradient": "",
+            "text_color": "#222222",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "8c7b6fe5-8f08-4f95-949c-fb5471d21ed4"
+      ],
+      "custom_css": [
+        ".link-faded {background: none;}"
+      ],
+      "settings": {
+        "css_class": "",
+        "full_width": false,
+        "spacing": "none"
+      }
+    },
+    "38a4d700-79d8-498d-9630-1728b916efd2": {
+      "type": "press",
+      "blocks": {
+        "template--15885633749175__38a4d700-79d8-498d-9630-1728b916efd2-quote-1": {
+          "type": "quote",
+          "settings": {
+            "logo": "{{ page.metafields.custom.author.value.photo.value }}",
+            "logo_width": 50,
+            "author": "",
+            "content": "{{ page.metafields.custom.author.value.name.value }}",
+            "content_extended": "{{ page.metafields.custom.author.value.quote | metafield_tag }}",
+            "show_rating": true,
+            "rating": 4
+          }
+        }
+      },
+      "block_order": [
+        "template--15885633749175__38a4d700-79d8-498d-9630-1728b916efd2-quote-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "60ch"
+      }
+    },
+    "38204e30-4d90-4a0a-881e-5f406abf359a": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"page\">\n<div class=\"prose\">\n{{ page.content }}\n<\/div>\n<\/div>",
+        "background": "#f1f0ed",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "f0dc3814-216b-4962-a555-5e1b254f7751",
+    "38a4d700-79d8-498d-9630-1728b916efd2",
+    "main",
+    "38204e30-4d90-4a0a-881e-5f406abf359a"
+  ]
+}

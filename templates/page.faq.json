@@ -1,0 +1,643 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "60ch"
+      }
+    },
+    "c33f95f8-dbde-425b-b956-cc4672ceb30f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15877158830263__c33f95f8-dbde-425b-b956-cc4672ceb30f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "{{ page.title }}",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15877158830263__c33f95f8-dbde-425b-b956-cc4672ceb30f-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#f7f6f5",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "faq-group-01": {
+      "type": "faq",
+      "blocks": {
+        "template--17856110592266__e48bee1c-a851-4774-9c71-acf29f72534f-16846806922ca03130-0": {
+          "type": "item",
+          "settings": {
+            "title": "How does your apparel fit?",
+            "content": "<p>Western Rise products are designed and shaped specifically for an active lifestyle. We generally recommend ordering your usual size but, if you prefer a roomier fit, order a size up. <\/p><p>For your convenience, we provide both general <a href=\"http:\/\/westernrise.com\/pages\/fit\"><span style=\"text-decoration:underline\">size guidelines<\/span><\/a> as well as actual garment measurements on each product page. If you have any questions on sizing and fit, give us a shout at <a href=\"https:\/\/westernrise.com\/pages\/help@westernrise.com\"><span style=\"text-decoration:underline\">help@westernrise.com<\/span><\/a> or send us a chat message, and we will be happy to help!<\/p>"
+          }
+        },
+        "template--17856110592266__e48bee1c-a851-4774-9c71-acf29f72534f-16846806922ca03130-1": {
+          "type": "item",
+          "settings": {
+            "title": "Where can I try on your apparel?",
+            "content": "<p>In the comfort of your own home! Western Rise is an online brand, so consider your bedroom the dressing room. We offer free <a href=\"https:\/\/westernrise.returnly.com\/\"><span style=\"text-decoration:underline\">returns and exchanges<\/span><\/a>, so feel free to buy two sizes and return the size that doesn't fit.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17856110592266__e48bee1c-a851-4774-9c71-acf29f72534f-16846806922ca03130-0",
+        "template--17856110592266__e48bee1c-a851-4774-9c71-acf29f72534f-16846806922ca03130-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Sizing \/ Fit",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#f7f6f5",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#ffffff",
+        "accordion_text_color": ""
+      }
+    },
+    "bed47751-34d4-4932-a157-41f19a2f24ef": {
+      "type": "faq",
+      "blocks": {
+        "template--15877158830263__bed47751-34d4-4932-a157-41f19a2f24ef-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "What are your shipping policies?",
+            "content": "<p>We offer<strong> Flat Rate<\/strong> standard (2 weeks)* shipping for all domestic (US) orders under $150. <br\/><br\/>For all <strong>orders over $150 <\/strong>we do offer <strong>FREE<\/strong> Standard Shipping, for all domestic (US) orders. <\/p><p>*This timeframe is an estimate, Western Rise does not guarantee  shipping timeframes for non-expedited shipping methods. <\/p><p>We also offer several different Flat Rate expedited domestic (US) shipping options:<\/p><p>- Standard (3-5 Business Days) - <strong>5$<\/strong><br\/>- Priority (3-5 Business Days) - <strong>7$<\/strong><br\/>- Express (1-2 business days) - <strong>$40<\/strong> <\/p><p>Shipping option times are based on in-route time <strong>after <\/strong>the order has been processed.  <\/p><p>Standard order processing is 2-3 business days but can take up to 7 in high volume times.  Orders placed after 12pm Friday, over the weekend, or on holidays are processed the following active business day. <\/p><p><strong>Please note:<\/strong> Western Rise ships orders to the address provided to us at time of checkout and is not responsible for reshipping packages mis-delivered or returned to sender  if the address provided is incorrect.<br\/>If you notice an incorrect address on your order confirmation, please contact us ASAP, so we can correct it prior to shipping.<\/p><p>If you have any questions or special shipping\/handling instructions, please reach out to us at <a href=\"https:\/\/westernrise.com\/pages\/help@westernrise.com\"><span style=\"text-decoration:underline\">help@westernrise.com<\/span><\/a>, or chat with us on westernrise.com<\/p>"
+          }
+        },
+        "template--15877158830263__bed47751-34d4-4932-a157-41f19a2f24ef-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "Do you offer international shipping?",
+            "content": "<p>We offer shipping with Passport to a variety of countries in North America, Europe, Asia and the world. Shipping rates are set by our carrier and are shown at checkout. Once your order is shipped, we will provide you with point-to-point tracking. <\/p><p><strong>Duties and Taxes<\/strong>: When a package is shipped internationally, it may be subject to import taxes, customs duties, and\/or fees imposed by the destination country. These charges are due once the shipped goods arrive at the destination country. <br\/><br\/>For some countries, customs\/duties are due at the time of checkout. For these countries, only the \"duties paid\" shipping option will be available.<br\/><br\/>You are responsible for ensuring compliance with laws and regulations of the destination country. Western Rise is not responsible for additional charges that may apply. <\/p><p>If you are unsure of the customs fees leveraged by your country of origin, we encourage you to contact your local customs office or select the \"duties paid” shipping option.<\/p><p>Note: International shipments returned to us because of insufficient\/incorrect address information, or refusal to pay customs, can not not be reshipped. You will be responsible for reshipping fees. <\/p><p>We do not currently offer expedited shipping options for international (Non-US) shipments.  <\/p>"
+          }
+        },
+        "template--15877158830263__bed47751-34d4-4932-a157-41f19a2f24ef-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "Can I make a change to my order after placing it?",
+            "content": "<p>If you need to make an order change please reach out to us at help@westernrise.com ASAP. We will do our best to get the change made for you, but we can't guarantee any requested changes after your order is placed.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15877158830263__bed47751-34d4-4932-a157-41f19a2f24ef-item-1",
+        "template--15877158830263__bed47751-34d4-4932-a157-41f19a2f24ef-item-2",
+        "template--15877158830263__bed47751-34d4-4932-a157-41f19a2f24ef-item-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Orders \/ Shipping",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#f7f6f5",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#ffffff",
+        "accordion_text_color": ""
+      }
+    },
+    "f6a3d046-04cb-4d48-856a-6f2b2d77c248": {
+      "type": "faq",
+      "blocks": {
+        "fe0ea5fc-b5de-4f5a-b2ec-f8547d8d460b": {
+          "type": "item",
+          "settings": {
+            "title": "What is your return\/refund policy (Domestic - US)?",
+            "content": "<p>Western Rise offers free returns.<\/p><p>We are happy to accept returns on unworn items in their <strong>original condition, <\/strong>(unworn, unwashed, tags attached) ordered through <a href=\"http:\/\/www.westernrise.com\"><span style=\"text-decoration:underline\">www.westernrise.com<\/span><\/a> within 30 days of their ship date. In-person returns, exchanges, and store credit are <strong>free<\/strong>. Mail-in returns have a $8 shipping label fee, which is waived if you opt for a store credit refund. <\/p><p>We accept in-person retuyrns at our Telluride store, or any Happy Returns Bar, for products ordered through <a href=\"http:\/\/www.westernrise.com\"><span style=\"text-decoration:underline\">www.westernrise.com<\/span><\/a>. <\/p><p>Please visit the retailer directly for any purchases from other locations including Amazon.<\/p><p>Find a Happy Returns Bar location <a href=\"https:\/\/locations.happyreturns.com\/\"><span style=\"text-decoration:underline\">HERE<\/span><\/a> <\/p><p>Begin a mail in return\/exchange <a href=\"https:\/\/western-rise.happyreturns.com\/\" target=\"_blank\" title=\"Western Rise Return Portal\"><span style=\"text-decoration:underline\">HERE<\/span><\/a><\/p><p>Begin a gift exchange <a href=\"https:\/\/western-rise.happyreturns.com\/\" target=\"_blank\" title=\"Western Rise Return Portal\"><span style=\"text-decoration:underline\">HERE<\/span><\/a><\/p><p><strong>Holiday Return Window:<\/strong> We extend our return\/exchange period during the holidays, to allow for gift returns or exchanges. All items purchased from after November 1st are eligible for return\/exchanges until January 15th of the following year.<\/p><p><strong>Exceptions:<\/strong> Western Rise is unable to accept returns for face masks, socks, and undergarments and Last Call\/Final Sale items. We appreciate your understanding. <\/p><p><em>Note: Refunds do not include any shipping costs paid on your original order.<\/em><\/p>"
+          }
+        },
+        "f6b41517-24d7-4e83-92d2-85c002572f66": {
+          "type": "item",
+          "settings": {
+            "title": "What is your return\/refund policy (International)?",
+            "content": "<p>We do not accept returns or exchanges for international international orders. <\/p><p>For questions please reach out to us at help@westernrise.com.<\/p>"
+          }
+        },
+        "5e807c3c-c5f4-4118-a671-fefe834dabff": {
+          "type": "item",
+          "settings": {
+            "title": "How do I start a return\/exchange?",
+            "content": "<p>To initiate a return or exchange for items ordered from westernrise.com you may return at any Happy Returns Bar location or through the returns portal: <a href=\"https:\/\/western-rise.happyreturns.com\/\" target=\"_blank\" title=\"https:\/\/western-rise.happyreturns.com\/\">western-rise.happyreturns.com<\/a>.<\/p><p>Find a Happy Returns Bar location <a href=\"https:\/\/locations.happyreturns.com\/\"><span style=\"text-decoration:underline\">HERE<\/span><\/a> <\/p><p>Begin a mail in return\/exchange <a href=\"https:\/\/western-rise.happyreturns.com\/\" target=\"_blank\" title=\"Western Rise Return Portal\"><span style=\"text-decoration:underline\">HERE<\/span><\/a><\/p><p>Please reach out to the retailer directly for any purchases made from non westernrise.com locations including Amazon.<\/p><p>If you are having trouble setting up your return\/exchange through this portal, please send us an email at help@westernrise.com. We are happy to help.<\/p><p><em>International purchases are final.<\/em><\/p>"
+          }
+        },
+        "db43c232-8940-4072-b0f3-77c2768907ee": {
+          "type": "item",
+          "settings": {
+            "title": "I received Western Rise gift. How do I exchange it?",
+            "content": "<p>If you have the westernrise.com order number or email of the purchaser, you can begin a gift exchange <a href=\"https:\/\/western-rise.happyreturns.com\/\" target=\"_blank\" title=\"Western Rise Return Portal\"><span style=\"text-decoration:underline\">HERE<\/span><\/a>.<\/p><p>Please reach out to the retailer directly for any purchases made from non westernrise.com locations including Amazon.<\/p><p>For assistance email at help@westernrise and include your name, address, phone number, name of original purchaser and order #, if you have it. We are happy to help.<\/p><p>Gift returns will be issued in store credit.<\/p><p><em>The 30-day return policy applies to gifts Orders placed between November 1- 31, are eligible for return\/exchange until January 15th.<\/em><\/p>"
+          }
+        },
+        "f74573cd-5c45-4029-b142-1cc993b1febb": {
+          "type": "item",
+          "settings": {
+            "title": "Can I return\/exchange Last Chance or Final Sale items?",
+            "content": "<p>Last Chance or Final Sale items are not eligible for return or exchange. We appreciate your understanding.<\/p>"
+          }
+        },
+        "0a3990b9-3fa4-4dd6-ac6c-6c423ec1aa1f": {
+          "type": "item",
+          "settings": {
+            "title": "Can I return \/ exchange items form a bundle?",
+            "content": "<p>Items ordered in a discounted bundle are eligible for return or exchange together or individually.<\/p><p>If an individual item from a bundle is returned for a refund, then the bundle discount no longer applies. Your refund will be adjusted to reflect the new total, less the full cost of the other items. <\/p><p>For assistance please reach out to us directly at <a href=\"mailto:help@westernrise.com\"><span style=\"text-decoration:underline\">help@westernrise.com<\/span><\/a>.<\/p>"
+          }
+        },
+        "cc1b7703-b988-408e-9db4-5a028accfd3a": {
+          "type": "item",
+          "settings": {
+            "title": "Can I return or exchange items purchased on Kickstarter?",
+            "content": "<p>Kickstarter orders are not eligible for return, but domestic shipments are eligible for exchange. <\/p><p>To start a Kickstarter exchange email us at <a href=\"mailto:help@westernrise.com\"><span style=\"text-decoration:underline\">help@westernrise.com<\/span><\/a>. We are happy to help.<\/p><p><em>Please note: International purchases are final. If a package is refused due to the customs fees not being paid, we will be unable to refund you for your shipment.<\/em><\/p><p>Please contact us before sending back your Kickstarter return. We can not support exchanges that are not in the Western Rise returns system or that arrive at an incorrect location.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "fe0ea5fc-b5de-4f5a-b2ec-f8547d8d460b",
+        "f6b41517-24d7-4e83-92d2-85c002572f66",
+        "5e807c3c-c5f4-4118-a671-fefe834dabff",
+        "db43c232-8940-4072-b0f3-77c2768907ee",
+        "f74573cd-5c45-4029-b142-1cc993b1febb",
+        "0a3990b9-3fa4-4dd6-ac6c-6c423ec1aa1f",
+        "cc1b7703-b988-408e-9db4-5a028accfd3a"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Returns \/ Exchanges",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#f7f6f5",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#ffffff",
+        "accordion_text_color": ""
+      }
+    },
+    "19f2b941-1487-4328-a696-a36511630a25": {
+      "type": "faq",
+      "blocks": {
+        "051b6229-6856-4a86-b3f6-0352f45f16c2": {
+          "type": "item",
+          "settings": {
+            "title": "A product that I want is out of stock, will you be restocking it?",
+            "content": "<p>Western Rise products are made in small batches and can go out of stock quickly. Some of our products are restocked regularly, while others are limited edition releases and will not be restocked. <\/p><p>If a product you would like is currently out of stock, you can select the size and color you would like and sign up with your email for a notification when it is back in stock. As our products are available on a first-come, first-serve basis, this is the best way to get the first shot at a product you are looking for!<\/p><p>If you have any questions about stock levels, or restocking times, feel free to reach out to us at help@westernrise.com and we will be happy to provide current updates. <br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "051b6229-6856-4a86-b3f6-0352f45f16c2"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Product Availability",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#f7f6f5",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#ffffff",
+        "accordion_text_color": ""
+      }
+    },
+    "45a57da2-496e-4580-8ff2-06f417fd6bc5": {
+      "type": "faq",
+      "blocks": {
+        "047b7608-3e26-4f2d-b877-839d38f91170": {
+          "type": "item",
+          "settings": {
+            "title": "What are the care instructions for the AT Pants, Evolution Pants\/Shorts and Diversion Pants?",
+            "content": "<p>Due to these pieces having a Durable Water Repellent application, they will absorb less odor, resist most stains and can be worn more\/longer than typical apparel. <\/p><p>Thus, they can and should be washed less frequently. <\/p><p>Wash with like colors with mild detergent cold. Tumble dry low or lay flat. Do not use fabric softener during wash as this may damage the water repellency. <\/p><p>Please note that due to the stretch material of these pants, you may experience up to a half-size shrinkage after washing and drying in warm\/hot water. This is temporary and they will return to their normal size after a wear. They can also be stretched back out by hand if needed. <\/p><p><strong>Do Not<\/strong> bleach. <strong>Do Not<\/strong> dry clean. Iron on low heat ONLY.  <\/p><p>Avoid oils and grease as they will permanently damage the water repellent treatment and possibly stain the piece. To remove oil stains use mild dish detergent like Dawn.<\/p><p>Water Repellent Treatment- To reactivate treatment machine dry on medium heat or iron on low heat no steam.<\/p>"
+          }
+        },
+        "2191e497-8b3c-48f4-b938-9f044f2510e6": {
+          "type": "item",
+          "settings": {
+            "title": "What are the care instructions for the Spectrum Joggers, Movement and Boundless Shorts?",
+            "content": "<p>Due to these pieces having a Durable Water Repellent application, they will absorb less odor, resist most stains and can be worn more\/longer than typical apparel. <\/p><p>Thus, they can and should be washed less frequently. <\/p><p>Wash with like colors with mild detergent cold. Tumble dry medium or hang dry. Do not use fabric softener during wash as this may damage the water repellency. <\/p><p><strong>Do Not<\/strong> bleach. Cool iron ONLY.  Dry clean by professional only. <\/p><p>Avoid oils and grease as they will permanently damage the water repellent treatment and possibly stain the piece. To remove oil stains use mild dish detergent like Dawn.<\/p><p>Water Repellent Treatment- To reactivate treatment, machine dry on medium heat<\/p>"
+          }
+        },
+        "d6b0a59a-8e46-422f-b026-9e155c6f4e14": {
+          "type": "item",
+          "settings": {
+            "title": "What are the care instructions for the Limitless Shirts\/Polos, StrongCore Tees\/Longsleeves, StrongCore Face Masks, StrongCore Merino Boxers and Merino Wool Socks?",
+            "content": "<p>Wash with like colors with mild wool detergent (Kookaburra) cold. Lay flat to dry(recommended).  <\/p><p><br\/>These can be tumble dried, low, but expect a half-size shrinkage.<\/p><p><strong><br\/>Do not<\/strong> use bleach. <strong>Do not<\/strong> dry clean.<\/p>"
+          }
+        },
+        "0833f65f-2189-4db0-8077-d3f37cd5b6f2": {
+          "type": "item",
+          "settings": {
+            "title": "What are the care instructions for the StrongCore Merino Hoodie Sweaters?",
+            "content": "<p>Due to the nature of the merino wool fabric, this piece does not need frequent laundering and does not need to be washed often.<\/p><p>We recommend hand washing and drying flat, or dry cleaning to extend the life of this piece.<\/p><p>While not recommended, if machine washed and dried, expect a half-size or more shrinkage.<\/p>"
+          }
+        },
+        "bd6a7965-d4aa-4cdb-a9e8-29cafd6db7da": {
+          "type": "item",
+          "settings": {
+            "title": "What are the care instructions for the Airlight Button-Down and Short Sleeve shirts?",
+            "content": "<p>Due to these pieces having a Durable Water Repellent application, they will absorb less odor, resist most stains and can be worn more\/longer than typical apparel. <\/p><p>Thus, they can and should be washed less frequently.  <\/p><p>Wash with like colors with mild detergent cold. Tumble dry low or lay flat. Do not use fabric softener during wash as this may damage the water repellency. <\/p><p><strong>Do Not<\/strong> bleach. <strong>Do Not<\/strong> dry clean.<\/p><p>Avoid oils and grease as they will permanently damage the water repellent treatment and possibly stain the piece. To remove oil stains, use mild dish detergent like Dawn.<\/p><p>Water Repellent Treatment - To reactivate treatment, machine dry on medium heat or iron on low heat, no steam.<\/p>"
+          }
+        },
+        "5d3ea264-f2a6-48c3-9ec9-c0bf416e3ad5": {
+          "type": "item",
+          "settings": {
+            "title": "What are the care instructions for the Session Tees?",
+            "content": "<p>Machine Wash Cold. Tumble dry low or hang dry (recommended).<\/p><p><strong>Do Not<\/strong> Iron. <strong>Do Not<\/strong> Bleach. <strong>Do Not<\/strong> Dry Clean. <\/p>"
+          }
+        },
+        "436a6a57-e3d3-4129-9623-c57537495370": {
+          "type": "item",
+          "settings": {
+            "title": "What are the care instructions for the X Cotton Tees and Henleys?",
+            "content": "<p>Wash with like colors with mild detergent.<\/p><p>Tumble dry low or line dry. Expect half-size shrinkage on first wash\/dry. <\/p>"
+          }
+        },
+        "e6508df5-00e4-4527-b796-820ad5ff33e0": {
+          "type": "item",
+          "settings": {
+            "title": "What are the care instructions for the Airloft Shirt and Hooded Jackets?",
+            "content": "<p>Due to these pieces having a Durable Water Repellent application, they will absorb less odor, resist most stains and can be worn more\/longer than typical apparel. <\/p><p>Thus, they can and should be washed less frequently. <\/p><p>Thus, the AirLofts can and should be washed less frequently.<\/p><p>When necessary: wash with like colors with mild detergent cold. Line dry.<\/p><p><strong>Do not<\/strong> use bleach or fabric softener as these will damage coloring and water resistance.<\/p><p>Over time the water resistance may appear to wear down. The water resistance can be reactivated with a quick tumble in the dryer on low or by applying a tech wash.<\/p><p>Avoid oils and grease as they will permanently damage the water repellent treatment and possibly stain the piece.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "047b7608-3e26-4f2d-b877-839d38f91170",
+        "2191e497-8b3c-48f4-b938-9f044f2510e6",
+        "d6b0a59a-8e46-422f-b026-9e155c6f4e14",
+        "0833f65f-2189-4db0-8077-d3f37cd5b6f2",
+        "bd6a7965-d4aa-4cdb-a9e8-29cafd6db7da",
+        "5d3ea264-f2a6-48c3-9ec9-c0bf416e3ad5",
+        "436a6a57-e3d3-4129-9623-c57537495370",
+        "e6508df5-00e4-4527-b796-820ad5ff33e0"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Care",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#f7f6f5",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#ffffff",
+        "accordion_text_color": ""
+      }
+    },
+    "48804d8c-8840-4c7c-8e6b-39d446957b10": {
+      "type": "faq",
+      "blocks": {
+        "3fd8a1e2-2d5c-4427-b6ca-7a6ee3bc4793": {
+          "type": "item",
+          "settings": {
+            "title": "What is your warranty?",
+            "content": "<p>We offer a limited lifetime warranty on all of our products against defects in material or workmanship. <\/p><p>If your item has a manufacturing defect in its materials or workmanship, please reach out to us at help@westernrise.com, send along a few photos showing the issue, and we will get you a repair or replacement.<\/p><p>WESTERN RISE’s warranty <strong>DOES NOT<\/strong> cover ordinary wear and tear, damage caused by improper care, improper use or accidents.<\/p><p>WESTERN RISE will ultimately make the final decision whether any damage was caused by a manufacturing defect or wear and tear.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "3fd8a1e2-2d5c-4427-b6ca-7a6ee3bc4793"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Warranty",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#f7f6f5",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#ffffff",
+        "accordion_text_color": ""
+      }
+    },
+    "6006a7b3-02e8-45ba-b00f-7bb2e4e6a2d9": {
+      "type": "faq",
+      "blocks": {
+        "1fdfa843-af64-4a57-8b54-e825acce34df": {
+          "type": "item",
+          "settings": {
+            "title": "Do you honor sale pricing after a sale ends?",
+            "content": "<p>Western Rise is unable to honor sale pricing outside of the posted sale date. Sale prices apply to in-stock items only and we are unable to do “rain checks” for out of stock products.<\/p>"
+          }
+        },
+        "7dd22541-f50b-4f9e-ad0a-fbf1f9069538": {
+          "type": "item",
+          "settings": {
+            "title": "I have multiple coupons codes from Western Rise, can I apply them all to my order?",
+            "content": "<p>Only one discount code may be applied to each purchase. We do not offer double discounts. In instances of large site-wide discounts, additional discounts are temporarily unavailable to use during the sale term.<\/p>"
+          }
+        },
+        "3f265664-13e8-417f-817e-506403cf0696": {
+          "type": "item",
+          "settings": {
+            "title": "I purchased an item with a discount or during a sale is it still eligible for a return\/exchange?",
+            "content": "<p>Yes! Items purchased on sale are still eligible for return or exchange according to our normal 30-day return policy.<\/p>"
+          }
+        },
+        "153cc4d5-b5f6-4902-8757-1eb09877b34b": {
+          "type": "item",
+          "settings": {
+            "title": "I purchased an item marked as “Final Sale” what does that mean?",
+            "content": "<p>Products marked as \"Final Sale\" are items that we are no longer going to be restocking, or are items that we cannot allow returns on due to health and safety reasons. <br\/><br\/>Because of these reasons, these items are not eligible for returns or exchanges. This includes all sale items in our Last Chance collection. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1fdfa843-af64-4a57-8b54-e825acce34df",
+        "7dd22541-f50b-4f9e-ad0a-fbf1f9069538",
+        "3f265664-13e8-417f-817e-506403cf0696",
+        "153cc4d5-b5f6-4902-8757-1eb09877b34b"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Sale Terms",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#f7f6f5",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#ffffff",
+        "accordion_text_color": ""
+      }
+    },
+    "ae306902-de0d-4f4b-9414-8e2702a165ef": {
+      "type": "faq",
+      "blocks": {
+        "d5a894fe-f5eb-4292-861b-2114885a3226": {
+          "type": "item",
+          "settings": {
+            "title": "Does Western Rise offer gift cards?",
+            "content": "<p>Yes! We do offer <a href=\"https:\/\/westernrise.com\/products\/gift-card?variant=1148405321\"><span style=\"text-decoration:underline\">Gift Cards<\/span><\/a>. Currently, they are offered at various $50\/$100 increments but if you would like a different amount, feel free to reach out to us at help@westernrise.com and we can make any amount happen! <br\/><br\/>Gift card codes can be applied during checkout and do not expire.<br\/><br\/><strong>Please Note<\/strong>: Gift cards are only eligible for purchases on westernrise.com or at our HQ store in Telluride, CO. <br\/><br\/>They cannot be used  for purchases through other online stores or retail locations. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "d5a894fe-f5eb-4292-861b-2114885a3226"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Gift Cards",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#f7f6f5",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#ffffff",
+        "accordion_text_color": ""
+      }
+    },
+    "ebe06c27-863c-4ac7-b5b9-5188ac8defdf": {
+      "type": "faq",
+      "blocks": {
+        "05474428-1c44-4a8b-ad57-dcf41825ac3c": {
+          "type": "item",
+          "settings": {
+            "title": "How do I participate?",
+            "content": "<p>Joining is easy! Just click the Create An Account button to get started. Once you're registered with our store, you'll automatically be enrolled in our rewards program and start earning points. <br\/><br\/>Please note that all orders placed prior to 07\/14\/2021 are not eligible for points and we cannot add points retroactively. <br\/><br\/>However, all orders placed in 2021 DO count towards your reward tier amount. <\/p>"
+          }
+        },
+        "d28986b8-aad5-488a-b088-da930cfe8481": {
+          "type": "item",
+          "settings": {
+            "title": "How can I earn points?",
+            "content": "<p>You can earn points by participating in any of our rewards promotions.  Simply click on the 'Earn Points' tab to view and take part in our current opportunities. Make sure to check back often, as we will continue to add new options to earn points. <\/p>"
+          }
+        },
+        "a7cd6ce2-bbd2-44ed-99b8-2641106ae1ff": {
+          "type": "item",
+          "settings": {
+            "title": "What can I redeem my points for?",
+            "content": "<p>Points can be redeemed for discounts on future orders. <\/p>"
+          }
+        },
+        "0bf5406c-23a2-463a-8869-792c4f7eb614": {
+          "type": "item",
+          "settings": {
+            "title": "How do I redeem my points?",
+            "content": "<p>Exchanging your points for great rewards couldn't be easier! Simply visit the 'Get Rewards' tab to view all of our great reward options and click the 'Redeem' button to redeem your reward.<\/p>"
+          }
+        },
+        "07edde79-8493-4075-8e29-ca65371bcab5": {
+          "type": "item",
+          "settings": {
+            "title": "How do I check my points balance?",
+            "content": "<p>Your up-to-date points balance is displayed on your rewards page. Just login to your account to view your current balance. <\/p>"
+          }
+        },
+        "6c226b70-63a8-4250-8b03-c7051e125012": {
+          "type": "item",
+          "settings": {
+            "title": "Does it cost anything to begin earning points?",
+            "content": "<p>Sign up is 100% free and you will begin earning points immediately after sign-up.  Make sure to visit the 'Earn Points' tab to get started.<\/p>"
+          }
+        },
+        "c62ec836-8016-4a15-80f7-68520a5932f8": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take for points to post to my account?",
+            "content": "<p>You should receive points in your account a few minutes (or less) after you complete a promotion! If you are not seeing your points, refresh your browser.<\/p>"
+          }
+        },
+        "6588b239-2c44-477e-851a-4e3669fe6bad": {
+          "type": "item",
+          "settings": {
+            "title": "Do my points expire?",
+            "content": "<p>Nope! Your points will never expire.<\/p>"
+          }
+        },
+        "041dc62a-7021-46e5-b3e4-d4ffb3b34533": {
+          "type": "item",
+          "settings": {
+            "title": "What happens to my points if I make a return?",
+            "content": "<p>When you return an item, you lose the associated credit you originally earned by buying the item in the first place. <br\/><br\/>For example: let's say you had previously spent $50 towards a 'spend $100, earn 500 points' promotion, and you decide to buy a $20 item, which bumps you up to $70. If you decide to return that item, your progress would also go back down to $50 – it's just like you hadn't bought the item in the first place.<\/p>"
+          }
+        },
+        "a50b6a40-0009-4170-8620-5f39ac3fca70": {
+          "type": "item",
+          "settings": {
+            "title": "I'm very close to earning a reward. Can I buy extra points to get there?",
+            "content": "<p>We currently require you to have enough points to redeem any of the awards you see listed on the 'Get Rewards' tab.<\/p>"
+          }
+        },
+        "9c3ead22-ecd0-41bc-8722-eae395ada460": {
+          "type": "item",
+          "settings": {
+            "title": "What if I don't want to receive promotional emails?",
+            "content": "<p>From time to time, you'll receive program-related emails from us. If you'd prefer to not receive those types of emails anymore, just click the 'Unsubscribe' button when you receive your next email.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "05474428-1c44-4a8b-ad57-dcf41825ac3c",
+        "d28986b8-aad5-488a-b088-da930cfe8481",
+        "a7cd6ce2-bbd2-44ed-99b8-2641106ae1ff",
+        "0bf5406c-23a2-463a-8869-792c4f7eb614",
+        "07edde79-8493-4075-8e29-ca65371bcab5",
+        "6c226b70-63a8-4250-8b03-c7051e125012",
+        "c62ec836-8016-4a15-80f7-68520a5932f8",
+        "6588b239-2c44-477e-851a-4e3669fe6bad",
+        "041dc62a-7021-46e5-b3e4-d4ffb3b34533",
+        "a50b6a40-0009-4170-8620-5f39ac3fca70",
+        "9c3ead22-ecd0-41bc-8722-eae395ada460"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Rewards Program",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#f7f6f5",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#ffffff",
+        "accordion_text_color": ""
+      }
+    },
+    "e96fa608-9d16-4b4c-a72b-29a2b8bac975": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15877158830263__e96fa608-9d16-4b4c-a72b-29a2b8bac975-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Still Need Help?",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "b19ffb95-b972-49ad-afe9-fb24fd1f0dea": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Submit question",
+            "url": "shopify:\/\/pages\/contact",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15877158830263__e96fa608-9d16-4b4c-a72b-29a2b8bac975-heading-1",
+        "b19ffb95-b972-49ad-afe9-fb24fd1f0dea"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#f7f6f5",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c33f95f8-dbde-425b-b956-cc4672ceb30f",
+    "faq-group-01",
+    "bed47751-34d4-4932-a157-41f19a2f24ef",
+    "f6a3d046-04cb-4d48-856a-6f2b2d77c248",
+    "19f2b941-1487-4328-a696-a36511630a25",
+    "45a57da2-496e-4580-8ff2-06f417fd6bc5",
+    "48804d8c-8840-4c7c-8e6b-39d446957b10",
+    "6006a7b3-02e8-45ba-b00f-7bb2e4e6a2d9",
+    "ae306902-de0d-4f4b-9414-8e2702a165ef",
+    "ebe06c27-863c-4ac7-b5b9-5188ac8defdf",
+    "e96fa608-9d16-4b4c-a72b-29a2b8bac975"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "60ch"
+      }
+    },
+    "7a609b54-043d-4ea9-95e7-dee3c01ddf05": {
+      "type": "contact-custom",
+      "blocks": {
+        "ac6a4d44-714e-4091-9531-a2e982ea928c": {
+          "type": "text",
+          "settings": {
+            "title": "Name",
+            "use_long_text": false,
+            "required": true,
+            "input_type": "text"
+          }
+        },
+        "5c129efb-c8d2-4674-9342-cef664da0e12": {
+          "type": "text",
+          "settings": {
+            "title": "Email",
+            "use_long_text": false,
+            "required": true,
+            "input_type": "email"
+          }
+        },
+        "a6f6742c-5d1b-43b3-a8f1-835aaeafde4a": {
+          "type": "text",
+          "settings": {
+            "title": "Address",
+            "use_long_text": false,
+            "required": false,
+            "input_type": "text"
+          }
+        },
+        "a4c8c9e9-34a3-4cc1-b3d6-b7ff28895c2b": {
+          "type": "text",
+          "settings": {
+            "title": "Pants Size (WxL)",
+            "use_long_text": false,
+            "required": false,
+            "input_type": "text"
+          }
+        },
+        "a64d13f3-ca83-4fc8-8929-40ec7dc8c715": {
+          "type": "text",
+          "settings": {
+            "title": "Pants Color",
+            "use_long_text": false,
+            "required": false,
+            "input_type": "text"
+          }
+        },
+        "5c99876d-f3a6-4132-be3d-002c8f9b0a2f": {
+          "type": "text",
+          "settings": {
+            "title": "Other Notes",
+            "use_long_text": false,
+            "required": false,
+            "input_type": "text"
+          }
+        }
+      },
+      "block_order": [
+        "ac6a4d44-714e-4091-9531-a2e982ea928c",
+        "5c129efb-c8d2-4674-9342-cef664da0e12",
+        "a6f6742c-5d1b-43b3-a8f1-835aaeafde4a",
+        "a4c8c9e9-34a3-4cc1-b3d6-b7ff28895c2b",
+        "a64d13f3-ca83-4fc8-8929-40ec7dc8c715",
+        "5c99876d-f3a6-4132-be3d-002c8f9b0a2f"
+      ],
+      "custom_css": [
+        ".contact-form {padding: 0;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "{{ page.title }}",
+        "content": "",
+        "text_position": "center",
+        "contact_form_size": "large",
+        "app_script_url": "https:\/\/script.google.com\/macros\/s\/AKfycbz7Q9WB25ZUByBPClTA0oTj-85S_aBxO5d-ykGBx-equ_i1FTbJUoyNMjmlytBV1frI\/exec",
+        "emailjs_public_key": "user_3xcq5CMFhp8lAmPS0oqmT",
+        "emailjs_tmplt_id": "template_oinx70b",
+        "success_message": "Thank you!",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "#ffffff",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "7a609b54-043d-4ea9-95e7-dee3c01ddf05"
+  ]
+}

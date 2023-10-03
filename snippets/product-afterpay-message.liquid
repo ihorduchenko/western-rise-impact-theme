@@ -1,0 +1,9 @@
+{%- assign current_variant = product.selected_or_first_available_variant -%}
+{%- capture amount_html -%}
+  <span class="afterpaySplitPrice">{{ current_variant.price | divided_by: 4 | money }}</span>
+{%- endcapture -%}
+
+<div class="text-xs text-center">
+  {{ 'product.general.afterpay_message_html' | t: amount: amount_html }}
+  {% render 'icon' with 'afterpay' %}
+</div>

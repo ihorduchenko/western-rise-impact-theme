@@ -1,0 +1,25 @@
+{% assign feat_items = product.metafields.custom.features_icons %}
+{%- if feat_items != blank -%}
+  <div class="pdp-features-icons v-stack gap-3 sm:gap-6">
+    {% for item in feat_items.value %}
+      {%- assign icon = item.icon.value -%}
+      {%- assign text = item.text.value -%}
+      <div class="pdp-features-item v-stack gap-2 sm:gap-3">
+        {%- if icon != blank -%}
+          <div class="pdp-features-item-icon">
+            <img
+              loading="lazy"
+              alt="{{ icon.alt }}"
+              src="{{ icon | img_url: 'master' }}"
+            >
+          </div>
+        {%- endif -%}
+        {%- if text != blank -%}
+          <div class="pdp-features-item-text font-monospaced text-sm">
+            {{ text }}
+          </div>
+        {%- endif -%}
+      </div>
+    {% endfor %}
+  </div>
+{%- endif -%}

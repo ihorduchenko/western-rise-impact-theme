@@ -1,0 +1,139 @@
+{%- if section.blocks.size > 0 -%}
+  {%- render 'section-spacing-collapsing' -%}
+
+  {%- comment -%}
+  ------------------------------------------------------------------------------------------------------------------------
+  LIQUID
+  ------------------------------------------------------------------------------------------------------------------------
+  {%- endcomment -%}
+
+  <div {% render 'section-properties' %}>
+    <div class="story-timeline relative">
+      <div class="story-timeline--line"></div>
+      <div class="story-timeline--wrap mod-mobile v-stack sm:hidden gap-12">
+        {%- for block in section.blocks -%}
+          {% render 'story-timeline-item',
+            subheading: block.settings.subheading,
+            title: block.settings.title,
+            content: block.settings.content,
+            image: block.settings.image
+          %}
+        {%- endfor -%}
+      </div>
+      <div class="story-timeline--wrap mod-desktop hidden sm:grid ">
+        <div class="story-timeline--col mod-left sm:flex">
+          {%- for block in section.blocks -%}
+            {% assign mod = forloop.index | modulo: 2 %}
+            {%- unless mod == 0 -%}
+              {% render 'story-timeline-item',
+                subheading: block.settings.subheading,
+                title: block.settings.title,
+                content: block.settings.content,
+                image: block.settings.image
+              %}
+            {%- endunless -%}
+          {%- endfor -%}
+        </div>
+        <div class="story-timeline--col mod-right sm:flex">
+          {%- for block in section.blocks -%}
+            {% assign mod = forloop.index | modulo: 2 %}
+            {%- if mod == 0 -%}
+              {% render 'story-timeline-item',
+                subheading: block.settings.subheading,
+                title: block.settings.title,
+                content: block.settings.content,
+                image: block.settings.image
+              %}
+            {%- endif -%}
+          {%- endfor -%}          
+        </div>
+      </div>
+    </div>
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Story Timeline",
+  "class": "shopify-section--story-timeline",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Colors",
+      "info": "Gradient replaces solid colors when set."
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "subheading",
+          "label": "Subheading",
+          "default": "Subheading"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content",
+          "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Story Timeline",
+      "blocks": [
+        {
+          "type": "item"
+        },
+        {
+          "type": "item"
+        },
+        {
+          "type": "item"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,347 @@
+{
+  "sections": {
+    "d17dc8e4-0356-4fb7-9915-c46f86aced01": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--15884740722871__d17dc8e4-0356-4fb7-9915-c46f86aced01-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "In the News",
+            "heading_tag": "h1"
+          }
+        },
+        "template--15884740722871__d17dc8e4-0356-4fb7-9915-c46f86aced01-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Press. Western Rise in the media. What people are saying about Western Rise.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15884740722871__d17dc8e4-0356-4fb7-9915-c46f86aced01-heading-1",
+        "template--15884740722871__d17dc8e4-0356-4fb7-9915-c46f86aced01-richtext-1"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/press-hero-banner.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#222222",
+        "overlay_opacity": 10
+      }
+    },
+    "2452d161-ac21-4cef-9e85-91283c24bbf3": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15888568582327__2452d161-ac21-4cef-9e85-91283c24bbf3-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h3>Contact Us Directly: <a href=\"mailto:info@westernrise.com\" title=\"mailto:info@westernrise.com\">info@westernrise.com<\/a><\/h3>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15888568582327__2452d161-ac21-4cef-9e85-91283c24bbf3-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "d76f4ca3-630c-4118-b5e6-6e2d1d5d89e1": {
+      "type": "rich-text",
+      "blocks": {
+        "664346da-134a-4391-8e4b-9d51b9dc5f23": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{{ page.content }}"
+          }
+        }
+      },
+      "block_order": [
+        "664346da-134a-4391-8e4b-9d51b9dc5f23"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "60ch"
+      }
+    },
+    "7fcc833b-2f9e-4196-8467-00de20ddd628": {
+      "type": "multi-column",
+      "blocks": {
+        "template--15888568582327__7fcc833b-2f9e-4196-8467-00de20ddd628-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wr-logo-40h.webp",
+            "column_size": "3",
+            "title": "Cooling products to keep you from breaking a sweat this summer",
+            "heading_tag": "h3",
+            "content": "<p>Brittney Levine joins Hoda and Jenna with her list of the perfect products to keep you cool in the summer heat, including the Keter cool bar, no sweat hat liners and more.<\/p>",
+            "link_url": "",
+            "link_text": "VIEW ARTICLE",
+            "link_style": "button"
+          }
+        },
+        "13bbc93f-c2ef-46f3-ade5-8613da15e77e": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/press-logo-forbes.png",
+            "column_size": "3",
+            "title": "Cooling products to keep you from breaking a sweat this summer",
+            "heading_tag": "h3",
+            "content": "<p>Brittney Levine joins Hoda and Jenna with her list of the perfect products to keep you cool in the summer heat, including the Keter cool bar, no sweat hat liners and more.<\/p>",
+            "link_url": "",
+            "link_text": "VIEW ARTICLE",
+            "link_style": "button"
+          }
+        },
+        "946829ba-ecfb-4742-849a-a113d3b49353": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wr-logo-40h.webp",
+            "column_size": "3",
+            "title": "Cooling products to keep you from breaking a sweat this summer",
+            "heading_tag": "h3",
+            "content": "<p>Brittney Levine joins Hoda and Jenna with her list of the perfect products to keep you cool in the summer heat, including the Keter cool bar, no sweat hat liners and more.<\/p>",
+            "link_url": "",
+            "link_text": "VIEW ARTICLE",
+            "link_style": "button"
+          }
+        },
+        "d38ae771-e2d7-4b9e-80ad-280ab2113bbc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wr-logo-40h.webp",
+            "column_size": "3",
+            "title": "Cooling products to keep you from breaking a sweat this summer",
+            "heading_tag": "h3",
+            "content": "<p>Brittney Levine joins Hoda and Jenna with her list of the perfect products to keep you cool in the summer heat, including the Keter cool bar, no sweat hat liners and more.<\/p>",
+            "link_url": "",
+            "link_text": "VIEW ARTICLE",
+            "link_style": "button"
+          }
+        },
+        "efc483ac-2397-4309-a159-f3ed15c0fbcb": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wr-logo-40h.webp",
+            "column_size": "3",
+            "title": "Cooling products to keep you from breaking a sweat this summer",
+            "heading_tag": "h3",
+            "content": "<p>Brittney Levine joins Hoda and Jenna with her list of the perfect products to keep you cool in the summer heat, including the Keter cool bar, no sweat hat liners and more.<\/p>",
+            "link_url": "",
+            "link_text": "VIEW ARTICLE",
+            "link_style": "button"
+          }
+        },
+        "c283cce5-4c3b-4ae5-80ee-d3c974a0095b": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wr-logo-40h.webp",
+            "column_size": "3",
+            "title": "Cooling products to keep you from breaking a sweat this summer",
+            "heading_tag": "h3",
+            "content": "<p>Brittney Levine joins Hoda and Jenna with her list of the perfect products to keep you cool in the summer heat, including the Keter cool bar, no sweat hat liners and more.<\/p>",
+            "link_url": "",
+            "link_text": "VIEW ARTICLE",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "template--15888568582327__7fcc833b-2f9e-4196-8467-00de20ddd628-item-1",
+        "13bbc93f-c2ef-46f3-ade5-8613da15e77e",
+        "946829ba-ecfb-4742-849a-a113d3b49353",
+        "d38ae771-e2d7-4b9e-80ad-280ab2113bbc",
+        "efc483ac-2397-4309-a159-f3ed15c0fbcb",
+        "c283cce5-4c3b-4ae5-80ee-d3c974a0095b"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".multi-column__item {background-color: #f1f0ed; padding: var(--spacing-8); border-radius: 10px;}",
+        ".multi-column__item > img {width: 100%; max-width: 242px; margin: 0 auto; height: 90px; object-fit: contain;}",
+        ".multi-column__item-copy {font-size: var(--text-md); color: #676767;}",
+        ".button {--button-background: transparent; --button-text-color: var(--button-background-primary); border: 1px solid rgb(var(--button-background-primary));}"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Featured in",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "da3da6b8-4352-463e-aa0c-3d14d11eb0a5": {
+      "type": "multi-column",
+      "blocks": {
+        "template--15884740722871__da3da6b8-4352-463e-aa0c-3d14d11eb0a5-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kickstarter_Press_Kit-press-image.jpg",
+            "column_size": "2",
+            "title": "Kickstarter Press Kit",
+            "heading_tag": "h3",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur. Pellentesque condimentum placerat enim tristique vel nunc eu.<\/p>",
+            "link_url": "https:\/\/www.dropbox.com\/sh\/fgbvsiiklcys9jn\/AAC1Be0UNnv9Wo1Ep-2FK9Qua?dl=0",
+            "link_text": "View now",
+            "link_style": "button"
+          }
+        },
+        "54efc248-2926-48d9-b16b-ee6586bc5ccb": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Westernrise_Press_Kit-press-image.jpg",
+            "column_size": "2",
+            "title": "Western Rise Press Kit",
+            "heading_tag": "h3",
+            "content": "<p>Lorem ipsum dolor sit amet consectetur. Pellentesque condimentum placerat enim tristique vel nunc eu.<\/p>",
+            "link_url": "https:\/\/www.dropbox.com\/sh\/0sjyp98hdlp9ypn\/AACRe1koTd9xwo-FykGeUVP_a?dl=0",
+            "link_text": "View now",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "template--15884740722871__da3da6b8-4352-463e-aa0c-3d14d11eb0a5-item-1",
+        "54efc248-2926-48d9-b16b-ee6586bc5ccb"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".section-stack {max-width: 1080px; margin: 0 auto;}",
+        ".multi-column__item > img {width: 100%;}",
+        ".multi-column__item-copy {font-size: var(--text-md);}"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_on_mobile": true,
+        "gap": "x-large",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Press Kits",
+        "content": "<p>Lorem ipsum dolor sit amet consectetur. Arcu sem felis laoreet arcu eget proin bibendum gravida ac. Lorem suscipit id viverra elementum justo in nullam. Tempus nunc at quis nibh consectetur arcu. Feugiat vestibulum ac risus purus proin. Vestibulum nisi donec sed magna.<\/p>",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "a96476ca-1bac-464f-89f8-cebaea8f5b21": {
+      "type": "faq",
+      "blocks": {
+        "template--15885633618103__a96476ca-1bac-464f-89f8-cebaea8f5b21-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "2020",
+            "content": "<p>Professional Hobo (<a href=\"https:\/\/www.theprofessionalhobo.com\/best-travel-clothes-for-men\/\">Brand<\/a>)<br\/><br\/>Traveling Salseros (<a href=\"https:\/\/www.youtube.com\/watch?v=7K1CPJt-U9A&t=1s\">Evolution Pant<\/a>, <a href=\"https:\/\/www.youtube.com\/watch?v=skuqm2tHuso&amp;t=14s\">Active Collection<\/a>)<br\/><br\/>Everyday Wear (<a href=\"https:\/\/everydaywear.net\/2020\/08\/western-rise-spectrum-jogger\/\">Spectrum Jogger<\/a>, <a href=\"https:\/\/everydaywear.net\/2020\/08\/western-rise-session-tee\/\">Session Tee<\/a>)<\/p><p><a href=\"https:\/\/luxe.digital\/lifestyle\/style\/best-men-workout-brands\/\">Luxe Digital<\/a> (Active Collection)<\/p><p>Always Wander (<a href=\"ttps:\/\/www.alwayswander.info\/western-rise-session-t-review\">Session Tee<\/a>, <a href=\"https:\/\/www.alwayswander.info\/western-rise-movement-short-review\">Movement Short)<\/a><br\/><br\/>Packing Less (<a href=\"https:\/\/www.packingless.com\/western-rise-movement-short-review\/?fbclid=IwAR3Veca007a2gpNmg1SuykTkS8l3RdIkUf29VPaBHxKoirF4gP1y06UgU0U\">Movement Short<\/a>, <a href=\"https:\/\/www.youtube.com\/watch?v=X3c884fqkvQ\">Spectrum Jogger<\/a>, <a href=\"https:\/\/www.packingless.com\/western-rise-session-tee-review\/?fbclid=IwAR0JPVHFtbaKUB79OCwRb4YTlYRLpJLFZ0-ATcSxvN9H0B5Cpr6foyvxxGY\">Session Tee<\/a>)<a href=\"https:\/\/everydaywear.net\/2020\/08\/western-rise-movement-short\/\"><br\/><br\/>Everyday Wear<\/a> (Movement Short)<a href=\"ttps:\/\/www.youtube.com\/watch?v=n0TWIN4gUaQ&feature=youtu.be\"><br\/><br\/>Odie Matthews<\/a> (Active Collection)<a href=\"https:\/\/deltagrade.com\/2020\/08\/5-new-mens-activewear-brands-we-like-in-2020\/\"><br\/><br\/>Delta Grade <\/a>(Active Collection)<a href=\"https:\/\/gearjunkie.com\/best-mens-travel-pants\"><br\/><br\/>Gear Junkie<\/a> (Evolution Pants - Best Overall Travel Pant)<a href=\"https:\/\/www.gearpatrol.com\/fitness\/a33350045\/western-rise-active-collection\/\"><br\/><br\/><\/a><a href=\"https:\/\/www.gadgetexplained.com\/2020\/08\/western-rise-everyday-kit-review-at.html\">Gadget Explained<\/a> (At Slim Pants and X-Cotton Tee)<a href=\"https:\/\/www.gearpatrol.com\/fitness\/a33350045\/western-rise-active-collection\/\"><br\/><br\/>Gear Patrol<\/a> (Active Collection)<a href=\"https:\/\/knapsack.news\/2020\/07\/30\/get-on-the-go-with-the-western-rise-move-collection\/\"><br\/><br\/>Knapsack<\/a> (Active Collection) <a href=\"https:\/\/www.carryology.com\/liking\/industry\/best-new-gear-july-2020\/\"><br\/><br\/>Carryology<\/a> (Active Collection)<a href=\"https:\/\/www.instagram.com\/p\/CBJH_jBFayp\/?igshid=x5p5z9269w0e\"><br\/><br\/>Equip'd <\/a>(Evolution Pants and Limitless Merino Wool Button-Down)<\/p><p><a href=\"https:\/\/the-style-guide.com\/2020\/05\/28\/see-now-buy-now-the-western-rise-evolution-pants-are-summers-perfect-pants\/\">The Style Guide<\/a> (Evolution Pants) <a href=\"https:\/\/westernrise.com\/pages\/%20https:\/\/www.thecoolector.com\/western-rise-evolution-pants\/\"><br\/><br\/><\/a><a href=\"https:\/\/www.thecoolector.com\/western-rise-evolution-pants\/\">The Coolector<\/a> (Evolution Pants) <a href=\"https:\/\/www.youtube.com\/watch?v=pjjlM5aj-rg\"><br\/><br\/>Traveling Salseros<\/a> (StrongCore Merino Tee & Limitless Merino Polo)<a href=\"https:\/\/bustedwallet.com\/western-rise-collection-spring20-review\/\"><br\/><br\/>Busted Wallet<\/a> (At Slim Pants, Limitless Merino Wool Button-Down, StrongCore Merino Hoodie Sweater, StrongCore Merino Tee)<\/p><p><a href=\"ttps:\/\/everydaywear.net\/2020\/04\/what-are-the-best-socks\/\">Everyday Wear<\/a> (StrongCore Merino Crew Socks)<\/p><p><a href=\"https:\/\/packhacker.com\/blog\/general\/small-travel-gear-brands-we-can-support\/\">Pack Hacker <\/a>(Brand)<\/p><p><a href=\"https:\/\/www.alwayswander.info\/western-rise-limitless-merino-shirt\">Always Wander<\/a> (Limitless Merino Button Down)<\/p><p><a href=\"https:\/\/www.youtube.com\/watch?v=_LyGqyyytYs\">Chase Reeves<\/a> (Diversion Pants & Limitless Merino Button Down)<\/p><p>Packing Less (<a href=\"https:\/\/www.packingless.com\/western-rise-diversion-pant-review\/\">Diversion Pant<\/a>, <a href=\"https:\/\/www.packingless.com\/western-rise-limitless-merino-shirt-review\">Limitless Merino Button Down)<\/a><\/p><p><a href=\"https:\/\/wellbuiltstyle.com\/product-review-the-limitless-shirt-from-western-rise\/\">Well Built Style<\/a> (Limitless Merino Button Down)<\/p><p><a href=\"https:\/\/www.youtube.com\/watch?v=QSZLvMWYhMQ\">Traveling Salseros<\/a> (Airlight Button-Down Shirt)<br\/><br\/>Everyday Wear (<a href=\"https:\/\/everydaywear.net\/2020\/02\/western-rise-diversion-pant\/\">Diversion Pant<\/a> &<a href=\"https:\/\/everydaywear.net\/2020\/02\/western-rise-diversion-pant\/\"> Limitless Button-Down and Polo<\/a>)<a href=\"https:\/\/www.mensjournal.com\/style\/western-rise-has-the-ultimate-travel-shirt-for-men\/\"><br\/><br\/>Mens Journal<\/a> (Limitless Merino Polo)<\/p><p><a href=\"https:\/\/www.carryology.com\/travel\/this-travel-shirt-has-got-me-thinking-about-flannel\/\">Carryology<\/a> (TechWool Flannel) <\/p><p><a href=\"https:\/\/loopholetravel.com\/2020\/02\/14\/western-rise-review-diversion-pants-limitless-shirts-and-more\/\">Loop Hole Travel<\/a> (Diversion Pants, Limitless Merino Button Down & Polo)<\/p><p>Alex Kwa (<a href=\"https:\/\/alexkwa.com\/western-rise-diversion-pant\/\">Diversion Pant<\/a>) & (<a href=\"https:\/\/alexkwa.com\/western-rise-strongcore-merino-tee\/\">StrongCore Tee<\/a>) <a href=\"https:\/\/gearpatrol.com\/2020\/02\/11\/western-rise-diversion-pant\/\"><br\/><br\/>Gear Patrol<\/a> (Diversion Pant)<a href=\"https:\/\/www.acquiremag.com\/style\/western-rise-diversion-pant\"><br\/><br\/>Acquire<\/a> (Diversion Pant)<a href=\"https:\/\/everydaywear.net\/2020\/02\/western-rise-x-cotton-everyday-tee\/\"><br\/><br\/>Everyday Wear<\/a> (X-Cotton Tee)<\/p><p><a href=\"https:\/\/www.trailandkale.com\/gear\/western-rise-review\/\">Trail & Kale <\/a>(AT Slim Pants, Airloft Quilted Jacket, TechWool Flannel)<\/p><p><a href=\"https:\/\/www.carryology.com\/travel\/one-bag-travel-what-to-pack-for-austria\/\">Carryology<\/a> (Evolution Pants\/One Bag Travel)<br\/><\/p><p><a href=\"http:\/\/www.textileinsight.com\/2020\/jan-feb\/functional-traveler.html\">Textile Insight<\/a> (Design\/Materials)<br\/><\/p><p><a href=\"https:\/\/www.packingless.com\/western-rise-evolution-pants-review\/?fbclid=IwAR1xkbP5eX4uDBhkAiQi8Fd0zyxp_GvFLbQdrlzwuwCH51plMvkM-AWvgYo\">Packing Less<\/a> (Evolution Pants)<strong><br\/><\/strong><\/p><p><a href=\"https:\/\/www.youtube.com\/watch?v=TMmRfJQBWpU\">Traveling Salseros<\/a> (AT Slim Pants) <\/p>"
+          }
+        },
+        "template--15885633618103__a96476ca-1bac-464f-89f8-cebaea8f5b21-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "2019",
+            "content": "<p><a href=\"https:\/\/everydaywear.net\/2019\/12\/western-rise-techwool-flannel-shirt\/\">Everyday Wear<\/a> (TechWool Flannel)<\/p><p><a href=\"https:\/\/the-style-guide.com\/2019\/12\/21\/style-pick-of-the-week-western-rise-techwool-flannel-shirt\/\">The Style Guide<\/a> (TechWool Flannel)<\/p><p><a href=\"https:\/\/alexkwa.com\/western-rise-evolution-pants\/\">Alex Kwa<\/a>(Evolution Pants)<\/p><p><a href=\"https:\/\/www.afar.com\/magazine\/how-to-pack-for-a-business-trip\"><br\/>Afar Magazine<\/a> (Evolution Pants)<\/p><p><a href=\"https:\/\/everydaywear.net\/2019\/11\/western-rise-airloft-quilted-jacket\/\">Everyday Wear<\/a> (Airloft Quilted Jacket)<strong><br\/><\/strong><\/p><p><a href=\"https:\/\/www.acquiremag.com\/style\/western-rise-techwool-flannel-shirt\">Acquire Mag<\/a> (TechWool Flannel)<\/p><p><a href=\"https:\/\/www.packingless.com\/western-rise-techwool-flannel-review\/?fbclid=IwAR0SzmuiaAPz9IMaZPS3rMnt5Rvs6VlVC0wq8BzcvQ8Is3SrPLMoeJmKEP8\">Packing Less<\/a> (TechWool Flannel) \/<a href=\"https:\/\/www.packingless.com\/western-rise-airlight-review\/?fbclid=IwAR2xS9l9Z0_5eqBqQTJK_bAZUFdAbilwevfA7yKP323LhODSDJHMqpYXOVY\"> Packing Less<\/a> (Airlight Button Down)<\/p><p><a href=\"http:\/\/www.alexkwa.com\/western-rise-at-slim-pant\/\">Alex Kwa<\/a> (AT Slim Pants)<\/p><p><a href=\"https:\/\/gearmoose.com\/best-mens-quilted-jackets\/\">Gearmoose <\/a>(Airloft Quilted Jacket)<\/p><p><a href=\"https:\/\/vacationidea.com\/tips\/western-rise.html\">Vacationidea.com <\/a>(Brand)<\/p><p><a href=\"https:\/\/www.telluridetv.org\/show\/almost-live-interviews-kelly-watters-2\">Telluride TV <\/a>(Interview with our CEO, Kelly Watters)<\/p><p>Tread Magazine Sept.- October - Print - (Evolution Pants)<\/p><p><a href=\"https:\/\/www.carryology.com\/projects\/carry-awards\/best-travel-clothing-2019\/?fbclid=IwAR087kcAYm0ECWZN8IXfnaqcSe02OKSP5giBuXXT80ik820ZUZ8oQjdl38o\">Carryology - 2019 Carry Award Winner - Best Travel Clothing<\/a> (Evolution Pants)<\/p><p><a href=\"https:\/\/indiegetup.com\/colorado-clothing-brands\/\">Indiegetup <\/a>(Brand)<strong><br\/><\/strong><\/p><p><a href=\"https:\/\/everydaywear.net\/2019\/07\/western-rise-airlight-short-sleeve-shirt\/\">Everyday Wear <\/a>(AirLight Short Sleeve Shirt)<\/p><p><a href=\"https:\/\/hiconsumption.com\/best-travel-pants-for-men\/?fbclid=IwAR2GIBSmfNAyuCGSU5I91ZhV3cLB6ThL9017AXVS9wqZ8I9btwS0qahUzRg\">Hi-Consumption<\/a> (AT Slim Pant)<\/p><p><a href=\"https:\/\/www.yogalifelive.com\/colorado\/summer-fall-2019-travel-essentials\/?fbclid=IwAR14RmT7WUSEIaY6iwcI_R2UW8ERwh4_6JNoiVzcvSiQP3f5EfzDvYjtYTM\">CO Yoga + Life<\/a> (AT Slim Pant) <\/p><p><a href=\"https:\/\/gearpatrol.com\/2019\/06\/24\/best-travel-pants\/\">Gear Patrol<\/a> (AT Slim Pant)<br\/><a href=\"https:\/\/www.themanual.com\/fashion\/best-mens-work-shirts-trail-office\/\"><br\/>The Manual<\/a> (Limitless Merino Wool Shirt) \/ <a href=\"https:\/\/www.themanual.com\/fashion\/best-mens-summer-shirts\/\">The Manual<\/a> (AirLight Button-Down Shirt)<strong><br\/><\/strong><\/p><p><a href=\"https:\/\/gearjunkie.com\/best-mens-travel-pants\">Gear Junkie<\/a> (Evolution Pant)<\/p><p><a href=\"https:\/\/loopholetravel.com\/2019\/04\/30\/western-rise-clothing-review-evolution-pants-boundless-shorts-sun-hoodie-and-limitless-shirt\/\">Loophole Travel<\/a> (Evolution Pant, Boundless Short, DryKnit Sun Hoodie, and Limitless Merino Wool Shirt)<strong><br\/><\/strong><\/p><p><a href=\"https:\/\/www.youtube.com\/watch?time_continue=20&v=baLRmbBdoUo\">Chase Reeves - Bagworks.co <\/a>(AirLoft Quilted Jacket)<a href=\"https:\/\/everydaywear.net\/2019\/02\/western-rise-the-evolution-pant\/\"><br\/><br\/>Everyday Wear<\/a> (Evolution Pants) \/ <a href=\"https:\/\/everydaywear.net\/2019\/06\/western-rise-liberated-hemp-band-collar\/\">Everyday Wear<\/a> (Liberated Hemp Band-Collar Shirt) <\/p><p><a href=\"https:\/\/onetechtraveller.com\/how-western-rise-elevated-travel-wear\/?fbclid=IwAR0a0uEA40lERkMuSOI09vfhoEBw93ezSqOo1FMga7cdtDbSHmP70tdXbcE\">One Tech Traveller<\/a> \/ <a href=\"https:\/\/onetechtraveller.com\/western-rise-airlight-western-shirt-review\/\">One Tech Traveller<\/a> (AirLight Western Shirt)<\/p><p><a href=\"https:\/\/www.carryology.com\/travel\/best-mens-travel-shirts-and-jackets\/\">Carryology<\/a> (DryWeight Merino Tee) \/ <a href=\"https:\/\/www.carryology.com\/projects\/carry-awards\/carry-awards-vii-reddit-onebag-selects\/\">Carryology<\/a> (Evolution Pant) \/ <a href=\"https:\/\/www.carryology.com\/liking\/industry\/showstoppers-the-best-gear-from-outdoor-retailer-summer-market-2019\/\">Carryology <\/a>(AirLight Short Sleeve Shirt)<\/p><p><a href=\"https:\/\/www.outsideonline.com\/2382086\/why-i-love-western-rise-airloft-quilted-jacket\">Outside Online<\/a> (AirLoft Quilted Jacket)<\/p>"
+          }
+        },
+        "template--15885633618103__a96476ca-1bac-464f-89f8-cebaea8f5b21-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "2018",
+            "content": "<p><strong>Products: <\/strong><\/p><p>Men's Journal Print September<\/p><p><a href=\"https:\/\/onecutreviews.com\/2018\/10\/05\/western-rise-performance-clothing\/\">One Cut Reviews<\/a> (Alloy Chino Pant)<\/p><p><a href=\"https:\/\/gearpatrol.com\/2018\/09\/11\/western-rise-alloy-chinos\/\">Gear Patrol<\/a> (Alloy Chino Pant)<\/p><p><a href=\"https:\/\/www.outsideonline.com\/2336201\/how-pack-two-weeks-europe-carry\">Outside<\/a> (X Cotton Stretch Oxford) <\/p><p><a href=\"https:\/\/gearpatrol.com\/2018\/08\/01\/western-rise-at-slim-rivet-new-colors\/\">Gear Patrol<\/a> (AT Slim Pant)<\/p><p><a href=\"http:\/\/www.redclaysoul.com\/beat-the-heat\/\">Red Clay Soul<\/a> (AT Limitless Short)<\/p><p><a href=\"https:\/\/gearjunkie.com\/brands-pitchfest-outdoor-retailer-camber-outdoors\">Gear Junky<\/a> <\/p><p><a href=\"https:\/\/www.forbes.com\/sites\/richardkestenbaum\/2018\/07\/17\/what-outdoor-retailers-are-talking-about-now\/#56cb69b37633\">Forbes<\/a><\/p><p><a href=\"https:\/\/www.themanual.com\/fashion\/best-mens-pants-for-fall\/\">The Manual<\/a> (AT Slim Pant)<\/p><p><a href=\"https:\/\/camberoutdoors.org\/blog\/westernrise\/\" title=\"Meet The Finalists\">Camber Outdoors<\/a><\/p><p><a href=\"https:\/\/gear.lifehacker.com\/western-rise-evolution-pant-of-all-trades-1825150515\" title=\"Western Rise Life Hacker\">LifeHacker<\/a> (Evolution Pant)<\/p><p><a href=\"https:\/\/blog.producthype.co\/evolution-pant\/\" title=\"Western Rise Product Hype - The Evolution Pants\">Product Hype<\/a> (Evolution Pant)<\/p><p><a href=\"https:\/\/thatdope.com\/mens\/western-rise-evolution-pant\/\" title=\"Western Rise That Dope\">That Dope<\/a> (Evolution Pant)<\/p><p><a href=\"http:\/\/www.carryology.com\/travel\/are-these-the-worlds-best-one-bag-travel-pants\/\" title=\"Western Rise Carryology Worlds Best One Bag Travel Pants\">Carryology<\/a> (Evolution Pant) \/ <a href=\"https:\/\/www.carryology.com\/liking\/buyersguide\/holiday-gift-guide-the-best-gifts-for-the-adventurer\/\">Carryology<\/a> (StrongCore Merino Socks)<\/p><p><a href=\"https:\/\/www.trendhunter.com\/trends\/travel-trousers\" title=\"Western Rise Trend Hunter Fashion\">Trend Hunter<\/a> (Evolution Pant)<\/p><p><a href=\"https:\/\/www.blessthisstuff.com\/stuff\/wear\/trousers\/western-rise-evolution-pant\/\" title=\"Western Rise Bless This Stuff\">Bless This Stuff<\/a> (Evolution Pant)<\/p><p><a href=\"https:\/\/gearjunkie.com\/roundup\/emerging-gear-4-5-18#PerfectPant\" title=\"Western Rise Gear Junkie\">Gear Junkie<\/a> (Evolution Pant)<\/p><p><a href=\"http:\/\/www.thecoolector.com\/western-rise-evolution-pant\/\" title=\"Western Rise The Coolector\">The Coolector<\/a> (Evolution Pant)<\/p><p><a href=\"https:\/\/freeskier.com\/product-reviews\/the-only-pair-of-trousers-youll-ever-need\" title=\"Western Rise Freeskier Magazine\">Freeskier<\/a> (Evolution Pant)<\/p><p><a href=\"https:\/\/gearpatrol.com\/2018\/04\/03\/western-rise-evolution-best-outdoor-everyday-pants\/\" title=\"Western Rise Gear Patrol\">Gear Patrol<\/a> (AT Slim Pant)<\/p><p><a href=\"http:\/\/hiconsumption.com\/2018\/01\/best-boutique-outdoor-brands\/\">Hi-Consumption<\/a><\/p><p><a href=\"https:\/\/www.outsideonline.com\/2288891\/7-smart-wardrobe-upgrades-less-50\">Outside<\/a> (Icon Camp Hat) <\/p><p><a href=\"https:\/\/www.wsj.com\/articles\/cycling-clothes-that-double-as-office-attirethats-a-wheelie-good-look-on-you-1521725955\">Wall Street Journal<\/a><\/p>"
+          }
+        },
+        "af4c6d45-0806-46cf-9668-bac0fa44ec31": {
+          "type": "item",
+          "settings": {
+            "title": "2017",
+            "content": "<p><a href=\"https:\/\/gear.lifehacker.com\/the-best-henleys-weve-partially-buttoned-so-far-1820927289\">Life Hacker<\/a><\/p><p><a href=\"https:\/\/freeskier.com\/product-reviews\/editors-review-pair-stylish-mountain-town-garments-western-rise\">Free Skier<\/a><\/p><p><a href=\"http:\/\/oneuppedmag.com\/oneupped-holiday-gift-guide-part-editors-picks\/\">Oneupped Mag<\/a><\/p><p><a href=\"http:\/\/packinglite.co\/western-rise-slim-rivet-review\/\">Backpacking Light<\/a><\/p><p><a href=\"https:\/\/www.themanual.com\/fashion\/western-rise-outdoor-style\/\">The Manual <\/a><\/p><p><a href=\"https:\/\/snarkynomad.com\/the-western-rise-at-slim-rivet-pant-in-review\/\">Snarky Nomad<\/a><\/p><p><a href=\"https:\/\/youtu.be\/ugkHThLdQXc\">Packing Light<\/a><\/p><p><a href=\"https:\/\/loopholetravel.com\/2017\/08\/07\/pack-one-bag-30-days-packing-list\/\" target=\"_blank\">Loophole Travel<\/a><\/p><p><a href=\"http:\/\/www.carryology.com\/travel\/the-best-travel-pants-for-one-bag-travellers\/\" target=\"_blank\">Carryology<\/a><\/p><p><a href=\"http:\/\/www.thecoolector.com\/western-rise-essentials-collection\/\" target=\"_blank\">The Coolector<\/a> \/ <a href=\"http:\/\/www.thecoolector.com\/western-rise-airloft-quilted-jacket\/\">The Coolector<\/a><\/p><p><a href=\"http:\/\/gearmoose.com\/western-rise-at-slim-rivet-pants\/\" target=\"_blank\">Gear Moose<\/a><\/p><p><a href=\"https:\/\/gearpatrol.com\/2017\/06\/06\/today-in-gear-june-6-2017\/\" target=\"_blank\">Gear Patrol<\/a> \/ <a href=\"https:\/\/gearpatrol.com\/2017\/06\/10\/this-week-in-gear-june-5-9\/\" target=\"_blank\">Gear Patrol<\/a> \/ <a href=\"https:\/\/gearpatrol.com\/2017\/07\/21\/today-in-gear-july-21-2017\/\" target=\"_blank\">Gear Patrol<\/a><\/p><p><a href=\"https:\/\/gearjunkie.com\/western-rise-granite-camp-pants-2-0-review\">Gear Junkie<\/a><\/p><p><a href=\"https:\/\/sgbonline.com\/western-rise-debuts-studio-line\/\">SGB<\/a><\/p><p><a href=\"https:\/\/www.adventure-journal.com\/2017\/03\/plaid-flannel-shirts-feel-like-coming-home\/\" target=\"_blank\">Adventure Journal<\/a><\/p><p><a href=\"https:\/\/www.outsideonline.com\/2155716\/making-your-dreams-come-true\" target=\"_blank\" title=\"Western Rise Outside Online\">Outside<\/a><\/p><p><a href=\"http:\/\/choosecolorado.com\/9-awesome-entrepreneur-women-who-are-doing-cool-things-in-colorado\/\" target=\"_blank\">Choose Colorado<\/a><\/p>"
+          }
+        },
+        "df6cea3b-941e-4598-9a68-e16c335674f6": {
+          "type": "item",
+          "settings": {
+            "title": "2016",
+            "content": "<p><a href=\"http:\/\/activejunky.com\/articles\/holiday-gift-guide-more-mens-cool-weather-favorites\" target=\"_blank\">Active Junky<\/a><\/p><p><a href=\"http:\/\/www.blueridgeoutdoors.com\/go-outside\/holiday-guide-badass-woman-wants\/\" target=\"_blank\">Blue Ridge Outdoors<\/a><\/p><p><a href=\"http:\/\/www.craveonline.com\/style\/1170203-camp-city-winter-tent#\/slide\/12\" target=\"_blank\">CRAVE<\/a><\/p><p><a href=\"https:\/\/sgbonline.com\/breaking-the-rules-of-crowdfunding\/\" target=\"_blank\">SGB Media<\/a><\/p><p><a href=\"http:\/\/www.themanual.com\/outdoors\/gifts-for-your-outdoorsman\/\" target=\"_blank\">The Manual<\/a><\/p><p><a href=\"http:\/\/www.justacoloradogal.com\/2016\/11\/western-rise-a-colorado-company-steeped-in-tradition.html\" target=\"_blank\">Just a Colorado Gal<\/a><\/p><p><a href=\"http:\/\/gearmoose.com\/granite-camp-pants-2-0\/\" target=\"_blank\">Gear Moose<\/a><\/p><p><a href=\"http:\/\/hiconsumption.com\/2016\/09\/granite-camp-pants-2-0-by-western-rise\/\" target=\"_blank\">HiConsumption<\/a><\/p><p><a href=\"https:\/\/gearjunkie.com\/roundup\/emerging-gear-09-22-2016#FishingNetGivesBack\" target=\"_blank\">Gear Junkie<\/a><\/p><p><a href=\"http:\/\/lumberjac.com\/2016\/08\/klamath-net\/\" target=\"_blank\">Lumberjac<\/a><\/p><p><a href=\"http:\/\/www.backpacker.com\/gear\/apparel\/pants\/western-rise-granite-camp-pant\/\" target=\"_blank\" title=\"Western Rise Backpacker Magazine\">Backpacker Magazine<\/a><\/p><p><a href=\"http:\/\/www.outsideonline.com\/2075046\/best-photo-accessories-2016\" target=\"_blank\">Outside Magazine Summer Buyer's Guide<\/a><\/p><p><a href=\"http:\/\/www.outsideonline.com\/2048141\/rise-shacket\" target=\"_blank\">Outside<\/a> \/ <a href=\"https:\/\/www.outsideonline.com\/2110791\/who-are-women-i-should-know-about-outdoor-gear-industry\" target=\"_blank\">Outside<\/a> \/ <a href=\"http:\/\/www.outsideonline.com\/2116936\/gear-week-fall-backpacking\" target=\"_blank\">Outside<\/a> \/ <a href=\"https:\/\/www.outsideonline.com\/2130441\/8-reasons-why-we-love-trucker-hats#slide-4\" target=\"_blank\">Outside<\/a> \/ <a href=\"https:\/\/www.outsideonline.com\/2137181\/western-rise-elkton-stretch-flannel-shirt\" target=\"_blank\">Outside<\/a> \/ <a href=\"https:\/\/www.outsideonline.com\/2144421\/editors-holiday-gift-picks?utm_source=facebook&utm_medium=social&utm_campaign=facebookpost\" target=\"_blank\">Outside<\/a><\/p><p><a href=\"http:\/\/www.thedrive.com\/news\/4179\/acura-dominated-the-pikes-peak-hill-climb-and-a-mid-engined-corvette-is-in-the-works\" target=\"_blank\">The Drive<\/a> \/ <a href=\"http:\/\/www.thedrive.com\/news\/5337\/preorders-start-on-the-mazda-miata-rf-and-infiniti-axes-any-q60-convertible-ideas-the-evening-rush\" target=\"_blank\">The Drive<\/a><\/p><p><a href=\"http:\/\/gearpatrol.com\/2016\/02\/04\/today-gear-february-4-2016\/\" target=\"_blank\" title=\"Western Rise Gear Patrol Animas Forks Net\">Gear Patrol<\/a> \/ <a href=\"http:\/\/gearpatrol.com\/2016\/04\/14\/today-in-gear-april-14-2016\/\" target=\"_blank\">Gear Patrol<\/a> \/ <a href=\"http:\/\/gearpatrol.com\/2016\/06\/27\/today-in-gear-june-27-2016\/\" target=\"_blank\" title=\"Western Rise Gear Patrol\">Gear Patrol<\/a> \/ <a href=\"http:\/\/gearpatrol.com\/2016\/07\/02\/week-gear-june-27-july-1\/\" target=\"_blank\">Gear Patrol<\/a> \/ <a href=\"http:\/\/gearpatrol.com\/2016\/08\/30\/today-in-gear-august-30-2016\/\" target=\"_blank\" title=\"Western Rise Gear Patrol\">Gear Patrol<\/a> \/ <a href=\"http:\/\/gearpatrol.com\/2016\/09\/26\/today-in-gear-september-26-2016\/\" target=\"_blank\">Gear Patrol<\/a> \/ <a href=\"http:\/\/gearpatrol.com\/2016\/10\/12\/today-in-gear-october-12-2016\/\" target=\"_blank\">Gear Patrol<\/a> \/ <a href=\"http:\/\/gearpatrol.com\/2016\/11\/01\/western-rise-flannel-shirt-high-performance\/\" target=\"_blank\">Gear Patrol<\/a> \/ <a href=\"http:\/\/gearpatrol.com\/2016\/11\/05\/week-gear-october-31-november-4\/\" target=\"_blank\">Gear Patrol<\/a> \/ <a href=\"http:\/\/gearpatrol.com\/2016\/11\/22\/deals-of-note-november-22-2016\/\">Gear Patrol<\/a><\/p><p><a href=\"http:\/\/www.insidehook.com\/chicago\/raingear-to-turn-heads-in-a-downpour\" target=\"_blank\">Inside Hook<\/a><\/p><p><a href=\"http:\/\/www.clad.com\/western-rise-buckhorn-snap-shirt\/\" target=\"_blank\">CLAD<\/a> \/ <a href=\"http:\/\/www.clad.com\/western-rise-eureka-shop-shirt\/\" target=\"_blank\">CLAD<\/a> \/ <a href=\"http:\/\/www.clad.com\/western-rise-elkton-stretch-flannel\/\" target=\"_blank\">CLAD<\/a><\/p><p><a href=\"https:\/\/www.anglingtrade.com\/2016\/04\/20\/new-western-rise-line-launched\/\" target=\"_blank\">Angling Trade<\/a><\/p><p><a href=\"https:\/\/www.rapidmedia.com\/kayakangler\/categories\/gear\/7153-fresh-catch-western-rise-animas-forks-net.html\" target=\"_blank\">Kayak Angler<\/a><\/p><p><a href=\"http:\/\/www.ginkandgasoline.com\/fly-fishing-gear\/western-rise-on-the-way-up\/\" target=\"_blank\">Gink & Gasoline<\/a><\/p><p><a href=\"http:\/\/gearminded.com\/limited-edition-fly-net-from-western-rise\/\" target=\"_blank\">Gear Minded<\/a><\/p><p><a href=\"http:\/\/www.grindtv.com\/gear\/welcome-in-the-muddy-season-with-this-years-best-rain-jackets\/#7BsUDwOB1uiI3IGA.97\" target=\"_blank\">GrindTV<\/a> \/ <a href=\"http:\/\/www.grindtv.com\/culture\/an-epic-new-opportunity-for-small-businesses-in-the-mountains\/#eVDS8mgD42j0wQIe.97\" target=\"_blank\">GrindTV<\/a><\/p><p><a href=\"http:\/\/intrepidentrepreneur.net\/western-rising\/\" target=\"_blank\">The Intrepid Entrepreneur Podcast<\/a><\/p><p><a href=\"http:\/\/www.thecoolector.com\/western-rise-spring-collection\/\" target=\"_blank\">The Coolector<\/a> \/ <a href=\"http:\/\/www.thecoolector.com\/western-rise-camp-pants\/\" target=\"_blank\">The Coolector<\/a><\/p><p><a href=\"http:\/\/www.ursamajorvt.com\/blogs\/the-blog-cabin\/96806273-fly-fishing-instagrammers-to-follow\" target=\"_blank\">Ursa Major<\/a><\/p><p><a href=\"http:\/\/thetwopines.com\/western-rise-une-ode-a-la-peche-a-la-mouche\" target=\"_blank\">The Two Pines<\/a><\/p><p><a href=\"http:\/\/thatdope.com\/tech-gear\/this-week-in-gear-april-11-15\/\" target=\"_blank\">That's Dope<\/a><\/p><p><a href=\"http:\/\/ohpioneer.com\/post\/129636698642\/bedrock-western-rise-and-united-by-blue\" target=\"_blank\">Oh Pioneer<\/a><\/p><p><a href=\"http:\/\/www.outdoor30under30.com\/#nominate\" target=\"_blank\">Outdoors 30 Under 30<\/a><\/p><p><a href=\"http:\/\/kidproject.org\/2016\/11\/17\/companies-that-give-back-gift-guide-2016\/\" target=\"_blank\">The Kid Project<\/a><\/p>"
+          }
+        },
+        "d71ce3cd-d4a5-40fb-bb19-65674703e244": {
+          "type": "item",
+          "settings": {
+            "title": "2015",
+            "content": "<p><a href=\"http:\/\/www.outsideonline.com\/2007376\/these-are-coolest-small-brands-we-saw-outdoor-retailer\" target=\"_blank\">Outside Magazine<\/a> \/ <a href=\"http:\/\/www.outsideonline.com\/2011456\/story-behind-our-favorite-new-gear-company\" target=\"_blank\">Outside Magazine<\/a> \/ <a href=\"http:\/\/www.outsideonline.com\/2035491\/11-piece-do-anything-go-anywhere-fall-kit\" target=\"_blank\">Outside Magazine<\/a> \/ <a href=\"http:\/\/www.outsideonline.com\/2031256\/best-style-and-grooming-gifts-2015\" target=\"_blank\" title=\"Western Rise Outside Magazine\">Outside Magazine<\/a><\/p><p><a href=\"http:\/\/gearpatrol.com\/2015\/04\/02\/this-week-in-sports-and-outdoors-april-2-2015\/\" target=\"_blank\">Gear Patrol<\/a> \/ <a href=\"http:\/\/gearpatrol.com\/2015\/11\/19\/today-in-gear-november-19-2015\/\" target=\"_blank\">Gear Patrol<\/a> <\/p><p><a href=\"http:\/\/hiconsumption.com\/2016\/01\/best-henley-shirts-for-men\/\" target=\"_blank\">HIConsumption<\/a><\/p><p><a href=\"http:\/\/www.coolhunting.com\/style\/western-rise-apparel\" target=\"_blank\">Cool Hunting<\/a><\/p><p><a href=\"http:\/\/www.gearinstitute.com\/gear-news\/gear-institute-top-stories\/item\/mountain-rise-cool-gear-for-outdoor-adventures\" target=\"_blank\">Gear Institute<\/a><\/p><p><a href=\"http:\/\/tomboystyle.blogspot.com\/2015\/03\/uniform-western-rise.html\" target=\"_blank\">Tomboy Style<\/a><\/p><p><a href=\"http:\/\/www.thefieldmag.com\/quick\/western-rise-bitter-creek-anorak\" target=\"_blank\">The Field Mag<\/a><\/p><p><a href=\"http:\/\/www.insidehook.com\/nation\/western-rise\/\" target=\"_blank\">Inside Hook<\/a> \/ <a href=\"http:\/\/www.insidehook.com\/nation\/the-range-henleys\/\" target=\"_blank\">Inside Hook<\/a><\/p><p><a href=\"http:\/\/www.urbandaddy.com\/ntl\/gear\/34381\/Western_Rise_The_Camping_Gear_Colorado_Was_Born_to_Make_National_NTL_Website\" target=\"_blank\">Urban Daddy<\/a><\/p><p><a href=\"http:\/\/www.powder.com\/gear\/gear-locker\/car-camping-essentials\/#EpRIvMCzFVoHCprK.97\" target=\"_blank\">Powder Magazine<\/a><\/p><p><a href=\"http:\/\/www.grindtv.com\/fishing\/why-youll-probably-be-better-at-fly-fishing-than-you-think\/#2IUpCIol2lohyzrJ.97\" target=\"_blank\">GrindTV<\/a> \/ <a href=\"http:\/\/www.grindtv.com\/fishing\/6-fly-fisherwomen-follow-instagram\/#05FHY0keE5Ulbjip.97\" target=\"_blank\">GrindTV<\/a> \/ <a href=\"http:\/\/www.grindtv.com\/gear\/vanlife-gifts-want-give-get-holidays\/#8dQQraXjeOUuqc1e.97\" target=\"_blank\">GrindTV<\/a><\/p><p><a href=\"http:\/\/lumberjac.com\/2015\/04\/western-rise\/\" target=\"_blank\">Lumbar Jac<\/a> \/ <a href=\"http:\/\/lumberjac.com\/2015\/11\/caribou-quilted-shirt\/\" target=\"_blank\">Lumbar Jac<\/a><\/p><p><a href=\"http:\/\/www.dirtbagdarling.com\/girl-gone-wild-fly-fisherwoman-kelly-watters\/\" target=\"_blank\">Dirtbag Darling<\/a><\/p><p><a href=\"http:\/\/www.fieldandstream.com\/blogs\/flytalk\/seven-new-products-sure-to-make-any-fly-angler-happy\" target=\"_blank\">Field & Stream<\/a><\/p><p><a href=\"https:\/\/www.facebook.com\/westernrise\/photos\/a.642762575805717.1073741829.554976337917675\/933973523351286\/?type=3&theater\" target=\"_blank\">American Angler<\/a><\/p><p><a href=\"http:\/\/www.rapidmedia.com\/kayakangler\/categories\/gear\/5270-gear-review-western-rise-clothing.html\" target=\"_blank\">Kayak Angler<\/a> <\/p><p><a href=\"http:\/\/midcurrent.com\/2015\/03\/16\/western-rise-apparel-to-launch-march-2015\/\" target=\"_blank\">MidCurrent<\/a><\/p><p><a href=\"http:\/\/www.hatchmag.com\/articles\/new-fly-fishing-apparel-co-western-rise-prepped-launch\/7712417\" target=\"_blank\">Hatch Magazine<\/a><\/p><p><a href=\"http:\/\/thefiberglassmanifesto.blogspot.com\/2015\/03\/we-are-western-rise.html\" target=\"_blank\">The Fiberglass Manifesto<\/a> \/ <a href=\"http:\/\/thefiberglassmanifesto.blogspot.com\/2015\/07\/iftd-bakers-dozen-of-cool.html\" target=\"_blank\">The Fiberglass Manifesto<\/a> \/ <a href=\"http:\/\/thefiberglassmanifesto.blogspot.com\/2015\/11\/10-for-fall.html\" target=\"_blank\">The Fiberglass Manifesto<\/a><\/p><p><a href=\"https:\/\/www.anglingtrade.com\/2015\/03\/04\/western-rise-apparel-launching-and-of-march-2015\/\" target=\"_blank\">Angling Trade<\/a> \/ <a href=\"https:\/\/www.anglingtrade.com\/2015\/03\/20\/new-apparel-company-western-rise-releases-video\/\" target=\"_blank\">Angling Trade<\/a><\/p><p><a href=\"http:\/\/www.thecoolector.com\/western-rise-camp-goods\/\" target=\"_blank\">The Coolector<\/a> \/ <a href=\"http:\/\/www.thecoolector.com\/western-rise-caribou-quilted-shirt\/\" target=\"_blank\">The Coolector<\/a> <\/p><p><a href=\"http:\/\/www.clad.com\/western-rise-caribou-quilted-shirt\/\" target=\"_blank\">CLAD<\/a><\/p><p><a href=\"http:\/\/www.toplinemagazine.com\/2015\/03\/25\/western-rise-teases-new-outdoor-line\/\" target=\"_blank\">Topline Magazine<\/a><\/p><p><a href=\"http:\/\/ski.curbed.com\/archives\/2015\/05\/essential-summer-gear-.php\" target=\"_blank\">Curbed Ski<\/a><\/p><p><a href=\"http:\/\/communitytable.parade.com\/463038\/amandawaas\/gifts-for-your-annoyingly-outdoorsy-cousin\/\" target=\"_blank\">Parade<\/a><\/p><p><a href=\"http:\/\/geargrounds.com\/western-rise-bitter-creek-anorak\/\" target=\"_blank\">Gear Grounds<\/a> \/ <a href=\"http:\/\/geargrounds.com\/caribou-quilted-shirt-by-western-rise\/\" target=\"_blank\">Gear Grounds<\/a><\/p><p><a href=\"https:\/\/www.youtube.com\/watch?v=DQL6NLZETMU\" target=\"_blank\">Venture Out<\/a><\/p><p><a href=\"https:\/\/www.theoutbound.com\/articles\/holiday-shopping-guide-the-18-coziest-gifts-for-your-cabin-comfort\" target=\"_blank\">The Outbound Collective<\/a><\/p><p><a href=\"http:\/\/www.ursamajorvt.com\/blogs\/the-blog-cabin\/17719925-he-lives-major-will-watters\" target=\"_blank\">Ursa Major<\/a><\/p>"
+          }
+        },
+        "20e74f67-0b8c-4101-9f64-b49d4cd69b7b": {
+          "type": "item",
+          "settings": {
+            "title": "Press Releases",
+            "content": "<p><a href=\"https:\/\/www.prweb.com\/releases\/2018\/04\/prweb15386085.htm\" title=\"The Evolution Pant Quadruples Crowdfunding Campaign Goal in 24 hours\">The Evolution Pant, Performance Pants for Travel, Outdoor and Every Day, Quadruples Crowdfunding Campaign Goal in less than 24 Hours<\/a><\/p><p><a href=\"https:\/\/www.prweb.com\/releases\/2018\/04\/prweb15380104.htm\" title=\"Western Rise Introduces The Evolution Pant\">Western Rise Introduces The Evolution Pant – Sustainable Ethically-made, Performance Pants for Travel, Outdoor and Every Day<\/a><\/p><p><a href=\"https:\/\/westernrise.com\/pages\/kelly-watters-appointed-new-ceo-of-western-rise\" title=\"Western Rise New Female CEO\">Western Rise enters the 5% | Names Co-founder Kelly Watters new CEO<\/a><\/p><p><a href=\"https:\/\/westernrise.com\/pages\/western-rise-establishes-new-studio-line-limited-edition-crowdfunded-small-batch-technical-clothing\" title=\"https:\/\/westernrise.com\/pages\/western-rise-establishes-new-studio-line-limited-edition-crowdfunded-small-batch-technical-clothing\">Western Rise® Establishes New Studio Line — Limited Edition, Crowdfunded, Small Batch Technical Clothing<\/a><\/p><p><a href=\"https:\/\/westernrise.com\/pages\/elevating-a-classic-western-rise-releases-the-elkton-and-bailey-performance-flannels\" target=\"_blank\" title=\"New Western Rise Performance Flannels\">Elevating a Classic, Western Rise® Releases the Elkton and Bailey Performance Flannels<\/a><\/p><p><a href=\"https:\/\/westernrise.com\/pages\/western-rise-launches-the-granite-camp-pants-2-0-a-technical-style-driven-all-mountain-pant\" target=\"_blank\" title=\"New Granite Camp Pants 2.0\">Western Rise Launches the Granite Camp Pants 2.0<em>—<\/em>A Technical, Style-Driven All Mountain Pant<\/a><\/p><p><a href=\"https:\/\/westernrise.com\/pages\/western-rise-versatile-mountain-apparel-launches-2016-collection\" target=\"_blank\">Western Rise Launches 2016 Spring\/Summer Collection<\/a><\/p><p><a href=\"https:\/\/westernrise.com\/pages\/2015-western-rise-new-mountain-apparel-company-launches-inaugural-line\" target=\"_blank\">Western Rise, Mountain Apparel Company, Launches Inaugural Line<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15885633618103__a96476ca-1bac-464f-89f8-cebaea8f5b21-item-1",
+        "template--15885633618103__a96476ca-1bac-464f-89f8-cebaea8f5b21-item-2",
+        "template--15885633618103__a96476ca-1bac-464f-89f8-cebaea8f5b21-item-3",
+        "af4c6d45-0806-46cf-9668-bac0fa44ec31",
+        "df6cea3b-941e-4598-9a68-e16c335674f6",
+        "d71ce3cd-d4a5-40fb-bb19-65674703e244",
+        "20e74f67-0b8c-4101-9f64-b49d4cd69b7b"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "Featured Press Kits",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#ffffff",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "d17dc8e4-0356-4fb7-9915-c46f86aced01",
+    "2452d161-ac21-4cef-9e85-91283c24bbf3",
+    "d76f4ca3-630c-4118-b5e6-6e2d1d5d89e1",
+    "main",
+    "7fcc833b-2f9e-4196-8467-00de20ddd628",
+    "da3da6b8-4352-463e-aa0c-3d14d11eb0a5",
+    "a96476ca-1bac-464f-89f8-cebaea8f5b21"
+  ]
+}

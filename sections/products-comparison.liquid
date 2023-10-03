@@ -1,0 +1,404 @@
+{%- if template contains 'product' and section.blocks.size > 0 -%}
+	{%- assign show_section = false -%}
+	{%- assign current_product_handle = product.handle -%}
+	{%- assign applicable_handles = '' | split: ',' -%}
+	{%- for block in section.blocks -%}
+		{%- if block.type == 'product' -%}
+			{%- assign product_handle = block.settings.product -%}
+			{%- assign product = all_products[product_handle] -%}
+			{%- if product.handle != '' and product.handle != blank -%}
+				{%- assign handle = product.handle | split: ',' -%}
+				{%- assign applicable_handles = applicable_handles | concat: handle -%}
+			{%- endif -%}
+		{%- endif -%}
+	{%- endfor -%}
+	{%- if applicable_handles contains current_product_handle -%}
+		{%- assign show_section = true -%}
+	{%- endif -%}
+{%- endif -%}
+
+{%- unless template contains 'product' -%}
+	{%- assign show_section = true -%}
+{%- endunless -%}
+
+{%- if show_section -%}
+  {%- render 'section-spacing-collapsing' -%}
+
+  <div {% render 'section-properties', custom_css_class: section.settings.css_class %}>
+    <div class="section-stack">
+      {%- render 'section-header', heading: section.settings.heading, content: section.settings.content, text_alignment: section.settings.text_alignment -%}
+
+      <div class="interactiveCompareCarousel interactive-comparison--container">
+        <reveal-items class="interactive-comparison--images" selector=".int-slide--top">
+          <div class="interactiveCompareCarouselImages swiper">
+            <div class="swiper-wrapper">
+              {%- assign counter = 1 -%}
+              {%- for block in section.blocks -%}
+                {%- assign coord_x = block.settings.coord_x -%}
+                {%- assign coord_y = block.settings.coord_y -%}
+                {%- assign width = block.settings.width -%}
+                {%- assign image = block.settings.image -%}
+                {%- assign product_handle = block.settings.product -%}
+                {%- assign product = all_products[product_handle] -%}
+                {%- assign title = product.title -%}
+                <div class="swiper-slide">
+                  <div class="int-slide--top relative">
+                    <div
+                      class="int-slide--caption h-stack wrap"
+                      style="top:{{ coord_y }}%;left:{{ coord_x }}%;width:{{ width }}%"
+                    >
+                      <span class="int-slide--number h-stack justify-center">
+                        {{ counter }}
+                      </span>
+                      <span class="int-slide--caption-title h-stack justify-center">
+                        {{ title }}
+                      </span>
+                    </div>
+                    <div class="int-slide--img relative">
+                      {%- if image != blank -%}
+                        <img
+                          loading="lazy"
+                          src="{{ image | img_url: 'master' }}"
+                          alt="{{ product.title }}">
+                      {%- endif -%}
+                    </div>
+                  </div>
+                </div>
+                {%- assign counter = counter | plus: 1 -%}
+              {%- endfor -%}
+            </div>
+          </div>
+        </reveal-items>
+        <reveal-items class="interactive-comparison--infos" selector=".int-slide--bottom">
+          <div class="interactiveCompareCarouselnfo swiper">
+            <div class="swiper-wrapper">
+              {%- assign counter = 1 -%}
+              {%- for block in section.blocks -%}
+                {%- assign text = block.settings.text -%}
+                {%- assign product_handle = block.settings.product -%}
+                {%- assign product = all_products[product_handle] -%}
+                {%- assign title = product.title -%}
+                <div class="swiper-slide">
+                  <div class="int-slide--bottom v-stack gap-5">
+                    <div class="int-slide--heading h-stack wrap gap-4">
+                      <span class="int-slide--number h-stack justify-center">
+                        {{ counter }}
+                      </span>
+                      <div class="int-slide--title h5 flex-1">
+                        {{ title }}
+                      </div>
+                    </div>
+                    <div class="int-slide--info prose text-sm hidden sm:block">
+                      {{ text }}
+                    </div>
+                    <div class="int-slide--cta">
+                      {%- assign button_label = 'product.general.shop_now' | t -%}
+                      {% render 'button', content: button_label, href: product.url %}
+                    </div>
+                  </div>
+                </div>
+                {%- assign counter = counter | plus: 1 -%}
+              {%- endfor -%}
+            </div>
+          </div>
+        </reveal-items>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .shopify-section--products-comparison > .section {
+      overflow: hidden
+    }
+
+    .shopify-section--products-comparison .swiper {
+      overflow: visible
+    }
+
+    .interactive-comparison--container {
+      max-width: 500px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .int-slide--img {
+      padding-bottom: 200%
+    }
+
+    .int-slide--img img {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      height: 100%;
+      width: auto;
+      max-width: none;
+    }
+
+    .int-slide--caption {
+      position: absolute;
+      z-index: 1
+    }
+
+    .int-slide--caption:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      width: 100%;
+      top: 50%;
+      border-bottom: 1.3px dashed rgb(var(--text-dark));
+    }
+
+    .int-slide--caption-title,
+    .int-slide--caption .int-slide--number {
+      position: relative;
+      z-index: 1
+    }
+
+    .int-slide--caption-title {
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 1;
+      padding: 8px 16px;
+      min-width: 96px;
+      color: rgb(var(--background-primary));
+      background-color: rgb(var(--text-dark));
+      border-radius: 15px;
+      margin-left: auto
+    }
+
+    .int-slide--bottom {
+      height: 100%;
+      width: 270px;
+      padding-left: 10px;
+      padding-right: 10px;
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column
+    }
+
+    .int-slide--number {
+      font-size: 12px;
+      line-height: 25px;
+      font-weight: 500;
+      color: rgb(var(--background-primary));
+      background-color: rgb(var(--text-dark));
+      width: 24px;
+      height: 24px;
+      border-radius: 100%
+    }
+
+    .int-slide--title {
+      color: rgb(var(--text-dark));
+    }
+
+    .int-slide--info ul li {
+      padding-left: 1.7em;
+      position: relative;
+      list-style: none;
+    }
+
+    .int-slide--info ul li:before {
+      content: '';
+      position: absolute;
+      left: 0.2em;
+      top: 0.65em;
+      width: 0.3em;
+      height: 0.3em;
+      border-radius: 100%;
+      background-color: currentColor
+    }
+
+    .int-slide--cta {
+      margin-top: auto;
+    }
+
+    @media (min-width: 1000px) {
+      .interactive-comparison--container {
+        max-width: 1180px;
+      }
+
+      .interactive-comparison--images .swiper-wrapper .swiper-slide:first-child {
+        z-index: 10
+      }
+
+      .interactive-comparison--images .swiper-wrapper .swiper-slide:nth-child(2) {
+        z-index: 9
+      }
+
+      .interactive-comparison--images .swiper-wrapper .swiper-slide:nth-child(3) {
+        z-index: 8
+      }
+
+      .interactive-comparison--images .swiper-wrapper .swiper-slide:nth-child(4) {
+        z-index: 7
+      }
+    }
+
+    @media (min-width: 1600px) {
+      .int-slide--img {
+        padding-bottom: 250%
+      }
+    }
+
+    @media (max-width: 999px) {
+      .int-slide--img {
+        padding-bottom: 175%
+      }
+
+      .interactive-comparison--images .swiper-wrapper .swiper-slide.swiper-slide-active {
+        z-index: 10
+      }
+
+      .int-slide--caption {
+        width: auto!important;
+        right: -20px
+      }
+    }
+  </style>
+  {{- 'swiper-bundle.min.css' | asset_url | stylesheet_tag: preload: true -}}
+  <script defer src="{{ 'swiper-bundle.min.js' | asset_url }}"></script>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Products comparison",
+  "class": "shopify-section--products-comparison",
+  "tag": "section",
+  "disabled_on": {
+    "templates": ["password"],
+    "groups": ["header", "custom.overlay"]
+  },
+  "settings": [
+    {
+      "id": "heading",
+      "type": "text",
+      "label": "Heading"
+    },
+    {
+      "id": "content",
+      "type": "liquid",
+      "label": "Text"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "start",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "end",
+          "label": "Right"
+        }
+      ],
+      "default": "start"
+    },
+    {
+      "type": "header",
+      "content": "Colors",
+      "info": "Gradient replaces solid colors when set."
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "product",
+      "name": "Product",
+      "settings": [
+        {
+          "id": "image",
+          "type": "image_picker",
+          "label": "Image"
+        },
+        {
+          "id": "product",
+          "type": "product",
+          "label": "Product"
+        },
+        {
+          "id": "text",
+          "type": "textarea",
+          "label": "Text"
+        },
+        {
+          "type": "header",
+          "content": "Caption coordinates"
+        },
+        {
+          "id": "coord_x",
+          "type": "text",
+          "label": "Axis X",
+          "info": "From 0 to 100"
+        },
+        {
+          "id": "coord_y",
+          "type": "text",
+          "label": "Axis Y",
+          "info": "From 0 to 100"
+        },
+        {
+          "id": "width",
+          "type": "text",
+          "label": "Width",
+          "info": "Relative to block width"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Interactive comparison",
+      "category": "Custom",
+      "blocks": [
+        {
+          "type": "product",
+          "settings": {}
+        },
+        {
+          "type": "product",
+          "settings": {}
+        },
+        {
+          "type": "product",
+          "settings": {}
+        },
+        {
+          "type": "product",
+          "settings": {}
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

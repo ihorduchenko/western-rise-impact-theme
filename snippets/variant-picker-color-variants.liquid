@@ -1,0 +1,48 @@
+{%- assign current_variant = current_product.selected_or_first_available_variant -%}
+{%- for product_item in color_products -%}
+	{%- for option in product_item.options_with_values -%}
+    {%- assign option_downcase = option.name | downcase -%}
+    {%- assign option_index = 'option' | append: option.position -%}
+		{%- if color_label_list contains option_downcase -%}
+			{%- for color in option.values -%}
+				{%- for variant in product_item.variants -%}
+					{%- if variant[option_index] == color -%}
+            {%- assign selected = false -%}
+            {%- if color == current_variant[option_index] -%}
+              {%- assign selected = true -%}
+            {%- endif -%}
+            {%- case selector_type -%}
+              {%- when 'variant' -%}
+                {%- assign variant_for_value = product_item.variants | where: name, color | first -%}
+                {%- assign href = variant.url -%}
+                {%- if selected -%}
+                  {%- assign href = false -%}
+                {%- endif -%}
+                {%- render 'swatch' with 'media', size: size, href: href, name: name, value: color, media: variant_for_value.featured_media, selected: selected, bordered: true -%}
+              {%- when 'color' -%}
+                {%- assign href = variant.url -%}
+                {%- if selected -%}
+                  {%- assign href = false -%}
+                {%- endif -%}
+                {%- render 'swatch' with 'color', size: size, href: href, name: name, selected: selected, value: color -%}
+              {%- when 'block' -%}
+                {%- assign href = variant.url -%}
+                {%- if selected -%}
+                  {%- assign href = false -%}
+                {%- endif -%}
+                {%- render 'swatch' with 'block', size: size, href: href, name: name, selected: selected, value: color -%}
+              {%- when 'block_swatch' -%}
+                {%- assign href = variant.url -%}
+                {%- if selected -%}
+                  {%- assign href = false -%}
+                {%- endif -%}
+                {%- render 'swatch' with 'block', size: size, href: href, name: name, value: color, selected: selected, show_color: true -%}
+            {%- endcase -%}
+
+            {% break %}
+					{%- endif -%}
+				{%- endfor -%}
+			{%- endfor -%}
+		{%- endif -%}
+	{%- endfor -%}
+{%- endfor -%}

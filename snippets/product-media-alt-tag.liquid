@@ -1,0 +1,10 @@
+{%- if media.alt contains '#' -%}
+  {%- assign alt_parts = media.alt | split: '#' -%}
+  {%- assign media_group_parts = alt_parts.last | split: '_' -%}
+  {%- assign option_value = media_group_parts.last | strip -%}
+  {%- if option_value != blank -%}
+    {{ product.title }} - {{ option_value | capitalize }}
+  {%- endif -%}
+{%- else -%}
+  {{ product.title }} - {{ alt }}
+{%- endif -%}

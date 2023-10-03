@@ -1,0 +1,155 @@
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "68f0d0db-f28e-417a-a230-554d542f59fa": {
+      "type": "multi-column",
+      "blocks": {
+        "sections--15877159157943__68f0d0db-f28e-417a-a230-554d542f59fa-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_df3fc436-a3cd-4e18-b052-3a9ab2ae8a3a.png",
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "https:\/\/instagram.com\/western_rise",
+            "link_text": "",
+            "link_style": "block"
+          }
+        },
+        "d591dd78-5a71-44fd-a7fd-6ef20a268944": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_846dc054-a98b-4e68-8b50-ce6a44b37661.png",
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "https:\/\/instagram.com\/western_rise",
+            "link_text": "",
+            "link_style": "block"
+          }
+        },
+        "71f2a17f-0234-4bda-a323-712235ad6282": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_6046281c-6970-4790-81da-1f01b3718c94.png",
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "https:\/\/instagram.com\/western_rise",
+            "link_text": "",
+            "link_style": "block"
+          }
+        },
+        "434a9d54-385d-4b7b-9282-05b0e78a558e": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_2826fd63-1502-4c9a-b3d4-926d98fa3ff4.png",
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "https:\/\/instagram.com\/western_rise",
+            "link_text": "",
+            "link_style": "block"
+          }
+        }
+      },
+      "block_order": [
+        "sections--15877159157943__68f0d0db-f28e-417a-a230-554d542f59fa-item-1",
+        "d591dd78-5a71-44fd-a7fd-6ef20a268944",
+        "71f2a17f-0234-4bda-a323-712235ad6282",
+        "434a9d54-385d-4b7b-9282-05b0e78a558e"
+      ],
+      "settings": {
+        "css_class": "",
+        "full_width": true,
+        "stack_on_mobile": true,
+        "enable_carousel": false,
+        "show_progress_bar": false,
+        "gap": "small",
+        "text_alignment": "center",
+        "subheading": "<a href=\"https:\/\/instagram.com\/western_rise\" target=\"_blank\">Follow Us<\/a>",
+        "title": "@western_rise",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#222222"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "5a397d35-175d-4baa-a75d-f38f0e32a59e": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logo-small_17ef1c47-be3b-411b-bf56-a2d39553e0d6.webp",
+            "title": "Travel further with less.",
+            "content": "<p>Effortless travel staples that let you carry less and experience more.<\/p>",
+            "enable_follow_on_shop": false
+          }
+        },
+        "links": {
+          "type": "links",
+          "settings": {
+            "menu": "shop",
+            "show_menu_title": true
+          }
+        },
+        "5f7b8d67-0d15-45b2-83c5-e2e1de6e9f64": {
+          "type": "links",
+          "settings": {
+            "menu": "where-to",
+            "show_menu_title": true
+          }
+        },
+        "71b285c5-82f3-4e77-be5d-63d4d7c61fe5": {
+          "type": "links",
+          "settings": {
+            "menu": "travel-concierge",
+            "show_menu_title": true
+          }
+        },
+        "57c7fe09-c965-4e63-ae97-b2a3272c2689": {
+          "type": "account_links",
+          "settings": {}
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "image_width": 150,
+            "heading_size": "h6",
+            "title": "Subscribe",
+            "content": "<p>Get 15% off your first order, plus travel hacks and packing tips.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "5a397d35-175d-4baa-a75d-f38f0e32a59e",
+        "links",
+        "5f7b8d67-0d15-45b2-83c5-e2e1de6e9f64",
+        "71b285c5-82f3-4e77-be5d-63d4d7c61fe5",
+        "57c7fe09-c965-4e63-ae97-b2a3272c2689",
+        "newsletter"
+      ],
+      "custom_css": [
+        ".footer__block-title {color: rgb(var(--text-dark));}"
+      ],
+      "settings": {
+        "show_social_media": true,
+        "show_payment_icons": false,
+        "show_country_selector": false,
+        "show_country_flag": false,
+        "show_country_name": false,
+        "show_locale_selector": true
+      }
+    }
+  },
+  "order": [
+    "68f0d0db-f28e-417a-a230-554d542f59fa",
+    "footer"
+  ]
+}

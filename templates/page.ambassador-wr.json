@@ -1,0 +1,313 @@
+{
+  "sections": {
+    "d17dc8e4-0356-4fb7-9915-c46f86aced01": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--15884740722871__d17dc8e4-0356-4fb7-9915-c46f86aced01-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Join the Western Rise Team",
+            "heading_tag": "h1"
+          }
+        },
+        "template--15884740722871__d17dc8e4-0356-4fb7-9915-c46f86aced01-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The Western Rise team is an exclusive group of like-minded guys seeking to live life, elevated. The community is built for those who embody the Western Rise lifestyle and practice curiosity and tenacity while pursuing life with an adventurous spirit. Interested in joining us? Apply below.<\/p>"
+          }
+        },
+        "6fc4ff9a-47d6-44e3-9558-0c7ce26cc53f": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Apply",
+            "url": "shopify:\/\/pages\/ambassadorapp",
+            "background": "#ffffff",
+            "text_color": "#222222"
+          }
+        }
+      },
+      "block_order": [
+        "template--15884740722871__d17dc8e4-0356-4fb7-9915-c46f86aced01-heading-1",
+        "template--15884740722871__d17dc8e4-0356-4fb7-9915-c46f86aced01-richtext-1",
+        "6fc4ff9a-47d6-44e3-9558-0c7ce26cc53f"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/western-rise-20220217-2183_DxO.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#222222",
+        "overlay_opacity": 10
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "60ch"
+      }
+    },
+    "1581e906-93c5-405a-a889-4d3c672a58fe": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--15884740722871__1581e906-93c5-405a-a889-4d3c672a58fe-item-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/complimentary-products.png",
+            "mobile_icon_width": 48,
+            "icon_width": 48,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Complimentary Products",
+            "content": ""
+          }
+        },
+        "template--15884740722871__1581e906-93c5-405a-a889-4d3c672a58fe-item-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/ambass-wr-discounts.png",
+            "mobile_icon_width": 48,
+            "icon_width": 48,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Free Returns",
+            "content": ""
+          }
+        },
+        "template--15884740722871__1581e906-93c5-405a-a889-4d3c672a58fe-item-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/ambass-wr-chance-to-earn-comission.png",
+            "mobile_icon_width": 48,
+            "icon_width": 48,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Lifetime Guarantee",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15884740722871__1581e906-93c5-405a-a889-4d3c672a58fe-item-1",
+        "template--15884740722871__1581e906-93c5-405a-a889-4d3c672a58fe-item-2",
+        "template--15884740722871__1581e906-93c5-405a-a889-4d3c672a58fe-item-3"
+      ],
+      "settings": {
+        "css_class": "",
+        "full_width": true,
+        "stack_on_mobile": true,
+        "title": "Western Rise Ambassador Perks",
+        "heading_tag": "h4",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "da3da6b8-4352-463e-aa0c-3d14d11eb0a5": {
+      "type": "multi-column",
+      "blocks": {
+        "template--15884740722871__da3da6b8-4352-463e-aa0c-3d14d11eb0a5-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambass-wr-apply.jpg",
+            "column_size": "3",
+            "title": "01.",
+            "heading_tag": "h1",
+            "content": "<h3>Apply<\/h3><p>Complete your application and you will receive an email within 2 weeks of applying.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "button"
+          }
+        },
+        "54efc248-2926-48d9-b16b-ee6586bc5ccb": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambass-wr-share.jpg",
+            "column_size": "3",
+            "title": "02.",
+            "heading_tag": "h1",
+            "content": "<h3>Share<\/h3><p>Integrate Western Rise into your everyday wear and promote the lifestyle on your social media (IG, TikTok, YouTube, etc.)<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "button"
+          }
+        },
+        "c68b6a5f-5ba8-409c-a0db-211f77bef6ad": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambass-wr-connect.jpg",
+            "column_size": "3",
+            "title": "03.",
+            "heading_tag": "h1",
+            "content": "<h3>Connect<\/h3><p>Build a network by connecting with other Western Rise brand ambassadors around the world.<\/p><p><a href=\"https:\/\/www.facebook.com\/westernrise\" target=\"_blank\" title=\"https:\/\/www.facebook.com\/westernrise\"><strong>Facebook<\/strong><\/a><strong> <\/strong>|<strong> <\/strong><a href=\"https:\/\/instagram.com\/western_rise\" target=\"_blank\" title=\"https:\/\/instagram.com\/western_rise\"><strong>Instagram<\/strong><\/a><\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "template--15884740722871__da3da6b8-4352-463e-aa0c-3d14d11eb0a5-item-1",
+        "54efc248-2926-48d9-b16b-ee6586bc5ccb",
+        "c68b6a5f-5ba8-409c-a0db-211f77bef6ad"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "gap": "large",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "How It Works",
+        "content": "",
+        "background": "#f2f1ee",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "19088cfa-5374-4631-9843-d0a5c0f1c18c": {
+      "type": "video",
+      "blocks": {
+        "template--15885633618103__19088cfa-5374-4631-9843-d0a5c0f1c18c-play-1": {
+          "type": "play",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "template--15885633618103__19088cfa-5374-4631-9843-d0a5c0f1c18c-play-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/youtu.be\/5t1MQCbxKfs?si=RANmIQUk-dFWpQnm",
+        "poster": "shopify:\/\/shop_images\/brand-video-cover.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 5
+      }
+    },
+    "a96476ca-1bac-464f-89f8-cebaea8f5b21": {
+      "type": "faq",
+      "blocks": {
+        "template--15885633618103__a96476ca-1bac-464f-89f8-cebaea8f5b21-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "WHEN WILL I KNOW IF I WAS ACCEPTED TO THE BRAND AMBASSADOR PROGRAM?",
+            "content": "<p>We are a small team and very busy. You will receive an email within 1 month of applying.<\/p>"
+          }
+        },
+        "template--15885633618103__a96476ca-1bac-464f-89f8-cebaea8f5b21-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "DO I NEED A PUBLIC INSTAGRAM ACCOUNT TO APPLY?",
+            "content": "<p>Yes.<\/p>"
+          }
+        },
+        "template--15885633618103__a96476ca-1bac-464f-89f8-cebaea8f5b21-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "CAN I BE A BRAND AMBASSADOR EVEN IF I AM LOCATED OUTSIDE OF THE USA?",
+            "content": "<p>Yes.<\/p>"
+          }
+        },
+        "af4c6d45-0806-46cf-9668-bac0fa44ec31": {
+          "type": "item",
+          "settings": {
+            "title": "IF I DON’T GET APPROVED CAN I REAPPLY IN THE FUTURE?",
+            "content": "<p>Yes<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15885633618103__a96476ca-1bac-464f-89f8-cebaea8f5b21-item-1",
+        "template--15885633618103__a96476ca-1bac-464f-89f8-cebaea8f5b21-item-2",
+        "template--15885633618103__a96476ca-1bac-464f-89f8-cebaea8f5b21-item-3",
+        "af4c6d45-0806-46cf-9668-bac0fa44ec31"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Frequently Asked Questions",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "#f1f0ed",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#f1f0ed",
+        "accordion_text_color": ""
+      }
+    },
+    "2e358d46-08ba-4496-8015-4f57365038dc": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15885633618103__2e358d46-08ba-4496-8015-4f57365038dc-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Ready to get started?",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "7d77a34b-32f0-45e7-9a84-b43e6d61a2c1": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Apply",
+            "url": "shopify:\/\/pages\/ambassadorapp",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15885633618103__2e358d46-08ba-4496-8015-4f57365038dc-heading-1",
+        "7d77a34b-32f0-45e7-9a84-b43e6d61a2c1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "d17dc8e4-0356-4fb7-9915-c46f86aced01",
+    "main",
+    "1581e906-93c5-405a-a889-4d3c672a58fe",
+    "da3da6b8-4352-463e-aa0c-3d14d11eb0a5",
+    "19088cfa-5374-4631-9843-d0a5c0f1c18c",
+    "a96476ca-1bac-464f-89f8-cebaea8f5b21",
+    "2e358d46-08ba-4496-8015-4f57365038dc"
+  ]
+}

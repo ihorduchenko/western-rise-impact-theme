@@ -1,0 +1,17 @@
+<nav class="product-breadcrumbs text-center text-sm">
+  <div class="h-stack wrap justify-center align-center gap-1">
+    <a href="{{ routes.root_url }}" class="reversed-link">
+      {{ 'general.home' | t }}
+    </a>
+    {%- if collection -%}
+      <span>/</span>
+      <a class="reversed-link" href="{{ collection.url }}" title="{{ collection.title }}">
+        {{ collection.title }}
+      </a>
+		{%- endif -%}
+    <span>/</span>
+    <a class="reversed-link" href="{{ product.url }}" title="{{ product.title }}">
+      {{ product.title }}
+    </a>
+  </div>
+</nav>

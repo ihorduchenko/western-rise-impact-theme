@@ -1,0 +1,40 @@
+<div class="checkout-trust-block">
+  {%- if settings.checkout_warranty_text != blank -%}
+    <div class="checkout-trust-warranty flex-align-center">
+      {%- if settings.checkout_warranty_icon != blank -%}
+        <img
+          loading="lazy"
+          src="{{ settings.checkout_warranty_icon | img_url: 'master' }}"
+          alt="{{ settings.checkout_warranty_icon.alt }}">
+      {%- endif -%}
+
+      <div class="flex-1">
+        {{ settings.checkout_warranty_text }}
+      </div>
+    </div>
+  {%- endif -%}
+
+  {%- if settings.checkout_testi_text != blank -%}
+    <div class="checkout-trust-testimonial">
+      {%- if settings.checkout_testi_image != blank -%}
+        <img
+          class="checkout-trust-testimonial--image"
+          loading="lazy"
+          src="{{ settings.checkout_testi_image | img_url: 'master' }}"
+          alt="{{ settings.checkout_testi_image.alt }}">
+      {%- endif -%}
+
+      <div class="flex-1">
+        <div class="p--small checkout-trust-testimonial--copy">
+          {{ settings.checkout_testi_text }}
+        </div>
+
+        {%- if settings.checkout_testi_author != blank -%}
+          <div class="label--large checkout-trust-testimonial--author">
+            {{ settings.checkout_testi_author }}
+          </div>
+        {%- endif -%}
+      </div>
+    </div>
+  {%- endif -%}
+</div>

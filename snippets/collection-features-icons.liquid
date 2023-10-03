@@ -1,0 +1,25 @@
+{% assign feat_items = collection.metafields.custom.features_icons %}
+{%- if feat_items != blank -%}
+  <div class="collection-features-icons h-stack align-start wrap gap-3 sm:gap-6">
+    {% for item in feat_items.value %}
+      {%- assign icon = item.icon.value -%}
+      {%- assign text = item.text.value -%}
+      <div class="collection-features-item v-stack wrap gap-2 sm:gap-3">
+        {%- if icon != blank -%}
+          <div class="collection-features-item-icon">
+            <img
+              loading="lazy"
+              alt="{{ icon.alt }}"
+              src="{{ icon | img_url: 'master' }}"
+            >
+          </div>
+        {%- endif -%}
+        {%- if text != blank -%}
+          <div class="collection-features-item-text text-center font-monospaced text-xs">
+            {{ text }}
+          </div>
+        {%- endif -%}
+      </div>
+    {% endfor %}
+  </div>
+{%- endif -%}

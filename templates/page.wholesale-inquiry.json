@@ -1,0 +1,229 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "60ch"
+      }
+    },
+    "7a609b54-043d-4ea9-95e7-dee3c01ddf05": {
+      "type": "contact-custom",
+      "blocks": {
+        "ac6a4d44-714e-4091-9531-a2e982ea928c": {
+          "type": "text",
+          "settings": {
+            "title": "Contact Name",
+            "use_long_text": false,
+            "required": true,
+            "input_type": "text",
+            "custom_name": ""
+          }
+        },
+        "5c129efb-c8d2-4674-9342-cef664da0e12": {
+          "type": "text",
+          "settings": {
+            "title": "Email",
+            "use_long_text": false,
+            "required": true,
+            "input_type": "email",
+            "custom_name": ""
+          }
+        },
+        "a6f6742c-5d1b-43b3-a8f1-835aaeafde4a": {
+          "type": "text",
+          "settings": {
+            "title": "Contact Phone",
+            "use_long_text": false,
+            "required": true,
+            "input_type": "tel",
+            "custom_name": ""
+          }
+        },
+        "a4c8c9e9-34a3-4cc1-b3d6-b7ff28895c2b": {
+          "type": "text",
+          "settings": {
+            "title": "Business\/store name",
+            "use_long_text": false,
+            "required": true,
+            "input_type": "text",
+            "custom_name": ""
+          }
+        },
+        "a64d13f3-ca83-4fc8-8929-40ec7dc8c715": {
+          "type": "text",
+          "settings": {
+            "title": "Business\/Store Website",
+            "use_long_text": false,
+            "required": true,
+            "input_type": "url",
+            "custom_name": ""
+          }
+        },
+        "5c99876d-f3a6-4132-be3d-002c8f9b0a2f": {
+          "type": "text",
+          "settings": {
+            "title": "Street Address",
+            "use_long_text": false,
+            "required": true,
+            "input_type": "text",
+            "custom_name": ""
+          }
+        },
+        "e17a1ea9-8a1b-4864-a6dc-943fc88942a1": {
+          "type": "text",
+          "settings": {
+            "title": "City",
+            "use_long_text": false,
+            "required": true,
+            "input_type": "text",
+            "custom_name": ""
+          }
+        },
+        "d5c8970e-c397-48fb-b1d1-62b5e6e2db1d": {
+          "type": "dropdown",
+          "settings": {
+            "title": "State",
+            "required": true,
+            "values": "Alabama, Alaska, American Samoa, Arizona, Arkansas, California, Colorado, Connecticut, Delaware, District of Columbia, Florida, Georgia, Guam, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Massachusetts, Michigan, Minnesota, Minor Outlying Islands, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, New Mexico, New York, North Carolina, North Dakota, Northern Mariana Islands, Ohio, Oklahoma, Oregon, Pennsylvania, Puerto Rico, Rhode Island, South Carolina, South Dakota, Tennessee, Texas, U.S. Virgin Islands, Utah, Vermont, Virginia, Washington, West Virginia, Wisconsin, Wyoming",
+            "custom_name": ""
+          }
+        },
+        "e143bc4c-d802-4a8a-aa03-ce11bd7f62e9": {
+          "type": "text",
+          "settings": {
+            "title": "Zip code",
+            "use_long_text": false,
+            "required": true,
+            "input_type": "text",
+            "custom_name": ""
+          }
+        },
+        "5cf01f63-982c-4cbb-b3c4-d533880970a6": {
+          "type": "dropdown",
+          "settings": {
+            "title": "Type of Business",
+            "required": true,
+            "values": "Menswear, Lifestyle, Outdoor, Running, Resort, Surf, Sporting Goods, Other",
+            "custom_name": ""
+          }
+        },
+        "8e760619-25e1-47e0-ac7c-e7e820d0cfd5": {
+          "type": "text",
+          "settings": {
+            "title": "How Many Years In Business?",
+            "use_long_text": false,
+            "required": true,
+            "input_type": "text",
+            "custom_name": "Years in business"
+          }
+        },
+        "d19c3f9a-6e0b-4d75-9b79-90d73846defa": {
+          "type": "text",
+          "settings": {
+            "title": "Top 3 brands in store",
+            "use_long_text": false,
+            "required": true,
+            "input_type": "text",
+            "custom_name": ""
+          }
+        },
+        "2edd4dd9-bc58-45a1-8483-de5407641c6c": {
+          "type": "text",
+          "settings": {
+            "title": "Closest Competitive Western Rise Retail Partner Location?",
+            "use_long_text": false,
+            "required": false,
+            "input_type": "text",
+            "custom_name": "Closest WR competitor"
+          }
+        },
+        "c206bfe2-0fe6-4186-ad57-a3598cb8f76f": {
+          "type": "text",
+          "settings": {
+            "title": "Number of locations",
+            "use_long_text": false,
+            "required": true,
+            "input_type": "text",
+            "custom_name": ""
+          }
+        },
+        "b97a9985-869c-4bb6-950c-2a90800891dc": {
+          "type": "text",
+          "settings": {
+            "title": "Sales Floor Square Footage",
+            "use_long_text": false,
+            "required": true,
+            "input_type": "text",
+            "custom_name": ""
+          }
+        },
+        "1a088032-190d-4d0f-a693-c2ea46aa686d": {
+          "type": "text",
+          "settings": {
+            "title": "How did you hear about Western Rise?",
+            "use_long_text": false,
+            "required": true,
+            "input_type": "text",
+            "custom_name": "How did you hear about WR"
+          }
+        },
+        "2bf97ade-b1a7-4339-8886-1bb3aa3d603f": {
+          "type": "checkbox",
+          "settings": {
+            "title": "Receive E-Mail Updates?",
+            "checked": false,
+            "custom_name": "Receive e-mail updates"
+          }
+        }
+      },
+      "block_order": [
+        "ac6a4d44-714e-4091-9531-a2e982ea928c",
+        "5c129efb-c8d2-4674-9342-cef664da0e12",
+        "a6f6742c-5d1b-43b3-a8f1-835aaeafde4a",
+        "a4c8c9e9-34a3-4cc1-b3d6-b7ff28895c2b",
+        "a64d13f3-ca83-4fc8-8929-40ec7dc8c715",
+        "5c99876d-f3a6-4132-be3d-002c8f9b0a2f",
+        "e17a1ea9-8a1b-4864-a6dc-943fc88942a1",
+        "d5c8970e-c397-48fb-b1d1-62b5e6e2db1d",
+        "e143bc4c-d802-4a8a-aa03-ce11bd7f62e9",
+        "5cf01f63-982c-4cbb-b3c4-d533880970a6",
+        "8e760619-25e1-47e0-ac7c-e7e820d0cfd5",
+        "d19c3f9a-6e0b-4d75-9b79-90d73846defa",
+        "2edd4dd9-bc58-45a1-8483-de5407641c6c",
+        "c206bfe2-0fe6-4186-ad57-a3598cb8f76f",
+        "b97a9985-869c-4bb6-950c-2a90800891dc",
+        "1a088032-190d-4d0f-a693-c2ea46aa686d",
+        "2bf97ade-b1a7-4339-8886-1bb3aa3d603f"
+      ],
+      "custom_css": [
+        ".contact-form {padding: 0;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "{{ page.title }}",
+        "content": "<p>Interested in becoming a Western Rise Retail Partner?<\/p><p>Please complete the form below and we will contact you shortly.<\/p><p><a href=\"mailto:sales@westernrise.com\" title=\"mailto:sales@westernrise.com\">sales@westernrise.com<\/a><\/p>",
+        "text_position": "center",
+        "contact_form_size": "large",
+        "app_script_url": "https:\/\/script.google.com\/macros\/s\/AKfycbyF83u6jQz4WnGqg1ayfjgz27qVQp1UFXqzl8TCsfhE5xyOUNveGSKMUUEPB6xo4dhw\/exec",
+        "emailjs_public_key": "user_3xcq5CMFhp8lAmPS0oqmT",
+        "emailjs_tmplt_id": "template_gl0oq8b",
+        "success_message": "Thank you! We will be in touch shortly!",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "#ffffff",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "7a609b54-043d-4ea9-95e7-dee3c01ddf05"
+  ]
+}

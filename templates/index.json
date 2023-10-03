@@ -1,0 +1,866 @@
+{
+  "sections": {
+    "f44c2499-09fc-49ee-b0b5-d74ede2ca3da": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17811341639946__f44c2499-09fc-49ee-b0b5-d74ede2ca3da-1680765383e8bd9360-0": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/home-banner-desktop-2023-01.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/hero-image-mobile.webp",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Clothing for the Modern Traveler",
+            "heading_tag": "h1",
+            "text": "",
+            "button_text": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/in-stock",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#444444",
+            "overlay_color": "#222222",
+            "overlay_opacity": 20,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "f0394766-faf7-4be2-9a19-42bfd9baba51": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/home-banner-desktop-2023-01.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Clothing for the Modern Traveler",
+            "heading_tag": "h1",
+            "text": "<h3>The Transit Overshirt<\/h3>",
+            "button_text": "SHOP NOW",
+            "button_link": "shopify:\/\/products\/transit-overshirt",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#444444",
+            "overlay_color": "#222222",
+            "overlay_opacity": 20,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "d2945e39-b6ce-4903-8f8d-7ed79736312d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/home-banner-desktop-2023-02.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Clothing for the Modern Traveler",
+            "heading_tag": "h1",
+            "text": "<h3>The Evolution Pant<\/h3>",
+            "button_text": "SHOP NOW",
+            "button_link": "shopify:\/\/products\/evolution-pant",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#444444",
+            "overlay_color": "#222222",
+            "overlay_opacity": 20,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "91ca8472-76d3-4fc7-83d0-1c610c08d995": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/home-banner-desktop-2023-03.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Clothing for the Modern Traveler",
+            "heading_tag": "h1",
+            "text": "<h3>The AirLoft Collection<\/h3>",
+            "button_text": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/outerwear",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#444444",
+            "overlay_color": "#222222",
+            "overlay_opacity": 20,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17811341639946__f44c2499-09fc-49ee-b0b5-d74ede2ca3da-1680765383e8bd9360-0",
+        "f0394766-faf7-4be2-9a19-42bfd9baba51",
+        "d2945e39-b6ce-4903-8f8d-7ed79736312d",
+        "91ca8472-76d3-4fc7-83d0-1c610c08d995"
+      ],
+      "custom_css": [
+        ".button {background-color: #ffffffe6; color: #444; min-width: 165px;}",
+        ".button:hover {background-color: #ffffff;}"
+      ],
+      "settings": {
+        "css_class": "home-hero-banner mod-desktop hidden md:block",
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": true,
+        "cycle_speed": 4,
+        "background": "#ffffff",
+        "background_gradient": ""
+      }
+    },
+    "0c77a234-cd06-48cf-887d-5a19c7d07686": {
+      "type": "slideshow",
+      "blocks": {
+        "d4c992f2-362a-450c-80bd-856896478bed": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/home_collage-desktop.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/hero-image-mobile.webp",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Clothing for the Modern Traveler",
+            "heading_tag": "h1",
+            "text": "",
+            "button_text": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/in-stock",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#444444",
+            "overlay_color": "#222222",
+            "overlay_opacity": 20,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "e0a6bd26-60f0-4c2b-8ee2-72ad6be58561": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/home-banner-mobile-2023-01.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Clothing for the Modern Traveler",
+            "heading_tag": "h1",
+            "text": "<h3>Discover Our New X Cotton Shirt<\/h3>",
+            "button_text": "SHOP NOW",
+            "button_link": "shopify:\/\/products\/x-cotton-shirt",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#444444",
+            "overlay_color": "#222222",
+            "overlay_opacity": 20,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "14093dff-11d7-49b6-83a0-340fbfdc528e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/home-banner-mobile-2023-02.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Clothing for the Modern Traveler",
+            "heading_tag": "h1",
+            "text": "<h3>Diversion Pant Now In New Colors<\/h3>",
+            "button_text": "SHOP NOW",
+            "button_link": "shopify:\/\/products\/diversion-pant",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#444444",
+            "overlay_color": "#222222",
+            "overlay_opacity": 20,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "838502dc-c455-4ecd-b421-dc5c0f954592": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/home-banner-mobile-2023-03.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Clothing for the Modern Traveler",
+            "heading_tag": "h1",
+            "text": "<h3>The Transit Overshirt<\/h3>",
+            "button_text": "SHOP NOW",
+            "button_link": "shopify:\/\/products\/transit-overshirt",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#444444",
+            "overlay_color": "#222222",
+            "overlay_opacity": 20,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "d4c992f2-362a-450c-80bd-856896478bed",
+        "e0a6bd26-60f0-4c2b-8ee2-72ad6be58561",
+        "14093dff-11d7-49b6-83a0-340fbfdc528e",
+        "838502dc-c455-4ecd-b421-dc5c0f954592"
+      ],
+      "custom_css": [
+        ".button {background-color: #ffffffe6; color: #444; min-width: 165px;}",
+        ".button:hover {background-color: #ffffff;}"
+      ],
+      "settings": {
+        "css_class": "home-hero-banner mod-mobile md:hidden",
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": true,
+        "cycle_speed": 6,
+        "background": "#ffffff",
+        "background_gradient": ""
+      }
+    },
+    "187dd984-fd5f-448f-afa5-aa1d7e77c557": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15877158699191__187dd984-fd5f-448f-afa5-aa1d7e77c557-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Quality apparel for the modern, one-bag traveler so you can carry less and experience more.",
+            "heading_tag": "h2",
+            "text_color": "#222222",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15877158699191__187dd984-fd5f-448f-afa5-aa1d7e77c557-heading-1"
+      ],
+      "settings": {
+        "css_class": "",
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "fff8ea4f-7dfb-41e6-b2b3-1ea20ed6ada5": {
+      "type": "media-grid",
+      "blocks": {
+        "template--15877158699191__fff8ea4f-7dfb-41e6-b2b3-1ea20ed6ada5-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/home-banner-tops.jpg",
+            "title": "Packable Tops",
+            "heading_tag": "h1",
+            "link_url": "shopify:\/\/collections\/tops",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15877158699191__fff8ea4f-7dfb-41e6-b2b3-1ea20ed6ada5-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/home-banner-bottoms.jpg",
+            "title": "Travel Bottoms",
+            "heading_tag": "h1",
+            "link_url": "shopify:\/\/collections\/bottoms",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15877158699191__fff8ea4f-7dfb-41e6-b2b3-1ea20ed6ada5-image-1",
+        "template--15877158699191__fff8ea4f-7dfb-41e6-b2b3-1ea20ed6ada5-image-2"
+      ],
+      "settings": {
+        "css_class": "",
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 230,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "5d65d1b7-7889-43e4-9058-70df971da3bb": {
+      "type": "products-comparison",
+      "blocks": {
+        "template--15877158699191__5d65d1b7-7889-43e4-9058-70df971da3bb-product-1": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/compare-sec-at-pant.png",
+            "product": "at-pant",
+            "text": "<ul>\n<li>The All-Terrain Adventure Pant<\/li>\n<li>Slim-Straight Jean Style<\/li>\n<li>Midweight durable fabric with 2-way stretch<\/li>\n<\/ul>",
+            "coord_x": "28",
+            "coord_y": "40",
+            "width": "265"
+          }
+        },
+        "template--15877158699191__5d65d1b7-7889-43e4-9058-70df971da3bb-product-2": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/compare-sec-evolution-pant.png",
+            "product": "evolution-pant",
+            "text": "<ul>\n<li>The Office to Travel Pant<\/li>\n<li>Slim-Straight Jean Style<\/li>\n<li>Lightweight fabric with 4-way stretch<\/li>\n<\/ul>",
+            "coord_x": "27",
+            "coord_y": "50",
+            "width": "213"
+          }
+        },
+        "template--15877158699191__5d65d1b7-7889-43e4-9058-70df971da3bb-product-3": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/compare-sec-diversion-pant.png",
+            "product": "diversion-pant",
+            "text": "<ul>\n<li>The Do-It-All Every Day Pant<\/li>\n<li>Slim Cut with a slight taper<\/li>\n<li>Soft, double-weave fabric with 4-way stretch<\/li>\n<\/ul>",
+            "coord_x": "25",
+            "coord_y": "60",
+            "width": "163"
+          }
+        },
+        "template--15877158699191__5d65d1b7-7889-43e4-9058-70df971da3bb-product-4": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/compare-sec-spectrum-jogger-white.png",
+            "product": "spectrum-jogger",
+            "text": "<ul>\n<li>The Stylish Sweatpant<\/li>\n<li>Tapered cut to a tight ankle<\/li>\n<li>Medium weight warp knit fabric with unlimited stretch<\/li>\n<\/ul>",
+            "coord_x": "21",
+            "coord_y": "70",
+            "width": "115"
+          }
+        }
+      },
+      "block_order": [
+        "template--15877158699191__5d65d1b7-7889-43e4-9058-70df971da3bb-product-1",
+        "template--15877158699191__5d65d1b7-7889-43e4-9058-70df971da3bb-product-2",
+        "template--15877158699191__5d65d1b7-7889-43e4-9058-70df971da3bb-product-3",
+        "template--15877158699191__5d65d1b7-7889-43e4-9058-70df971da3bb-product-4"
+      ],
+      "custom_css": [
+        "section-header {grid-template-columns: unset; justify-content: center;}",
+        ".sec-title {color: rgb(var(--text-dark));}",
+        ".int-slide--title {font-size: 17px;}",
+        ".int-slide--info {color: #848587;}",
+        ".interactive-comparison--infos .swiper-slide {height: auto;}"
+      ],
+      "settings": {
+        "heading": "Travel Pants For Every Destination",
+        "content": "",
+        "full_width": false,
+        "text_alignment": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "ca971ead-be3d-415a-b8b5-d7848e932e44": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--15877158699191__ca971ead-be3d-415a-b8b5-d7848e932e44-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/do-more-with-less.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "subheading_liquid": "",
+            "title": "Life’s an adventure. Dress accordingly.",
+            "content": "<p>Overpacking has ruined too many great trips. Our durable, stain-resistant pants are designed for the modern traveler, offering stretch, versatility, and long-lasting comfort so they can be worn for days. Learn more about our fabrics.<\/p>",
+            "extra_content": "",
+            "link_text": "Learn More",
+            "link_url": "shopify:\/\/pages\/craft",
+            "background": "#f1f0ed",
+            "background_gradient": "",
+            "text_color": "#848587",
+            "text_gradient": "",
+            "button_background": "#2c2c2c",
+            "button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--15877158699191__ca971ead-be3d-415a-b8b5-d7848e932e44-image-1"
+      ],
+      "custom_css": [
+        ".media-with-text--title {font-size: var(--text-h1); color: rgb(var(--text-dark));}"
+      ],
+      "settings": {
+        "css_class": "",
+        "full_width": true,
+        "spacing": "none"
+      }
+    },
+    "04af7c77-8752-4991-84aa-4bf307f0c322": {
+      "type": "featured-collection",
+      "custom_css": [
+        "section-header {grid-template-columns: unset; justify-content: center;}"
+      ],
+      "settings": {
+        "collection": "",
+        "products": [
+          "evolution-pant",
+          "x-cotton-polo",
+          "at-pant",
+          "x-cotton-ss-henley",
+          "versa-hat",
+          "limitless-merino-button-down-shirt",
+          "diversion-pant",
+          "shift-hat",
+          "boundless-short",
+          "x-cotton-tee",
+          "spectrum-jogger",
+          "session-sun-hoodie"
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 12,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Traveler Favorites",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#222222",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "ee1e0b31-8a7c-4d72-8b5a-9aac5ba736fb": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--15877158699191__ee1e0b31-8a7c-4d72-8b5a-9aac5ba736fb-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/082421-NIKON-EVENING-7741_3_dbd4584e-af6b-4765-b46e-637aed3b2aed.jpg",
+            "media_width": 55,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "subheading_liquid": "",
+            "title": "Pack Perfectly On Your Next Trip",
+            "content": "<p>\"The ideal pair of travel pants should be comfortable enough for hours on a plane, durable enough to hit the ground running on arrival, and stylish enough to stroll into a meeting (if that’s where you’re running). It might sound like too much to ask for, but Telluride-based Western Rise has done it before and is doing it again\" - Men's Journal<\/p>",
+            "extra_content": "",
+            "link_text": "SHOP SUMMER TRAVEL",
+            "link_url": "shopify:\/\/products\/evolution-pant",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#848587",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15877158699191__ee1e0b31-8a7c-4d72-8b5a-9aac5ba736fb-image-1"
+      ],
+      "custom_css": [
+        ".media-with-text--title {font-size: var(--text-h1); color: rgb(var(--text-dark));}"
+      ],
+      "settings": {
+        "css_class": "",
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "b5547011-4f26-4ebb-9189-027b20a532fb": {
+      "type": "press",
+      "blocks": {
+        "template--15877158699191__b5547011-4f26-4ebb-9189-027b20a532fb-quote-1": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "David M.",
+            "content": "\"All I wear\"",
+            "content_extended": "<p><em>\"I love these pants. They are perfect for long haul flights, meetings with sharp jacket and clomping around on weekends. Literally, only pants I will wear.  Highly recommend.\"<\/em><\/p>",
+            "show_rating": true,
+            "rating": 5
+          }
+        },
+        "template--15877158699191__b5547011-4f26-4ebb-9189-027b20a532fb-quote-2": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "Ben W.",
+            "content": "\"Excellent pants\"",
+            "content_extended": "<p><em>\"These pants are exactly what I wanted; light fabric weight, good stretch, extremely packable, and slimmer fit than most tech pants. They’re perfect for travel, hiking, or casual outings. I immediately bought a second pair after getting my first.\"<\/em><\/p>",
+            "show_rating": true,
+            "rating": 5
+          }
+        },
+        "template--15877158699191__b5547011-4f26-4ebb-9189-027b20a532fb-quote-3": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "Robert M.",
+            "content": "\"Really innovative joggers\"",
+            "content_extended": "<p>\"These joggers are really next level. They are an amazing combo of soft, stretchy, and high performing. I like that they don’t have an elastic at the bottom hem as it makes them easier to cuff and gives them a slightly elevated look...you could easily wear these to a bar.\"<\/p>",
+            "show_rating": true,
+            "rating": 5
+          }
+        },
+        "e4176925-b281-43a4-9d0f-2c816c20dfab": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "Dan K.",
+            "content": "\"Amazing look and feel.\"",
+            "content_extended": "<p><em>\"Feels super comfortable. I could wear these all day.\"<\/em><\/p>",
+            "show_rating": true,
+            "rating": 5
+          }
+        },
+        "5727ffa7-f4ee-45cd-8c7e-94c060f48ea5": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "Evan C.",
+            "content": "\"AT Pants will be replacing all others in my closet!\"",
+            "content_extended": "<p><em>\"I’ve heard of Western Rise for a few years and friends have recommended the pants for travel, work, golf, and everything in between. I finally pulled the trigger on them and no surprise - as good and even better than expected.\"<\/em><\/p>",
+            "show_rating": true,
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "template--15877158699191__b5547011-4f26-4ebb-9189-027b20a532fb-quote-1",
+        "template--15877158699191__b5547011-4f26-4ebb-9189-027b20a532fb-quote-2",
+        "template--15877158699191__b5547011-4f26-4ebb-9189-027b20a532fb-quote-3",
+        "e4176925-b281-43a4-9d0f-2c816c20dfab",
+        "5727ffa7-f4ee-45cd-8c7e-94c060f48ea5"
+      ],
+      "custom_css": [
+        ".rating__stars {--star-color: 247 208 0;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "background": "#f1f0ed",
+        "background_gradient": "",
+        "text_color": "#222222",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "7e3cffeb-ad35-43d2-a627-55f10b712966": {
+      "type": "video",
+      "blocks": {
+        "template--15877158699191__7e3cffeb-ad35-43d2-a627-55f10b712966-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Carry Less, Experience More",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15877158699191__7e3cffeb-ad35-43d2-a627-55f10b712966-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "md",
+        "video": "shopify:\/\/files\/videos\/live-life-elevated.mp4",
+        "external_video_url": "",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "fe7796ff-c1e4-4502-9406-16ae2c88216c": {
+      "type": "multi-column",
+      "blocks": {
+        "template--15877158699191__fe7796ff-c1e4-4502-9406-16ae2c88216c-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ultimate_Simplicity.jpg",
+            "column_size": "3",
+            "title": "Ultimate Simplicity",
+            "heading_tag": "h4",
+            "content": "<p>Streamlined for Seamless Travel. Every design detail and process is considered, removing anything unnecessary for maximum efficiency.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--15877158699191__fe7796ff-c1e4-4502-9406-16ae2c88216c-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/072320-WR-AirlightShirts-0842.jpg",
+            "column_size": "3",
+            "title": "Versatile Performance",
+            "heading_tag": "h4",
+            "content": "<p>Elevating Your Travel Experience through Superior Materials. We develop the highest quality materials with the best suppliers to create versatile garments that perform no matter the destination.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--15877158699191__fe7796ff-c1e4-4502-9406-16ae2c88216c-item-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/062420_WR-Montauk-0269.jpg",
+            "column_size": "3",
+            "title": "Timeless Style",
+            "heading_tag": "h4",
+            "content": "<p>Reinventing Staples for Travel. Our classic pieces blend practicality and modern functionality. Designed to meet travel demands and move seamlessly between adventures.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--15877158699191__fe7796ff-c1e4-4502-9406-16ae2c88216c-item-1",
+        "template--15877158699191__fe7796ff-c1e4-4502-9406-16ae2c88216c-item-2",
+        "template--15877158699191__fe7796ff-c1e4-4502-9406-16ae2c88216c-item-3"
+      ],
+      "custom_css": [
+        ".sec-title,.multi-column__item-title {color: rgb(var(--text-dark));}",
+        ".multi-column__item-title {font-size: 18px; letter-spacing: 0.025em;}",
+        ".prose multi-column__item-copy {letter-spacing: 0.05em;}"
+      ],
+      "settings": {
+        "css_class": "",
+        "full_width": true,
+        "stack_on_mobile": false,
+        "enable_carousel": false,
+        "show_progress_bar": false,
+        "gap": "x-large",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Maximum Freedom. Minimal Baggage",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#848587"
+      }
+    },
+    "f12a73a6-f96c-4224-a3a1-51315ab2bd59": {
+      "type": "media-with-text",
+      "blocks": {
+        "5f51d500-6f3a-444e-b579-7252a3ae4b36": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/protect-what-you-love.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "subheading_liquid": "",
+            "title": "Sustainability in Every Trip",
+            "content": "<p>Our high-performance, ultra-comfortable clothing uses bluesign® approved fabrics and is 100% Carbon Neutral.<\/p>",
+            "extra_content": "",
+            "link_text": "SHOP",
+            "link_url": "shopify:\/\/collections\/in-stock",
+            "background": "#f1f0ed",
+            "background_gradient": "",
+            "text_color": "#848587",
+            "text_gradient": "",
+            "button_background": "#2c2c2c",
+            "button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "5f51d500-6f3a-444e-b579-7252a3ae4b36"
+      ],
+      "custom_css": [
+        ".media-with-text--title {font-size: var(--text-h1); color: rgb(var(--text-dark));}"
+      ],
+      "settings": {
+        "css_class": "",
+        "full_width": true,
+        "spacing": "none"
+      }
+    },
+    "1f284845-c144-461a-b93c-e90bee2d5f9f": {
+      "type": "media-with-text",
+      "blocks": {
+        "25a9daa0-6b26-4872-9329-4590089ee639": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/RShingledecker-Fall2020_20201020_01_467b5140-4c4a-4a3e-9320-35e6bc631d62.jpg",
+            "media_width": 40,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/signature.webp",
+            "icon_width": 232,
+            "subheading": "",
+            "subheading_liquid": "",
+            "title": "Redefining How You Travel",
+            "content": "<p>Western Rise was founded with an adventurous spirit and a lofty goal: to provide a single set of performance clothing for whatever your trip may bring. Our focus is on creating versatile, high-quality, stylish, and sustainable clothing for the modern traveler to allow you to carry less and experience more.<\/p>",
+            "extra_content": "",
+            "link_text": "READ OUR STORY",
+            "link_url": "shopify:\/\/pages\/craft",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#848587",
+            "text_gradient": "",
+            "button_background": "#2c2c2c",
+            "button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "25a9daa0-6b26-4872-9329-4590089ee639"
+      ],
+      "custom_css": [
+        ".media-with-text {max-width: 1100px; margin-left: auto; margin-right: auto;}",
+        ".media-with-text__content {letter-spacing: 0.05em;}",
+        ".media-with-text--title {color: rgb(var(--text-dark));}"
+      ],
+      "settings": {
+        "css_class": "home-about-section",
+        "full_width": false,
+        "spacing": "large"
+      }
+    },
+    "3f590daa-ff51-4381-be6b-cb8a1df85a69": {
+      "type": "logo-list",
+      "blocks": {
+        "template--16165688213770__3f590daa-ff51-4381-be6b-cb8a1df85a69-1668267158766e2126-0": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/logo-gq.png",
+            "logo_width": 100,
+            "link": ""
+          }
+        },
+        "template--16165688213770__3f590daa-ff51-4381-be6b-cb8a1df85a69-1668267158766e2126-1": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/logo-forbes.png",
+            "logo_width": 160,
+            "link": "https:\/\/www.forbes.com\/sites\/richardkestenbaum\/2018\/07\/17\/what-outdoor-retailers-are-talking-about-now\/?sh=95b2b7e76330"
+          }
+        },
+        "template--16165688213770__3f590daa-ff51-4381-be6b-cb8a1df85a69-1668267158766e2126-2": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/hiconsumption-logo.png",
+            "logo_width": 230,
+            "link": ""
+          }
+        },
+        "template--16165688213770__3f590daa-ff51-4381-be6b-cb8a1df85a69-1668267158766e2126-3": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/gear-patrol-logo.png",
+            "logo_width": 210,
+            "link": "https:\/\/www.gearpatrol.com\/deals\/a36489952\/western-rise-sale\/"
+          }
+        },
+        "template--16165688213770__3f590daa-ff51-4381-be6b-cb8a1df85a69-1668267158766e2126-4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/logo-mens-journal.png",
+            "logo_width": 140,
+            "link": "https:\/\/www.mensjournal.com\/style\/western-rise-has-the-ultimate-travel-shirt-for-men\/"
+          }
+        }
+      },
+      "block_order": [
+        "template--16165688213770__3f590daa-ff51-4381-be6b-cb8a1df85a69-1668267158766e2126-0",
+        "template--16165688213770__3f590daa-ff51-4381-be6b-cb8a1df85a69-1668267158766e2126-1",
+        "template--16165688213770__3f590daa-ff51-4381-be6b-cb8a1df85a69-1668267158766e2126-2",
+        "template--16165688213770__3f590daa-ff51-4381-be6b-cb8a1df85a69-1668267158766e2126-3",
+        "template--16165688213770__3f590daa-ff51-4381-be6b-cb8a1df85a69-1668267158766e2126-4"
+      ],
+      "custom_css": [
+        ".logo-list__item {padding-top: 0; padding-bottom: 0;}",
+        ".logo-list__image {opacity: 0.4;}",
+        ".logo-list__image:hover {opacity: 1;}"
+      ],
+      "settings": {
+        "css_class": "",
+        "full_width": true,
+        "stack_mobile": false,
+        "title": "As Seen In",
+        "content": "",
+        "text_alignment": "center",
+        "items_per_row": 5,
+        "background": "#f1f0ed",
+        "background_gradient": "",
+        "text_color": "#222222",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "#f1f0ed",
+        "logo_item_border": ""
+      }
+    }
+  },
+  "order": [
+    "f44c2499-09fc-49ee-b0b5-d74ede2ca3da",
+    "0c77a234-cd06-48cf-887d-5a19c7d07686",
+    "187dd984-fd5f-448f-afa5-aa1d7e77c557",
+    "fff8ea4f-7dfb-41e6-b2b3-1ea20ed6ada5",
+    "5d65d1b7-7889-43e4-9058-70df971da3bb",
+    "ca971ead-be3d-415a-b8b5-d7848e932e44",
+    "04af7c77-8752-4991-84aa-4bf307f0c322",
+    "ee1e0b31-8a7c-4d72-8b5a-9aac5ba736fb",
+    "b5547011-4f26-4ebb-9189-027b20a532fb",
+    "7e3cffeb-ad35-43d2-a627-55f10b712966",
+    "fe7796ff-c1e4-4502-9406-16ae2c88216c",
+    "f12a73a6-f96c-4224-a3a1-51315ab2bd59",
+    "1f284845-c144-461a-b93c-e90bee2d5f9f",
+    "3f590daa-ff51-4381-be6b-cb8a1df85a69"
+  ]
+}

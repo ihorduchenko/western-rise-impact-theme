@@ -1,0 +1,13 @@
+{%- assign current_variant = product.selected_or_first_available_variant -%}
+{%- assign matching_variants = '0' -%}
+{%- for variant in product.variants -%}
+  {%- if variant.metafields.custom.is_exchange_only -%}
+    {%- assign matching_variants = matching_variants | append: ',' | append: variant.id -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- if matching_variants != '0' -%}
+  <span
+    data-variants="{{ matching_variants }}"
+    class="text-xs varBasedBlock {{ badge_class }}{% unless current_variant.metafields.custom.is_exchange_only %} hidden{% endunless %}">{{ 'product.general.exchange_only' | t }}</span>
+{%- endif -%}

@@ -1,0 +1,11 @@
+<nav class="collection-breadcrumbs text-uppercase">
+  <div class="h-stack wrap align-center gap-3">
+    <a href="{{ routes.root_url }}" class="link">
+      {{ 'general.home' | t }}
+    </a>
+    <span>></span>
+    <a class="link" href="{{ collection.url }}" title="{{ collection.title }}">
+      {{ collection.title }}
+    </a>
+  </div>
+</nav>

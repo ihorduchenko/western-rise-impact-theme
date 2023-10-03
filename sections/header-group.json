@@ -1,0 +1,137 @@
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "1ac02edc-1490-42dd-a434-3e8e49d4af8c": {
+          "type": "message",
+          "settings": {
+            "text": "Free Shipping Over $150 + Free Returns",
+            "url": "shopify:\/\/collections\/in-stock"
+          }
+        }
+      },
+      "block_order": [
+        "1ac02edc-1490-42dd-a434-3e8e49d4af8c"
+      ],
+      "custom_css": [
+        ".announcement-bar {letter-spacing: 0.025em;}",
+        ".announcement-bar__message {font-weight: 500; letter-spacing: 0.025em;}"
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "text_size": "text-md",
+        "navigation_mode": "arrows",
+        "scrolling_speed": 13,
+        "background": "#34392a",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "95ae5f50-4092-4410-9441-7229afdd4f35": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Shop",
+            "menu_heading": "For the modern traveler.",
+            "menu_text": "Lightweight. Durable. Packs Small.",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_1": "shopify:\/\/shop_images\/402A3976new-arrivals-megamenu.jpg",
+            "image_heading_1": "New Arrivals",
+            "image_text_1": "",
+            "image_link_1": "shopify:\/\/collections\/new-arrivals",
+            "image_text_color_1": "#ffffff",
+            "image_2": "shopify:\/\/shop_images\/402A9271best-sellers-megamenu.jpg",
+            "image_heading_2": "Best Sellers",
+            "image_text_2": "",
+            "image_link_2": "shopify:\/\/collections\/best-sellers",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_text_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "show"
+          }
+        },
+        "58b31d56-2bde-4eab-8fc9-e5dfe0b6e23d": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "About",
+            "menu_heading": "",
+            "menu_text": "",
+            "layout": "horizontal_center",
+            "submenu_style": "bold_heading",
+            "image_1": "shopify:\/\/shop_images\/RShingledecker-Fall2020_20201020_01_467b5140-4c4a-4a3e-9320-35e6bc631d62.jpg",
+            "image_heading_1": "Story",
+            "image_text_1": "",
+            "image_link_1": "shopify:\/\/pages\/story",
+            "image_text_color_1": "#ffffff",
+            "image_2": "shopify:\/\/shop_images\/craft-banner-megamenu.jpg",
+            "image_heading_2": "About",
+            "image_text_2": "",
+            "image_link_2": "shopify:\/\/pages\/craft",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_text_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        }
+      },
+      "block_order": [
+        "95ae5f50-4092-4410-9441-7229afdd4f35",
+        "58b31d56-2bde-4eab-8fc9-e5dfe0b6e23d"
+      ],
+      "custom_css": [
+        ".header__link-list {font-size: var(--text-md);}"
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "hide_on_scroll": false,
+        "reveal_scroll_logo": true,
+        "logo": "shopify:\/\/shop_images\/logo.webp",
+        "scroll_logo_svg": "<svg viewBox=\"0 0 219 203\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n  <path d=\"m118.48124,89.54l-0.01,18.01l18.01,0.01l-0.01,18.01l-18.01,-0.01l-0.01,18.01l-18.01,-0.01l0.01,-18.01l-18.01,-0.01l0.01,-18.01l18.01,0.01l0.01,-18.01l18.01,0.01z\" fill=\"currentColor\"\/>\n  <path d=\"m218.07124,157.91c1.18,2.15 1.13,4.76 -0.14,6.86l-20.55,34.18c-1.25,2.07 -3.49,3.34 -5.91,3.34l-164.06,-0.07c-2.42,0 -4.66,-1.27 -5.91,-3.34l-20.52,-34.2c-1.26,-2.1 -1.31,-4.71 -0.13,-6.86l84.7,-154.25c1.21,-2.2 3.53,-3.57 6.04,-3.57l35.85,0.01c2.51,0 4.83,1.37 6.04,3.58l84.58,154.31l0.01,0.01zm-14.17,22.21l-94.37,-177.12l-94.52,177.05l188.89,0.07z\" fill-rule=\"evenodd\" fill=\"currentColor\"\/>\n<\/svg>",
+        "logo_max_width": 220,
+        "logo_mobile_max_width": 170,
+        "logo_scroll_max_width": 40,
+        "logo_scroll_mobile_max_width": 40,
+        "menu": "main-menu",
+        "sidebar_menu": "main-menu-mobile",
+        "secondary_menu": "dev-shop-menu-mobile-mini",
+        "menu_open_trigger": "hover",
+        "opening_from": "left",
+        "layout": "logo_center_navigation_inline",
+        "show_social_media": true,
+        "show_locale_selector": false,
+        "show_country_selector": false,
+        "show_country_flag": false,
+        "show_country_name": false,
+        "transparent_header_text_color": "#ffffff",
+        "transparent_logo": "shopify:\/\/shop_images\/logo-white.svg",
+        "reduce_padding": true,
+        "background_opacity": 100,
+        "background_blur_radius": 20
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-cart",
+      "blocks": {
+        "totals": {
+          "type": "totals",
+          "settings": {
+            "show_order_weight": false,
+            "show_shipping_text": true
+          }
+        },
+        "checkout_button": {
+          "type": "checkout_button",
+          "settings": {}
+        },
+        "7a0ec77f-5760-4866-b014-bf62e31574cf": {
+          "type": "accelerated_buttons",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "totals",
+        "checkout_button",
+        "7a0ec77f-5760-4866-b014-bf62e31574cf"
+      ],
+      "custom_css": [
+        ".cart-header,.cart-order {color: rgb(var(--text-dark));}"
+      ],
+      "settings": {
+        "show_shipping_estimator": false,
+        "show_payment_icons": true
+      }
+    },
+    "99a7238f-c1b6-4be6-aafe-b85c4487ae37": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": false,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!-- YOTPO LOYALTY CODE -->\n<script src=\"https:\/\/cdn-widgetsrepository.yotpo.com\/v1\/loader\/HStiTttqjFRgP4wfhIgvWQ\" async><\/script>\n\n<div class=\"yotpo-widget-instance\" data-yotpo-instance-id=\"28548\"><\/div>\n<!-- YOTPO LOYALTY CODE -->",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "99a7238f-c1b6-4be6-aafe-b85c4487ae37"
+  ]
+}

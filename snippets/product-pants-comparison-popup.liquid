@@ -1,0 +1,27 @@
+{% assign compared_products = product.metafields.custom.compare_products %}
+{%- if compared_products != blank -%}
+  {%- capture drawer_id -%}size-chart-{{ section.id }}-{{ block.id }}{%- endcapture -%}
+
+  <button type="button" class="size-chart-trigger h-stack mx-auto" aria-controls="{{ drawer_id | escape }}" aria-expanded="false">
+    {%- render 'icon' with 'compare-pants' -%}
+    <span class="link">{{ 'product.general.compare_pants' | t }}</span>
+  </button>
+
+  <x-drawer id="{{ drawer_id }}" class="drawer drawer--xl pants-compare-drawer">
+    <span class="h5 text-dark" slot="header">{{ block.settings.size_chart_page.title }}</span>
+
+    <div class="pants-compare-drawer-body v-stack scroll-area gap-3">
+      {%
+        render 'product-card-comparison',
+        product: product
+      %}
+      {% for compared_product in compared_products.value %}
+        {%
+          render 'product-card-comparison',
+          product: compared_product,
+          show_button: true
+        %}
+      {% endfor %}
+    </div>
+  </x-drawer>
+{%- endif -%}
